@@ -1,12 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import DefaultLayout from './layouts/DefaultLayout';
+import React from "react";
+// import { ErrorBoundary } from "react-error-boundary";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import DefaultLayout from "./layouts/DefaultLayout";
+// import ErrorLayout from "./layouts/ErrorLayout";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    {/* <ErrorBoundary FallbackComponent={ErrorLayout}>
+      <DefaultLayout />
+    </ErrorBoundary> */}
     <DefaultLayout />
   </React.StrictMode>
 );

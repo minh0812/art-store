@@ -1,16 +1,19 @@
-import React from 'react'
-import Router from '../../router'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import Router from "../../router";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const DefaultLayout = () => {
   return (
     <main>
-        <Header/>
+      <BrowserRouter>
+        <Header />
         <Router />
         <Footer />
+      </BrowserRouter>
     </main>
-  )
-}
+  );
+};
 
-export default DefaultLayout
+export default DefaultLayout;
