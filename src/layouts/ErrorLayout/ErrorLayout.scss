@@ -32,23 +32,22 @@ $circleShadow: inset 5px 20px 40px rgba($bg-02, 0.25),
   }
 }
 
-p,
-button,
-a {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  border: 0;
-  -webkit-tap-highlight-color: transparent;
-  text-decoration: none;
-  color: inherit;
-
-  &:focus {
-    outline: 0;
+.errorLayout {
+  p,
+  button,
+  a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    color: inherit;
+  
+    &:focus {
+      outline: 0;
+    }
   }
-}
-
-.wrapper {
   margin: 0;
   padding: 0;
   height: auto;
@@ -58,7 +57,7 @@ a {
   grid-template-columns: 1fr;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   overflow: hidden;
 
   .container {

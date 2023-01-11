@@ -1,11 +1,29 @@
-import React from 'react'
-import { SectionIntroduce } from '../../modules/home'
+import React from "react";
+import {
+  SectionConcentratedWatercolors,
+  SectionIntroduce,
+  SectionMetallicAccents,
+  SectionOilPastels,
+  SectionSocial,
+  SectionVideos,
+  SectionWatercolorConfections,
+  SectionWatercolorConfetti,
+  SectionWaterSolubleOilPastels,
+} from "../../modules/home";
 
 const HomePage = () => {
   return (
     <div>
-        <SectionIntroduce />
+      <SectionIntroduce />
+      <SectionWatercolorConfections />
+      <SectionWatercolorConfetti />
+      <SectionMetallicAccents />
+      <SectionConcentratedWatercolors />
+      <SectionOilPastels />
+      <SectionWaterSolubleOilPastels />
+      <SectionVideos />
+      <SectionSocial />
     </div>
-  )
-}
-export default HomePage
+  );
+};
+export default HomePage;
