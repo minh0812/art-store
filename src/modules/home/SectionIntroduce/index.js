@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import ButtonCustom from "../../../components/ButtonCustom";
 import "./SectionIntroduce.scss";
 
 const SectionIntroduce = () => {
@@ -7,7 +7,7 @@ const SectionIntroduce = () => {
     <section className="SectionIntroduce">
       <div className="SectionIntroduce__content">
         {/* center element display flex */}
-        <p></p> 
+        <p></p>
         <p>
           Discover a professional grade watercolor like no other! Create
           gradients, shading and blends effortlessly with these Art Philosophy
@@ -16,7 +16,7 @@ const SectionIntroduce = () => {
           concentrated pigments with longevity and light fastness. Discover a
           new way to watercolor with our Art Philosophy Watercolor Tubes.
         </p>
-        <Link to="/products">Shop now</Link>
+        <ButtonCustom>Shop Now</ButtonCustom>
       </div>
     </section>
   );
