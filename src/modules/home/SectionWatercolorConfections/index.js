@@ -9,7 +9,7 @@ const SectionWatercolorConfections = () => {
         <Col span={12} className="SectionWatercolorConfections__left"></Col>
         <Col span={12} className="SectionWatercolorConfections__right">
           <h1>Watercolor Confections®</h1>
-          <span></span>
+          <div className="SectionWatercolorConfections__right__separator"></div>
           <p>
             Ignite your watercolor adventures with our Watercolor Confections®
             Sets, featuring individually curated pans with a variety of color

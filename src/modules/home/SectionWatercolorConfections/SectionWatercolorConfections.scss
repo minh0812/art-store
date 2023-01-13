@@ -10,7 +10,7 @@
     background-color: #8c868a;
     color: #ffffff;
     font-family: Poppins, sans-serif;
-    padding: 6% 6% 6% 6%;
+    padding: 8% 6% 6% 6%;
     h1 {
       font-size: 52px;
       font-weight: 500;
@@ -18,25 +18,18 @@
       line-height: 56px;
       text-align: left;
       text-transform: uppercase;
+      margin: 0;
     }
     p {
       font-size: 18px;
       line-height: 31.5px;
-      margin-bottom: 20px;
+      margin-bottom: 44px;
     }
-    a {
-      font-size: 12px;
-      background-color: #232121;
-      color: #ffcdab;
-      text-transform: uppercase;
-      font-weight: 500;
-      letter-spacing: 3px;
-      padding: 22px 44px;
-      text-align: center;
-      &:hover {
-        background-color: #ffcdab;
-        color: #232121;
-      }
+    &__separator {
+      width: 100px;
+      border-top: 5px solid #ffcdab;
+      margin: 25px 0;
+      border-radius: 2px;
     }
   }
 }
