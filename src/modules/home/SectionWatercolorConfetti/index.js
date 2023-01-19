@@ -1,19 +1,26 @@
+import { Col, Row } from "antd";
 import React from "react";
 import ButtonCustom from "../../../components/ButtonCustom";
-import "./SectionWatercolorConfetti.scss"
+import "./SectionWatercolorConfetti.scss";
 
 const SectionWatercolorConfetti = () => {
   return (
     <section className="SectionWatercolorConfetti">
-      <h1>Watercolor Confetti</h1>
-      <p>
-        An introductory set perfect for travel, sketching, basic watercoloring
-        and more. This set provides all the basic watercolors you need in one
-        set, offering quality and brilliance you love from Art Philosophy.
-        Included is a sturdy metal tin and mixing foldout well for easy color
-        mixing.
-      </p>
-      <ButtonCustom>Learn More</ButtonCustom>
+      <Row className="SectionWatercolorConfetti__content">
+        <Col span={9} className="SectionWatercolorConfetti__content__left">
+          <h1>Watercolor Confetti</h1>
+          <div className="SectionWatercolorConfections__right__separator"></div>
+          <p>
+            An introductory set perfect for travel, sketching, basic
+            watercoloring and more. This set provides all the basic watercolors
+            you need in one set, offering quality and brilliance you love from
+            Art Philosophy. Included is a sturdy metal tin and mixing foldout
+            well for easy color mixing.
+          </p>
+          <ButtonCustom>Learn More</ButtonCustom>
+        </Col>
+        <Col span={9}></Col>
+      </Row>
     </section>
   );
 };

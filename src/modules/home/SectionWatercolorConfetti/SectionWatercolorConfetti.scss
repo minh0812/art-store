@@ -1,11 +1,40 @@
-.SectionWatercolorConfetti{
-    background-image: url("/assets/images/confetti-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.SectionWatercolorConfetti {
+  background-image: url("/assets/images/confetti-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+
+  &__content {
+    justify-content: center;
     min-height: 100vh;
-    h1{
+    &__left {
+      font-family: Poppins, sans-serif;
+      margin: auto;
+      h1 {
+        font-size: 52px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 56px;
+        text-align: left;
+        text-transform: uppercase;
         margin: 0;
+      }
+      &__separator {
+        width: 100px;
+        border-top: 5px solid #ffcdab;
+        margin: 20px 0;
+        border-radius: 2px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 31.5px;
+        background-color: #ffffffe3;
+        padding: 10px;
+        margin-bottom: 40px;
+      }
     }
+  }
 }
