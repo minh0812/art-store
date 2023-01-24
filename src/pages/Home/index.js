@@ -5,7 +5,6 @@ import {
   SectionMetallicAccents,
   SectionOilPastels,
   SectionSocial,
-  SectionVideos,
   SectionWatercolorConfections,
   SectionWatercolorConfetti,
   SectionWaterSolubleOilPastels,
@@ -21,7 +20,6 @@ const HomePage = () => {
       <SectionConcentratedWatercolors />
       <SectionOilPastels />
       <SectionWaterSolubleOilPastels />
-      <SectionVideos />
       <SectionSocial />
     </div>
   );
