@@ -9,21 +9,26 @@
   &__right {
     background-color: #8c868a;
     color: #ffffff;
-    font-family: Poppins, sans-serif;
-    padding: 8% 6% 6% 6%;
-    h1 {
-      font-size: 52px;
-      font-weight: 500;
-      letter-spacing: 2px;
-      line-height: 56px;
-      text-align: left;
-      text-transform: uppercase;
-      margin: 0;
-    }
-    p {
-      font-size: 18px;
-      line-height: 31.5px;
-      margin-bottom: 44px;
+    display: flex;
+    padding: 6%;
+    justify-content: center;
+    &__content {
+      font-family: Poppins, sans-serif;
+      margin: auto;
+      h1 {
+        font-size: 52px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 56px;
+        text-align: left;
+        text-transform: uppercase;
+        margin: 0;
+      }
+      p {
+        font-size: 18px;
+        line-height: 31.5px;
+        margin-bottom: 44px;
+      }
     }
     &__separator {
       width: 100px;

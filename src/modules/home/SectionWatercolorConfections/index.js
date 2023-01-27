@@ -8,19 +8,20 @@ const SectionWatercolorConfections = () => {
       <Row>
         <Col span={12} className="SectionWatercolorConfections__left"></Col>
         <Col span={12} className="SectionWatercolorConfections__right">
-          <h1>Watercolor Confections®</h1>
-          <div className="SectionWatercolorConfections__right__separator"></div>
-          <p>
-            Ignite your watercolor adventures with our Watercolor Confections®
-            Sets, featuring individually curated pans with a variety of color
-            stories and pigments. From The Basics to beautifully rich colors in
-            the Shimmering Lights Set, you will find a set that truly matches
-            your artistic taste. Each palette features highly pigmented pans in
-            a metal tin perfect for traveling and painting on the go.
-          </p>
-          <ButtonCustom to="/">
-            Learn More
-          </ButtonCustom>
+          <div className="SectionWatercolorConfections__right__content">
+            <h1>Watercolor Confections®</h1>
+            <div className="SectionWatercolorConfections__right__separator"></div>
+            <p>
+              Ignite your watercolor adventures with our Watercolor Confections®
+              Sets, featuring individually curated pans with a variety of color
+              stories and pigments. From The Basics to beautifully rich colors
+              in the Shimmering Lights Set, you will find a set that truly
+              matches your artistic taste. Each palette features highly
+              pigmented pans in a metal tin perfect for traveling and painting
+              on the go.
+            </p>
+            <ButtonCustom to="/">Learn More</ButtonCustom>
+          </div>
         </Col>
       </Row>
     </section>

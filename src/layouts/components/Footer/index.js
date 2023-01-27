@@ -18,14 +18,14 @@ const Footer = () => {
         <Col span={6} className="footer__col">
           <h3>About us</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-            ratione nemo fugiat atque, similique harum est quasi eaque iure
-            omnis aperiam! Ratione minima laboriosam nesciunt vel magni aperiam
-            laudantium, porro atque? Perspiciatis architecto a reiciendis
-            possimus fugiat optio et velit eaque impedit excepturi veritatis
-            expedita numquam ducimus non est quos consequuntur magnam aliquid,
-            ad, doloribus rerum nihil odit. Eius ducimus optio asperiores
-            quidem.
+            We are as colorful as your imagination, Art Philosophy, Inc.® is all
+            about color and art. Our philosophy is simple, create quality
+            products for the everyday artist. Our extensive line of watercolor
+            and art products can be found globally and includes our widely
+            popular Watercolor Confections® sets, Concentrated Watercolors,
+            Metallic Accents Palettes and more. Discover how quality and art can
+            come together to create a truly one of a kind experience to make
+            your everyday art beautiful.
           </p>
         </Col>
 
