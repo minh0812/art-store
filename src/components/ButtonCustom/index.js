@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 import "./ButtonCustom.scss"
 
-const ButtonCustom = ({children, to}) => {
+const ButtonCustom = ({children, to, className}) => {
   return (
-    <Link to={to} className="ButtonCustom">
+    <Link to={to} className={`ButtonCustom ${className}`} >
         {children}
     </Link>
   )
@@ -13,12 +13,14 @@ const ButtonCustom = ({children, to}) => {
 
 ButtonCustom.propTypes = {
     children: PropTypes.node,
-    to: PropTypes.string
+    to: PropTypes.string,
+    className: PropTypes.string
 }
 
 ButtonCustom.defaultProps = {
     children: null,
-    to: '/'
+    to: '/',
+    className: ''
 }
 
 export default ButtonCustom
