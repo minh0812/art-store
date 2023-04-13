@@ -1,5 +1,5 @@
 import React from "react";
-import { inject } from "@vercel/analytics";
+import { Analytics } from "@vercel/analytics/react";
 
 // import { ErrorBoundary } from "react-error-boundary";
 import ReactDOM from "react-dom/client";
@@ -9,7 +9,6 @@ import DefaultLayout from "./layouts/DefaultLayout";
 // import ErrorLayout from "./layouts/ErrorLayout";
 
 // setup analytics
-inject();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,6 +17,7 @@ root.render(
       <DefaultLayout />
     </ErrorBoundary> */}
     <DefaultLayout />
+    <Analytics />
   </React.StrictMode>
 );
 
