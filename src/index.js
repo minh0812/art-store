@@ -1,10 +1,15 @@
 import React from "react";
+import { inject } from "@vercel/analytics";
+
 // import { ErrorBoundary } from "react-error-boundary";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import DefaultLayout from "./layouts/DefaultLayout";
 // import ErrorLayout from "./layouts/ErrorLayout";
+
+// setup analytics
+inject();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
