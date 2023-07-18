@@ -3,11 +3,13 @@ import ButtonCustom from "../../../components/ButtonCustom";
 import "./SectionIntroduce.scss";
 
 const SectionIntroduce = () => {
-  const [animate, setAnimate] = React.useState('animate__backInLeft animate__delay-1s');
-  
+  const [animate, setAnimate] = React.useState(
+    "animate__backInLeft animate__delay-1s"
+  );
+
   React.useEffect(() => {
     setTimeout(() => {
-      setAnimate('animate__flipInX');
+      setAnimate('animate__bounceIn animate__infinite animate__slow');
     }, 3000);
   }, []);
 
@@ -24,7 +26,9 @@ const SectionIntroduce = () => {
           concentrated pigments with longevity and light fastness. Discover a
           new way to watercolor with our Art Philosophy Watercolor Tubes.
         </p>
-        <ButtonCustom className={`animate__animated ${animate}`}>Shop Now</ButtonCustom>
+        <ButtonCustom className={`animate__animated ${animate}`}>
+          Shop Now
+        </ButtonCustom>
       </div>
     </section>
   );

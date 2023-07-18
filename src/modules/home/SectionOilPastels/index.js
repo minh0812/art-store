@@ -2,6 +2,7 @@ import { Col, Row } from "antd";
 import React from "react";
 import "./SectionOilPastels.scss";
 import ButtonCustom from "../../../components/ButtonCustom";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const SectionOilPastels = () => {
   return (
@@ -11,7 +12,9 @@ const SectionOilPastels = () => {
         <Col span={12} className="SectionOilPastels__left">
           <div className="SectionOilPastels__left__content">
             <h1>Oil Pastels</h1>
-            <div className="SectionWatercolorConfections__right__separator"></div>
+            <ScrollAnimation animateIn="animate__slideInRight">
+              <div className="SectionWatercolorConfections__right__separator"></div>
+            </ScrollAnimation>
             <p>
               Blend, color and layer, our Art Philosophy Oil Pastels offer a
               higher grade of color and pigmentation for a truly beautiful

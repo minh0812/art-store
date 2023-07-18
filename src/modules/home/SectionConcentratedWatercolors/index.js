@@ -2,6 +2,7 @@ import { Col, Row } from "antd";
 import React from "react";
 import ButtonCustom from "../../../components/ButtonCustom";
 import "./SectionConcentratedWatercolors.scss";
+import ScrollAnimation from "react-animate-on-scroll";
 const SectionConcentratedWatercolors = () => {
   return (
     <section className="SectionConcentratedWatercolors">
@@ -9,7 +10,9 @@ const SectionConcentratedWatercolors = () => {
         <Col span={12} className="SectionConcentratedWatercolors__content">
           <div>
             <h1>CONCENTRATED WATERCOLORS</h1>
-            <div className="SectionWatercolorConfections__right__separator"></div>
+            <ScrollAnimation animateIn="animate__slideInLeft">
+              <div className="SectionWatercolorConfections__right__separator"></div>
+            </ScrollAnimation>
             <p>
               Fluid, rich and highly pigmented. Create effortless shading,
               gradients and intensity with our Concentrated Watercolors. Fluid

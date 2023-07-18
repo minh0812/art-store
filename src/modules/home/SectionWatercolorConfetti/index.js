@@ -2,6 +2,7 @@ import { Col, Row } from "antd";
 import React from "react";
 import ButtonCustom from "../../../components/ButtonCustom";
 import "./SectionWatercolorConfetti.scss";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const SectionWatercolorConfetti = () => {
   return (
@@ -9,7 +10,9 @@ const SectionWatercolorConfetti = () => {
       <Row className="SectionWatercolorConfetti__content">
         <Col span={9} className="SectionWatercolorConfetti__content__left">
           <h1>Watercolor Confetti</h1>
-          <div className="SectionWatercolorConfections__right__separator"></div>
+          <ScrollAnimation animateIn="animate__slideInLeft">
+            <div className="SectionWatercolorConfections__right__separator"></div>
+          </ScrollAnimation>
           <p>
             An introductory set perfect for travel, sketching, basic
             watercoloring and more. This set provides all the basic watercolors

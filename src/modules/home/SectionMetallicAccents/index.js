@@ -2,6 +2,7 @@ import { Col, Row } from "antd";
 import React from "react";
 import "./SectionMetallicAccents.scss";
 import ButtonCustom from "../../../components/ButtonCustom";
+import ScrollAnimation from "react-animate-on-scroll";
 const SectionMetallicAccents = () => {
   return (
     <section className="SectionMetallicAccents">
@@ -9,7 +10,9 @@ const SectionMetallicAccents = () => {
         <Col span={12} className="SectionMetallicAccents__left">
           <div className="SectionMetallicAccents__left__content">
             <h1>METALLIC ACCENTS</h1>
-            <div className="SectionWatercolorConfections__right__separator"></div>
+            <ScrollAnimation animateIn="animate__slideInLeft">
+              <div className="SectionWatercolorConfections__right__separator"></div>
+            </ScrollAnimation>
             <p>
               Discover Metallic Accents! A truly vibrant and reflective
               wate-activated pan set perfect for adding accents to your projects

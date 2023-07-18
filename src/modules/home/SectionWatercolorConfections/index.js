@@ -2,6 +2,7 @@ import { Col, Row } from "antd";
 import React from "react";
 import ButtonCustom from "../../../components/ButtonCustom";
 import "./SectionWatercolorConfections.scss";
+import ScrollAnimation from "react-animate-on-scroll";
 const SectionWatercolorConfections = () => {
   return (
     <section className="SectionWatercolorConfections">
@@ -10,7 +11,9 @@ const SectionWatercolorConfections = () => {
         <Col span={12} className="SectionWatercolorConfections__right">
           <div className="SectionWatercolorConfections__right__content">
             <h1>Watercolor Confections®</h1>
-            <div className="SectionWatercolorConfections__right__separator"></div>
+            <ScrollAnimation animateIn="animate__slideInRight">
+              <div className="SectionWatercolorConfections__right__separator"></div>
+            </ScrollAnimation>
             <p>
               Ignite your watercolor adventures with our Watercolor Confections®
               Sets, featuring individually curated pans with a variety of color

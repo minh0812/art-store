@@ -2,6 +2,7 @@ import React from "react";
 import "./SectionWaterSolubleOilPastels.scss";
 import ButtonCustom from "../../../components/ButtonCustom";
 import { Col, Row } from "antd";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const SectionWaterSolubleOilPastels = () => {
   return (
@@ -10,7 +11,9 @@ const SectionWaterSolubleOilPastels = () => {
         <Col span={12} className="SectionWaterSolubleOilPastels__left">
           <div className="SectionWaterSolubleOilPastels__left__content">
             <h1>WATER SOLUBLE OIL PASTELS</h1>
-            <div className="SectionWatercolorConfections__right__separator"></div>
+            <ScrollAnimation animateIn="animate__slideInLeft">
+              <div className="SectionWatercolorConfections__right__separator"></div>
+            </ScrollAnimation>
             <p>
               A perfect duo, our beautiful oil pastels with the versatility of
               watercolor! Use our oil pastels traditionally or add water to
