@@ -9,7 +9,7 @@ const SectionIntroduce = () => {
 
   React.useEffect(() => {
     setTimeout(() => {
-      setAnimate('animate__bounceIn animate__infinite animate__slow');
+      setAnimate("animate__bounceIn animate__infinite animate__slow");
     }, 3000);
   }, []);
 
@@ -26,7 +26,10 @@ const SectionIntroduce = () => {
           concentrated pigments with longevity and light fastness. Discover a
           new way to watercolor with our Art Philosophy Watercolor Tubes.
         </p>
-        <ButtonCustom className={`animate__animated ${animate}`}>
+        <ButtonCustom
+          to={"/products"}
+          className={`animate__animated ${animate}`}
+        >
           Shop Now
         </ButtonCustom>
       </div>
