@@ -30,7 +30,8 @@ const NavLeft = () => {
         </p>
         <Slider
           range
-          defaultValue={[0, 100]}
+          max={1000}
+          defaultValue={[0, 1000]}
           tooltip={{ formatter: (value) => `$${value}` }}
           onChange={(value) => setValue(value)}
         />

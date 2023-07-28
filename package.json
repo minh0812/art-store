@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.2.1",
     "@vercel/analytics": "^0.1.11",
     "animate.css": "^4.1.1",
-    "antd": "^5.1.2",
+    "antd": "^5.7.3",
     "axios": "^1.2.2",
     "react": "^18.2.0",
     "react-animate-on-scroll": "^2.1.7",

@@ -1,0 +1,46 @@
+.Content {
+  background-color: #fff;
+  padding: 20px;
+  &__image {
+    &__main {
+      box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+      width: 95%;
+      .ant-image {
+        width: 100%;
+        &-img {
+          width: 100%;
+          height: 500px;
+          object-fit: scale-down;
+        }
+      }
+    }
+    &__sub {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      padding: 0 2%;
+      .ant-image {
+        width: 150px;
+        height: 150px;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        &-img {
+          width: 100%;
+          height: 100%;
+          object-fit: scale-down;
+        }
+        // cursor: pointer;
+        // &:hover {
+        //   transform: translateY(-5px);
+        //   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        // }
+      }
+      .active {
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+}
