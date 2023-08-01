@@ -1,18 +1,36 @@
-import React from 'react'
-import './title.scss'
+import React from "react";
+import PropTypes from "prop-types";
+import "./title.scss";
 
-const Title = () => {
+const Title = ({ title, items }) => {
   return (
-    <div className='title'>
-        <h4>Products</h4>
-        <ul>
-            <li className='title__item'>Home</li>
-            <li>|</li>  
-            <li className='title__item'>Products</li>
-            <li>|</li>
-            <li className='title__item'>Product Details</li>
-        </ul>
+    <div className="title">
+      <h4>{title}</h4>
+      <ul>
+        {/* <li className="title__item">Home</li>
+        <li>|</li>
+        <li className="title__item">Products</li>
+        <li>|</li>
+        <li className="title__item">Product Details</li> */}
+        {items.map((item, index) => (
+          <>
+            <li key={index} className="title__item">
+              {item}
+            </li>
+            {index !== items.length - 1 && <li>|</li>}
+          </>
+        ))}
+      </ul>
     </div>
-  )
-}
-export default Title
+  );
+};
+Title.propTypes = {
+  title: PropTypes.string,
+  items: PropTypes.array,
+};
+
+Title.defaultProps = {
+  title: "",
+  items: [],
+};
+export default Title;

@@ -2,6 +2,7 @@ import React from "react";
 import Title from "../../components/Title";
 import { useParams } from "react-router-dom";
 import Content from "../../modules/productID/Content";
+import SimilarProduct from "../../modules/productID/RelatedProduct";
 
 const ProductID = () => {
   const { id } = useParams();
@@ -23,8 +24,9 @@ const ProductID = () => {
   };
   return (
     <>
-      <Title />
+      <Title title={"product"} items={["home", "product", product.name]}/>
       <Content product={product} id={id} />
+      <SimilarProduct />
     </>
   );
 };

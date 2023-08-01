@@ -8,7 +8,7 @@ import { Outlet } from "react-router-dom";
 const ProductsPage = () => {
   return (
     <>
-      <Title />
+      <Title title={"product"} items={["home", "product"]}/>
       <Outlet />
       <Row>
         <Col span={5}>

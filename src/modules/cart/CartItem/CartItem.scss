@@ -1,0 +1,70 @@
+.CartItem {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #f2f2f2;
+  background: #fff;
+  &__info {
+    display: flex;
+    align-items: center;
+    &__image {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+    &__name {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 0;
+      margin-left: 10px;
+    }
+  }
+  &__price {
+    display: flex;
+    align-items: center;
+    &__old {
+      font-size: 16px;
+      font-weight: 400;
+      margin-right: 10px;
+      color: #929292;
+      text-decoration: line-through;
+    }
+    &__current {
+      font-size: 16px;
+      font-weight: 600;
+      color: #eb4b16;
+    }
+  }
+  &__quantity {
+    display: flex;
+    align-items: center;
+    &__btn {
+      border: none;
+      background: transparent;
+      font-size: 20px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &__number {
+      margin: 0 10px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+      width: 50px;
+    }
+  }
+  &__remove {
+    font-size: 20px;
+    padding-left: 20px;
+    &:hover {
+      cursor: pointer;
+      color: #eb4b16;
+      .anticon {
+        animation: swing 1s linear infinite;
+      }
+    }
+  }
+}
