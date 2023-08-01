@@ -6,6 +6,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import DefaultLayout from "./layouts/DefaultLayout";
+import { ConfigProvider } from "antd";
 // import ErrorLayout from "./layouts/ErrorLayout";
 
 // setup analytics
@@ -16,7 +17,15 @@ root.render(
     {/* <ErrorBoundary FallbackComponent={ErrorLayout}>
       <DefaultLayout />
     </ErrorBoundary> */}
-    <DefaultLayout />
+    <ConfigProvider
+      theme={{
+        token: {
+          colorPrimary: "#eb4b16",
+        },
+      }}
+    >
+      <DefaultLayout />
+    </ConfigProvider>
     <Analytics />
   </React.StrictMode>
 );

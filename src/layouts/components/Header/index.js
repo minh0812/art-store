@@ -50,7 +50,7 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        <div className="header">
+        <div className="header" style={{position: location.pathname !== "/" && "relative"}}>
           <Link to="/">
             <img src={Logo} alt="logo" className="header__logo" />
           </Link>

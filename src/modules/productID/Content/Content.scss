@@ -1,0 +1,210 @@
+.Content {
+  background-color: #fff;
+  padding: 20px;
+  &__image {
+    &__main {
+      box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+      width: 95%;
+      .ant-image {
+        width: 100%;
+        &-img {
+          width: 100%;
+          height: 500px;
+          object-fit: scale-down;
+        }
+      }
+    }
+    &__sub {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      padding: 0 2%;
+      .ant-image {
+        width: 150px;
+        height: 150px;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        &-img {
+          width: 100%;
+          height: 100%;
+          object-fit: scale-down;
+        }
+        // cursor: pointer;
+        // &:hover {
+        //   transform: translateY(-5px);
+        //   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        // }
+      }
+      .active {
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+  &__info {
+    &__name {
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+    &__rate {
+      margin-bottom: 5px;
+      &__number {
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 5px;
+        color: #a5a5a5;
+      }
+      .ant-rate {
+        color: orange;
+      }
+      &__sold {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        margin-left: 10px;
+      }
+    }
+    &__price {
+      font-weight: 600;
+      background: #f2f2f2;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10%;
+      &__old {
+        font-size: 19px;
+        font-weight: 400;
+        color: #a5a5a5;
+        text-decoration: line-through;
+      }
+      &__current {
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 10px;
+        color: #ff5100;
+      }
+      &__sale {
+        background: red;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-left: 50px;
+        padding: 4px 8px;
+      }
+    }
+    &__shipping {
+      margin-bottom: 5%;
+      display: flex;
+      &__title {
+        font-size: 16px;
+        margin-right: 10px;
+      }
+      &__content {
+        font-size: 16px;
+        font-weight: 400;
+        color: #a5a5a5;
+      }
+    }
+    &__quantity {
+      margin-bottom: 5%;
+      display: flex;
+      &__title {
+        font-size: 16px;
+        margin-right: 10px;
+      }
+      &__input {
+        &__btn {
+          width: 25px;
+          font-size: 20px;
+          height: 25px;
+          border: 1px solid #d9d9d9;
+          border-radius: 2px;
+          padding: 0 5px;
+          background: #fff;
+          cursor: pointer;
+          &:hover {
+            // background: #f2f2f2;
+            border: 1px solid #ff5100;
+            color: #ff5100;
+          }
+        }
+        &__number {
+          border: 1px solid #d9d9d9;
+          font-size: 20px;
+          border-radius: 2px;
+          padding: 0 5px;
+          margin: 0 5px;
+          width: 50px;
+          text-align: center;
+          &:focus {
+            outline: none;
+            border: 1px solid #ff5100;
+          }
+        }
+      }
+    }
+    &__btn {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      &__add {
+        width: 20%;
+        height: 50px;
+        margin-right: 10px;
+        background: #fff5f1;
+        color: rgb(255, 89, 0);
+        font-size: 16px;
+        border-radius: 2px;
+        border: 1px solid #ff6a33;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.8;
+        }
+        .anticon {
+          margin-right: 5px;
+        }
+      }
+      &__buy {
+        width: 20%;
+        height: 50px;
+        background: #ff0000;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+  &__description {
+    padding-right: 20px;
+    margin: 3% 10px;
+    margin-bottom: 0;
+    &__title {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+    &__content {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #a5a5a5;
+      line-height: 1.5;
+      border-top: 1px solid #d9d9d9;
+      border-bottom: 1px solid #d9d9d9;
+      padding: 20px 0;
+    }
+  }
+}
