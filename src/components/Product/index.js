@@ -16,7 +16,9 @@ const Product = ({ name, sale, price, image, rate, sold, id }) => {
       <div className="Product__image">
         <img src={image} alt={name} />
       </div>
-      <h3 className="Product__name">{name}</h3>
+      <h3 className="Product__name">
+        {name.length > 30 ? name.slice(0, 30) + "..." : name}
+      </h3>
       <div className="Product__price">
         {sale !== 0 && (
           <p className="Product__price__real">{sale !== 0 && `$${price}`}</p>
