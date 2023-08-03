@@ -6,6 +6,7 @@ import ProductID from "../pages/ProductID";
 import Page404 from "../components/404";
 import Cart from "../pages/Cart";
 import KitsPage from "../pages/Kits";
+import AboutPage from "../pages/About";
 
 const Router = () => {
   return (
@@ -15,6 +16,7 @@ const Router = () => {
       <Route path="/products/:id" element={<ProductID />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/kits" element={<KitsPage />} />
+      <Route path="/about" element={<AboutPage />} />
       <Route path="*" element={<Page404 />} />
     </Routes>
   );

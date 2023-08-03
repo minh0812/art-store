@@ -1,0 +1,37 @@
+.about {
+  &__image {
+    background: #eeeeee;
+    display: flex;
+    img {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      margin: auto;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+  &__content {
+    background-color: #ffffffe3;
+    padding: 20px;
+    font-size: 18px;
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0;
+      margin-bottom: 1rem;
+      color: #3d3d3d;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+      line-height: 31.5px;
+      padding: 0 20px;
+      margin-bottom: 1%;
+      color: #575757;
+    }
+  }
+}
