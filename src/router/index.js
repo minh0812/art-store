@@ -7,6 +7,7 @@ import Page404 from "../components/404";
 import Cart from "../pages/Cart";
 import KitsPage from "../pages/Kits";
 import AboutPage from "../pages/About";
+import GalleryPage from "../pages/Gallery";
 
 const Router = () => {
   return (
@@ -17,6 +18,7 @@ const Router = () => {
       <Route path="/cart" element={<Cart />} />
       <Route path="/kits" element={<KitsPage />} />
       <Route path="/about" element={<AboutPage />} />
+      <Route path="/gallery" element={<GalleryPage />} />
       <Route path="*" element={<Page404 />} />
     </Routes>
   );
