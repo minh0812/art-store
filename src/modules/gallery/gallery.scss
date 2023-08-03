@@ -1,0 +1,9 @@
+.gallery {
+  .ant-image {
+    width: 100%;
+    img {
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+}
