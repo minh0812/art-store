@@ -33,7 +33,7 @@ const Header = () => {
     },
     {
       title: <SearchOutlined />,
-      link: "/search",
+      // link: "/search",
     },
     {
       title: <ShoppingCartOutlined />,
