@@ -8,7 +8,7 @@ const ProductID = () => {
   const { id } = useParams();
   const product = {
     name: "Water soluble oil pastels rustic",
-    price: 80,
+    price: 97,
     sale: 0.1,
     rate: 4,
     sold: 100,
