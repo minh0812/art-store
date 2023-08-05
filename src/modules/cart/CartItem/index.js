@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./CartItem.scss";
-import { Checkbox, Col, Row } from "antd";
+import { Checkbox, Col, Row, Tooltip } from "antd";
 import { DeleteOutlined } from "@ant-design/icons";
 
 const CartItem = (props) => {
@@ -53,7 +53,9 @@ const CartItem = (props) => {
         $72.00
       </Col>
       <Col span={3} className="CartItem__remove">
-        <DeleteOutlined />
+        <Tooltip title="Remove">
+          <DeleteOutlined />
+        </Tooltip>
       </Col>
     </Row>
   );

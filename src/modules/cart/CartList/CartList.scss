@@ -1,6 +1,9 @@
 .CartList {
   width: 95%;
   margin: auto;
+  .ant-checkbox-inner {
+    border: 1px solid #7c7c7c;
+  }
   &__header {
     display: flex;
     justify-content: center;
@@ -13,6 +16,38 @@
     .ant-col {
       font-size: 16px;
       font-weight: 600;
+    }
+  }
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background: #fff;
+    border-top: 1px solid #f2f2f2;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    &__left {
+      &__selectAll {
+        &__title {
+          font-size: 16px;
+          font-weight: 600;
+          margin-left: 20px;
+        }
+      }
+    }
+    &__right {
+      display: flex;
+      align-items: center;
+      &__total {
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 10px;
+        span {
+          color: #eb4b16;
+          font-size: 18px;
+        }
+      }
     }
   }
 }

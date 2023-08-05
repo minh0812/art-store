@@ -1,6 +1,7 @@
 import { Col, Form, Row, Button, Checkbox, Input } from "antd";
 import React from "react";
 import "./login.scss";
+import { Link } from "react-router-dom";
 const Login = () => {
   const onFinish = (values) => {
     console.log("Success:", values);
@@ -19,7 +20,7 @@ const Login = () => {
         </Col>
         <Col span={12} className="Login__right">
           <div>
-            <h1>Login</h1>
+            <h1>Sign in</h1>
             <Form
               name="basic"
               labelCol={{ span: 8 }}
@@ -37,7 +38,7 @@ const Login = () => {
                   { required: true, message: "Please input your username!" },
                 ]}
               >
-                <Input />
+                <Input defaultValue={"Tony"}/>
               </Form.Item>
 
               <Form.Item
@@ -47,8 +48,13 @@ const Login = () => {
                   { required: true, message: "Please input your password!" },
                 ]}
               >
-                <Input.Password />
+                <Input.Password defaultValue={"12345678"} />
               </Form.Item>
+
+              <div className="Login__right__register">
+                <span>Don't have an account?</span>
+                <Link>Register</Link>
+              </div>
 
               <Form.Item
                 name="remember"
@@ -60,7 +66,7 @@ const Login = () => {
 
               <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
                 <Button type="primary" htmlType="submit">
-                  Login
+                  Sign in
                 </Button>
               </Form.Item>
             </Form>
