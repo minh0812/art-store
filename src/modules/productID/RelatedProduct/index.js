@@ -11,8 +11,8 @@ const RelatedProduct = (props) => {
     <div className="RelatedProduct">
       <h1 className="RelatedProduct__title">Related products</h1>
       <Row gutter={[16, 16]}>
-        {product.map((product) => (
-          <Col xs={24} sm={12} md={12} lg={6} xl={6}>
+        {product.map((product, index) => (
+          <Col xs={24} sm={12} md={12} lg={6} xl={6} key={index}>
             <Product
               name={product.name}
               image={product.images[0]}

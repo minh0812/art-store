@@ -1,0 +1,24 @@
+[
+  {
+    "id": 47,
+    "name": "Water soluble oil pastels rustic",
+    "images": [
+      "https://i.ibb.co/PwkHF4s/16687670281216553506319322-jpg.jpg",
+      "https://i.ibb.co/Hh3SbKs/16687670281206553506319321-jpg.jpg"
+    ],
+    "price": 500000,
+    "quantity": 1,
+    "sale": 0
+  },
+  {
+    "id": 46,
+    "name": "Water soluble oil pastels basics",
+    "images": [
+      "https://i.ibb.co/tZgx88H/16687668741166553506319251-jpg.jpg",
+      "https://i.ibb.co/TvN6qgS/16687668741176553506319252-jpg.jpg"
+    ],
+    "price": 500000,
+    "quantity": 2,
+    "sale": 0.15
+  }
+]

@@ -1,10 +1,46 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React, { useContext, useEffect, useState } from "react";
 import "./CartList.scss";
 import CartItem from "../CartItem";
 import { Button, Checkbox, Col, Row } from "antd";
+import { AppContext } from "../../../context";
+import { formatPrice } from "../../../utils";
 
-const CartList = (props) => {
+const CartList = () => {
+  const { carts, setCarts } = useContext(AppContext);
+  const [total, setTotal] = useState(0);
+  const [checkAll, setCheckAll] = useState(false);
+
+  const handleCheck = (id) => {
+    const newCartList = carts.map((cart) =>
+      cart.id === id ? { ...cart, check: !cart.check } : cart
+    );
+    setCarts(newCartList);
+    console.log("newCartList", newCartList);
+  };
+
+  const handleCheckAll = () => {
+    setCheckAll(!checkAll);
+    if (checkAll) {
+      const newCartList = carts.map((cart) => ({ ...cart, check: false }));
+      setCarts(newCartList);
+      return;
+    }
+    const newCartList = carts.map((cart) => ({ ...cart, check: true }));
+    setCarts(newCartList);
+  };
+
+  useEffect(() => {
+    if (!carts) return;
+    const newTotal = carts.reduce(
+      (total, cart) =>
+        cart.check
+          ? total + cart.price * cart.quantity * (1 - cart.sale)
+          : total,
+      0
+    );
+    setTotal(newTotal);
+  }, [carts]);
+
   return (
     <div className="CartList">
       <Row className="CartList__header">
@@ -26,14 +62,24 @@ const CartList = (props) => {
         </Col>
       </Row>
       <div className="CartList__body">
-        <CartItem />
-        <CartItem />
-        <CartItem />
+        {carts?.map((cart) => (
+          <CartItem
+            handleCheck={handleCheck}
+            check={cart.check}
+            key={cart.id}
+            id={cart.id}
+            name={cart.name}
+            images={cart.images}
+            price={cart.price}
+            sale={cart.sale}
+            quantity={cart.quantity}
+          />
+        ))}
       </div>
       <div className="CartList__footer">
         <div className="CartList__footer__left">
           <div className="CartList__footer__left__selectAll">
-            <Checkbox />
+            <Checkbox onChange={handleCheckAll} value={checkAll} />
             <span className="CartList__footer__left__selectAll__title">
               Select all
             </span>
@@ -42,7 +88,7 @@ const CartList = (props) => {
         <div className="CartList__footer__right">
           <div className="CartList__footer__right__total">
             <p>
-              Total: <span>$216.00</span>
+              Total: <span>{formatPrice(total)}</span>
             </p>
           </div>
           <Button type="primary">Checkout</Button>
@@ -51,7 +97,5 @@ const CartList = (props) => {
     </div>
   );
 };
-
-CartList.propTypes = {};
 
 export default CartList;
