@@ -1,6 +1,5 @@
 import React from "react";
 import Title from "../../components/Title";
-import NavLeft from "../../modules/kits/NavLeft";
 import { Col, Row } from "antd";
 import Product from "../../components/Product";
 
@@ -155,7 +154,7 @@ const KitsPage = () => {
   return (
     <>
       <Title title={"kits"} items={["home", "kits"]} />
-      <Row gutter={[16, 16]} style={{padding: "20px"}}>
+      <Row gutter={[16, 16]} style={{ padding: "20px" }}>
         {kits.map((kit) => (
           <Col xs={24} sm={12} md={12} lg={6} xl={6}>
             <Product

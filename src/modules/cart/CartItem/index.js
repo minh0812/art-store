@@ -16,7 +16,7 @@ const CartItem = ({
   check,
   handleCheck,
 }) => {
-  const { carts, setCarts } = useContext(AppContext);
+  const { setCarts } = useContext(AppContext);
   const [quantityItem, setQuantityItem] = useState(quantity);
 
   const handleRemove = (id) => {

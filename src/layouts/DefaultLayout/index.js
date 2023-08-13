@@ -7,13 +7,13 @@ import { AppProvider } from "../../context";
 
 const DefaultLayout = () => {
   return (
-    <AppProvider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <AppProvider>
         <Header />
         <Router />
         <Footer />
-      </BrowserRouter>
-    </AppProvider>
+      </AppProvider>
+    </BrowserRouter>
   );
 };
 

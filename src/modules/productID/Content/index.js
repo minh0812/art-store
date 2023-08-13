@@ -1,12 +1,47 @@
-import React, { useEffect, useState } from "react";
-import { Col, Image, Rate, Row, Tag } from "antd";
+import React, { useContext, useEffect, useState } from "react";
+import { Col, Image, Rate, Row, Tag, message } from "antd";
 import { ShoppingCartOutlined, CarOutlined } from "@ant-design/icons";
 import "./Content.scss";
 import PropTypes from "prop-types";
+import { AppContext } from "../../../context";
+import { useNavigate } from "react-router-dom";
 
-const Content = ({ images, name, rate, sale, sold, price }) => {
+const Content = ({ images, name, rate, sale, sold, price, id }) => {
+  const navigate = useNavigate();
+  const { carts, setCarts, isLogin } = useContext(AppContext);
   const [mainImage, setMainImage] = useState("");
   const [quantity, setQuantity] = useState(1);
+
+  const handleAddToCart = () => {
+    if (quantity <= 0) {
+      message.error("Please enter a valid quantity!");
+      return;
+    }
+    if (!isLogin) {
+      message.info("Please login to use this feature!");
+      setTimeout(() => {
+        navigate("/login");
+      }, 1000);
+      return;
+    }
+    const check = carts.find((cart) => cart.id === id);
+    if (check) {
+      setCarts((prev) =>
+        prev.map((cart) =>
+          cart.id === id
+            ? { ...cart, quantity: cart.quantity + quantity }
+            : cart
+        )
+      );
+    } else {
+      setCarts((prev) => [
+        { id, name, images, price, sale, quantity, check: false },
+        ...prev,
+      ]);
+    }
+    message.success("Product added to cart successfully!");
+  };
+
   useEffect(() => {
     setMainImage(images[0]);
   }, [images]);
@@ -92,7 +127,10 @@ const Content = ({ images, name, rate, sale, sold, price }) => {
               </div>
             </div>
             <div className="Content__info__btn">
-              <button className="Content__info__btn__add">
+              <button
+                className="Content__info__btn__add"
+                onClick={() => handleAddToCart()}
+              >
                 <ShoppingCartOutlined /> Add to cart
               </button>
               <button className="Content__info__btn__buy">Buy now</button>
@@ -119,6 +157,7 @@ const Content = ({ images, name, rate, sale, sold, price }) => {
 };
 
 Content.propTypes = {
+  id: PropTypes.number,
   images: PropTypes.array,
   name: PropTypes.string,
   rate: PropTypes.number,
@@ -128,6 +167,7 @@ Content.propTypes = {
 };
 
 Content.defaultProps = {
+  id: 0,
   images: [],
   name: "",
   rate: 0,

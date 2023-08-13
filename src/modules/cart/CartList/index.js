@@ -4,8 +4,10 @@ import CartItem from "../CartItem";
 import { Button, Checkbox, Col, Row } from "antd";
 import { AppContext } from "../../../context";
 import { formatPrice } from "../../../utils";
+import { useNavigate } from "react-router-dom";
 
 const CartList = () => {
+  const navigate = useNavigate();
   const { carts, setCarts } = useContext(AppContext);
   const [total, setTotal] = useState(0);
   const [checkAll, setCheckAll] = useState(false);
@@ -15,7 +17,6 @@ const CartList = () => {
       cart.id === id ? { ...cart, check: !cart.check } : cart
     );
     setCarts(newCartList);
-    console.log("newCartList", newCartList);
   };
 
   const handleCheckAll = () => {
@@ -27,6 +28,10 @@ const CartList = () => {
     }
     const newCartList = carts.map((cart) => ({ ...cart, check: true }));
     setCarts(newCartList);
+  };
+
+  const handleCheckout = () => {
+    navigate("/checkout");
   };
 
   useEffect(() => {
@@ -91,7 +96,9 @@ const CartList = () => {
               Total: <span>{formatPrice(total)}</span>
             </p>
           </div>
-          <Button type="primary">Checkout</Button>
+          <Button type="primary" onClick={handleCheckout}>
+            Checkout
+          </Button>
         </div>
       </div>
     </div>

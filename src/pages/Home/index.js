@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   SectionConcentratedWatercolors,
   SectionIntroduce,
@@ -11,6 +11,12 @@ import {
 } from "../../modules/home";
 
 const HomePage = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div>
       <SectionIntroduce />

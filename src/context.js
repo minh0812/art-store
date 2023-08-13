@@ -1,10 +1,15 @@
 import { createContext, useEffect, useState } from "react";
 import productsData from "./assets/data/products.json";
 import cartsData from "./assets/data/carts.json";
+import { useCookies } from "react-cookie";
+import { useNavigate } from "react-router-dom";
 
 export const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
+  const navigate = useNavigate();
+
+  const [cookies, setCookie, removeCookie] = useCookies(["isLogin"]);
   const [isLogin, setIsLogin] = useState(false);
   const [carts, setCarts] = useState([]);
   const [products, setProducts] = useState([]);
@@ -13,8 +18,11 @@ export const AppProvider = ({ children }) => {
 
   useEffect(() => {
     setProducts(productsData);
-    setCarts(cartsData.map((cart) => ({ ...cart, check: false })));
-  }, []);
+    if (cookies.isLogin) {
+      setIsLogin(true);
+      setCarts(cartsData);
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <AppContext.Provider
@@ -30,6 +38,10 @@ export const AppProvider = ({ children }) => {
         setProducts,
         setKist,
         setGallery,
+
+        cookies,
+        setCookie,
+        removeCookie,
       }}
     >
       {children}
