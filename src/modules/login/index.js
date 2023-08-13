@@ -1,14 +1,41 @@
-import { Col, Form, Row, Button, Checkbox, Input } from "antd";
-import React from "react";
+import { Col, Form, Row, Button, Checkbox, Input, message } from "antd";
+import { UserOutlined, LockOutlined } from "@ant-design/icons";
+import React, { useContext, useEffect, useState } from "react";
 import "./login.scss";
 import { Link } from "react-router-dom";
+import { AppContext } from "../../context";
 const Login = () => {
+  const [isLogin, setIsLogin] = useState(false);
+  const { setCookie } = useContext(AppContext);
   const onFinish = (values) => {
-    console.log("Success:", values);
+    setIsLogin(true);
+    setTimeout(() => {
+      if (values.username === "Tony" && values.password === "123456") {
+        setCookie("isLogin", "true", {
+          path: "/",
+          maxAge: values.remember ? 3600 * 24 * 7 : 10,
+        });
+
+        window.location.href = "/";
+      } else {
+        message.error("Username or password is incorrect !");
+      }
+      setIsLogin(false);
+    }, 2000);
   };
   const onFinishFailed = (errorInfo) => {
     console.log("Failed:", errorInfo);
   };
+
+  const [form] = Form.useForm();
+
+  useEffect(() => {
+    form.setFieldsValue({
+      username: "Tony",
+      password: "123456",
+    });
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
   return (
     <div className="Login">
       <Row>
@@ -22,6 +49,7 @@ const Login = () => {
           <div>
             <h1>Sign in</h1>
             <Form
+              form={form}
               name="basic"
               labelCol={{ span: 8 }}
               wrapperCol={{ span: 16 }}
@@ -38,7 +66,7 @@ const Login = () => {
                   { required: true, message: "Please input your username!" },
                 ]}
               >
-                <Input defaultValue={"Tony"}/>
+                <Input placeholder="Username" prefix={<UserOutlined />} />
               </Form.Item>
 
               <Form.Item
@@ -48,7 +76,10 @@ const Login = () => {
                   { required: true, message: "Please input your password!" },
                 ]}
               >
-                <Input.Password defaultValue={"12345678"} />
+                <Input.Password
+                  placeholder="Password"
+                  prefix={<LockOutlined />}
+                />
               </Form.Item>
 
               <div className="Login__right__register">
@@ -65,8 +96,8 @@ const Login = () => {
               </Form.Item>
 
               <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
-                <Button type="primary" htmlType="submit">
-                  Sign in
+                <Button type="primary" htmlType="submit" loading={isLogin}>
+                  Login
                 </Button>
               </Form.Item>
             </Form>

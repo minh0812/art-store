@@ -14,9 +14,7 @@ const Title = ({ title, items }) => {
         <li className="title__item">Product Details</li> */}
         {items.map((item, index) => (
           <>
-            <li key={index} className="title__item">
-              {item}
-            </li>
+            <li className="title__item">{item}</li>
             {index !== items.length - 1 && <li>|</li>}
           </>
         ))}

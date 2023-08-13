@@ -1,4 +1,4 @@
-import { Button, Checkbox, Input, Slider } from "antd";
+import { Button, Input, Slider } from "antd";
 import { FilterFilled, ClearOutlined, SearchOutlined } from "@ant-design/icons";
 import React, { useState } from "react";
 import "./navLeft.scss";

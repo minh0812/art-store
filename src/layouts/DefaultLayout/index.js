@@ -3,16 +3,17 @@ import { BrowserRouter } from "react-router-dom";
 import Router from "../../router";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { AppProvider } from "../../context";
 
 const DefaultLayout = () => {
   return (
-    <main>
-      <BrowserRouter>
+    <BrowserRouter>
+      <AppProvider>
         <Header />
         <Router />
         <Footer />
-      </BrowserRouter>
-    </main>
+      </AppProvider>
+    </BrowserRouter>
   );
 };
 

@@ -9,6 +9,7 @@ import KitsPage from "../pages/Kits";
 import AboutPage from "../pages/About";
 import GalleryPage from "../pages/Gallery";
 import LoginPage from "../pages/Login";
+import CheckoutPage from "../pages/Checkout";
 
 const Router = () => {
   return (
@@ -21,6 +22,7 @@ const Router = () => {
       <Route path="/about" element={<AboutPage />} />
       <Route path="/gallery" element={<GalleryPage />} />
       <Route path="/login" element={<LoginPage />} />
+      <Route path="/checkout" element={<CheckoutPage />} />
       <Route path="*" element={<Page404 />} />
     </Routes>
   );
