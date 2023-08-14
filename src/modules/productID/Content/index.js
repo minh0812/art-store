@@ -42,6 +42,40 @@ const Content = ({ images, name, rate, sale, sold, price, id }) => {
     message.success("Product added to cart successfully!");
   };
 
+  const handleBuyNow = () => {
+    if (quantity <= 0) {
+      message.error("Please enter a valid quantity!");
+      return;
+    }
+    if (!isLogin) {
+      message.info("Please login to use this feature!");
+      setTimeout(() => {
+        navigate("/login");
+      }, 1000);
+      return;
+    }
+    setCarts(carts.map((cart) => ({ ...cart, check: false })));
+    const check = carts.find((cart) => cart.id === id);
+    if (check) {
+      setCarts((prev) =>
+        prev.map((cart) =>
+          cart.id === id
+            ? { ...cart, quantity: cart.quantity + quantity, check: true }
+            : cart
+        )
+      );
+    } else {
+      setCarts((prev) => [
+        { id, name, images, price, sale, quantity, check: true },
+        ...prev,
+      ]);
+    }
+    message.success("Product added to cart successfully!");
+    setTimeout(() => {
+      navigate("/checkout");
+    }, 1000);
+  };
+
   useEffect(() => {
     setMainImage(images[0]);
   }, [images]);
@@ -133,7 +167,12 @@ const Content = ({ images, name, rate, sale, sold, price, id }) => {
               >
                 <ShoppingCartOutlined /> Add to cart
               </button>
-              <button className="Content__info__btn__buy">Buy now</button>
+              <button
+                className="Content__info__btn__buy"
+                onClick={() => handleBuyNow()}
+              >
+                Buy now
+              </button>
             </div>
           </div>
         </Col>

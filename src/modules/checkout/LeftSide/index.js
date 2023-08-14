@@ -73,12 +73,28 @@ const LeftSide = () => {
             </Form.Item>
           </Col>
         </Row>
-        <Form.Item
-          name="address"
-          rules={[{ required: true, message: "Please input your address!" }]}
-        >
-          <Input placeholder="Address" />
-        </Form.Item>
+        <Row gutter={16}>
+          <Col span={12}>
+            <Form.Item
+              name="address"
+              rules={[
+                { required: true, message: "Please input your address!" },
+              ]}
+            >
+              <Input placeholder="Address" />
+            </Form.Item>
+          </Col>
+          <Col span={12}>
+            <Form.Item
+              name="district"
+              rules={[
+                { required: true, message: "Please input your district!" },
+              ]}
+            >
+              <Input placeholder="District" />
+            </Form.Item>
+          </Col>
+        </Row>
         <Form.Item name="note">
           <Input.TextArea placeholder="Order Note" />
         </Form.Item>
