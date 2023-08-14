@@ -67,15 +67,8 @@ const RightSide = () => {
   }, [carts]);
 
   return (
-    <Col span={12} style={{ padding: "0 5px 0 10px" }}>
+    <Col  xs={24} sm={24} md={12} xl={12} style={{ padding: "0 5px 0 10px" }}>
       <Table pagination={false} columns={columns} dataSource={cartCheckout} />
-      {/* <div
-        style={{ display: "flex", justifyContent: "flex-end", width: "95%" }}
-      >
-        <h2>
-          Total: <span style={{color: "#eb4b16"}}>{formatPrice(total)}</span>
-        </h2>
-      </div> */}
     </Col>
   );
 };

@@ -30,7 +30,7 @@ const LeftSide = () => {
   }, [carts]);
 
   return (
-    <Col span={12} style={{ background: "#f9f9f9" }}>
+    <Col xs={24} sm={24} md={12} xl={12} style={{ background: "#f9f9f9" }}>
       <Form
         name="checkout"
         style={{ width: "90%", margin: "10px auto" }}

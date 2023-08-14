@@ -8,8 +8,8 @@ const SectionOilPastels = () => {
   return (
     <section className="SectionOilPastels">
       <Row>
-        <Col span={12}></Col>
-        <Col span={12} className="SectionOilPastels__left">
+        <Col xs={24} sm={24} md={24} lg={12} xl={12}></Col>
+        <Col xs={24} sm={24} md={24} lg={12} xl={12} className="SectionOilPastels__left">
           <div className="SectionOilPastels__left__content">
             <h1>Oil Pastels</h1>
             <ScrollAnimation animateIn="animate__slideInRight">
