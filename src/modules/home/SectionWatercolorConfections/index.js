@@ -7,8 +7,8 @@ const SectionWatercolorConfections = () => {
   return (
     <section className="SectionWatercolorConfections">
       <Row>
-        <Col span={12} className="SectionWatercolorConfections__left"></Col>
-        <Col span={12} className="SectionWatercolorConfections__right">
+        <Col  xs={24} sm={24} md={11}  xl={12} className="SectionWatercolorConfections__left"></Col>
+        <Col  xs={24} sm={24} md={13}  xl={12} className="SectionWatercolorConfections__right">
           <div className="SectionWatercolorConfections__right__content">
             <h1>Watercolor Confections®</h1>
             <ScrollAnimation animateIn="animate__slideInRight">

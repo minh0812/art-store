@@ -7,7 +7,7 @@ const SectionMetallicAccents = () => {
   return (
     <section className="SectionMetallicAccents">
       <Row>
-        <Col span={12} className="SectionMetallicAccents__left">
+        <Col  xs={24} sm={24} md={12} lg={12} xl={12} className="SectionMetallicAccents__left">
           <div className="SectionMetallicAccents__left__content">
             <h1>METALLIC ACCENTS</h1>
             <ScrollAnimation animateIn="animate__slideInLeft">
@@ -23,7 +23,7 @@ const SectionMetallicAccents = () => {
             <ButtonCustom>Learn More</ButtonCustom>
           </div>
         </Col>
-        <Col span={12}></Col>
+        <Col></Col>
       </Row>
     </section>
   );

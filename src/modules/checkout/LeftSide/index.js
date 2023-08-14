@@ -30,7 +30,7 @@ const LeftSide = () => {
   }, [carts]);
 
   return (
-    <Col span={12} style={{ background: "#f9f9f9" }}>
+    <Col xs={24} sm={24} md={12} xl={12} style={{ background: "#f9f9f9" }}>
       <Form
         name="checkout"
         style={{ width: "90%", margin: "10px auto" }}
@@ -73,12 +73,28 @@ const LeftSide = () => {
             </Form.Item>
           </Col>
         </Row>
-        <Form.Item
-          name="address"
-          rules={[{ required: true, message: "Please input your address!" }]}
-        >
-          <Input placeholder="Address" />
-        </Form.Item>
+        <Row gutter={16}>
+          <Col span={12}>
+            <Form.Item
+              name="address"
+              rules={[
+                { required: true, message: "Please input your address!" },
+              ]}
+            >
+              <Input placeholder="Address" />
+            </Form.Item>
+          </Col>
+          <Col span={12}>
+            <Form.Item
+              name="district"
+              rules={[
+                { required: true, message: "Please input your district!" },
+              ]}
+            >
+              <Input placeholder="District" />
+            </Form.Item>
+          </Col>
+        </Row>
         <Form.Item name="note">
           <Input.TextArea placeholder="Order Note" />
         </Form.Item>
