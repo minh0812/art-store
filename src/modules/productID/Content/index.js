@@ -7,7 +7,7 @@ import { AppContext } from "../../../context";
 import { useNavigate } from "react-router-dom";
 import { formatPrice } from "../../../utils";
 
-const Content = ({ images, name, rate, sale, sold, price, id }) => {
+const Content = ({ images, name, rate, sale, sold, price, id, description }) => {
   const navigate = useNavigate();
   const { carts, setCarts, isLogin } = useContext(AppContext);
   const [mainImage, setMainImage] = useState("");
@@ -181,15 +181,7 @@ const Content = ({ images, name, rate, sale, sold, price, id }) => {
       <div className="Content__description">
         <h2 className="Content__description__title">Description</h2>
         <p className="Content__description__content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          voluptatum, quibusdam, quia, voluptate voluptas quod quos dolorum
-          voluptatibus quae quidem fugiat? Quisquam voluptatum, quibusdam, quia,
-          voluptate voluptas quod quos dolorum voluptatibus quae quidem fugiat?
-          Quisquam voluptatum, quibusdam, quia, voluptate voluptas quod quos
-          dolorum voluptatibus quae quidem fugiat? Quisquam voluptatum,
-          quibusdam, quia, voluptate voluptas quod quos dolorum voluptatibus
-          quae quidem fugiat? Quisquam voluptatum, quibusdam, quia, voluptate
-          voluptas quod quos dolorum voluptatibus quae quidem fugiat? Quisquam
+          {description}
         </p>
       </div>
     </div>
@@ -204,6 +196,7 @@ Content.propTypes = {
   sale: PropTypes.number,
   sold: PropTypes.number,
   price: PropTypes.number,
+  description: PropTypes.string,
 };
 
 Content.defaultProps = {
@@ -214,6 +207,7 @@ Content.defaultProps = {
   sale: 0,
   sold: 0,
   price: 0,
+  description: "",
 };
 
 export default Content;

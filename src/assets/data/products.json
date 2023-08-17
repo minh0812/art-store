@@ -1,815 +1,380 @@
 [
   {
-    "id": 48,
+    "id": 1,
     "images": [
-      "https://i.ibb.co/rkvBKxV/16713467916791669340614540655350584252-jpg-jpg.jpg"
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_2-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_3-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_1-2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_2-2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_2-2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_2-2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_5-768x960.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_7-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_8-768x825.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_9.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791-2.jpg"
     ],
-    "price": 450000,
-    "description": "Use this new Watercolor Resist Pen to mask any areas from wet mediums. Included is a fine tip applicator pen tip for precision application. Can be used in combination with foils and adhesive rub ons by Christine Adolph",
-
-    "size": ["50ml"],
-    "name": "Watercolor resist pen",
+    "price": 33.99,
+    "description": "Explore your artistic side with this new Odyssey Watercolor Confections set. Featuring gorgeous earth-tone colors in this rich palette, you will want to mix, blend and create works of art! Use this palette with out Prima Watercolor Brushes and Brush pens!",
+    "name": "Watercolor Confections Odyssey",
     "quantity": 50,
-    "category_id": 2,
+    "category": "watercolor-confections",
     "sold": 100,
     "sale": 0.15,
     "rate": 4.5
   },
   {
-    "id": 47,
+    "id": 2,
     "images": [
-      "https://i.ibb.co/PwkHF4s/16687670281216553506319322-jpg.jpg",
-      "https://i.ibb.co/Hh3SbKs/16687670281206553506319321-jpg.jpg"
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785-1.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_1-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_2-1.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_3-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_1-2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_1-2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_3-2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_4.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_5-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_6-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_7-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_8-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_18-768x826.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785-2-768x768.jpg"
     ],
-    "price": 500000,
-    "description": "Get the best of both worlds with the Rustic Set of Water-Soluble Oil Pastels from Prima Marketing. This is a set of 12 luscious pastels from the Art Philosophy Collection.",
-
-    "size": ["12 màu"],
-    "name": "Water soluble oil pastels rustic",
+    "price": 33.99,
+    "description": "Add artistic flair at home or on the go with the Terrain Watercolor Confections Set from Prima Marketing! This set of dreamy watercolor hues comes in a metal tin that measures 4.75″ x 2.75″. Included in the metal tin are 12 highly pigmented dry watercolors – just grab a brush and add water to bring these hues to life. The metal tin also includes two fold out mixing areas that you can create your own rich tones and colors on. Simply let your custom colors dry to use for later or wipe them up to clean your palette and make some new unique hues! You’ll love the earthy and geographical colors found in the Terrain set. They’re perfect for painting desert scenes, valleys, forests, sunrises, gardens, sunrises, and more. This set is part of the Watercolor Confections Collection by Prima Marketing. Included in the package is one metal tin with 12 dry watercolor pans.",
+    "name": "Watercolor Confections Terrain",
     "quantity": 50,
-    "category_id": 2,
+    "category": "watercolor-confections",
     "sold": 100,
     "sale": 0.1,
     "rate": 4
   },
   {
-    "id": 46,
+    "id": 3,
     "images": [
-      "https://i.ibb.co/tZgx88H/16687668741166553506319251-jpg.jpg",
-      "https://i.ibb.co/TvN6qgS/16687668741176553506319252-jpg.jpg"
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_1-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_2-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_3-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_1-2-768x432.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_2-2-768x960.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_4-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_5-768x838.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_6-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_7-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_8-768x960.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_9-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_11.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_13.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_14.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_15.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_16-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_17-768x484.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350636722_18-768x768.jpg"
     ],
-    "price": 500000,
-    "description": "Get the creamy look of oil with the practicality of watercolor when you use Water Soluble Oil Pastels from Art Philosophy by Prima Marketing! In the Basics Set, you’ll find 12 luscious colors that can be used dry or with water. Use these gorgeous pigments like dark ochre, cadmium green and Lavender Collection on a heavy weight or watercolor paper to create jaw-dropping backgrounds, drawings, artist effects, and more! This package contains all of the colors you need to mix your favorite tones and hues.",
-
-    "size": ["12 màu"],
-    "name": "Water soluble oil pastels basics",
+    "price": 33.99,
+    "description": "Artist grade, high quality and highly pigmented watercolor pans. Sized perfectly for artists on the go, these professional grade paints provide bright, intense, smooth and long lasting colors that will work beautifully on any art or mixed media project. This Vintage Pastels palette works great for florals and vintage art with a soft classic look.",
+    "name": "Watercolor Confections Vintage Pastels",
     "quantity": 50,
-    "category_id": 2,
+    "category": "watercolor-confections",
     "sold": 100,
-    "sale": 0.2,
-    "rate": 4
-  },
-  {
-    "id": 45,
-    "images": [
-      "https://i.ibb.co/qN7jksp/166876370841307e69cecce3273dcfb24bd2201d7c4ab-jpg.jpg",
-      "https://i.ibb.co/P4Zy1JD/1668764987042655350636722-1-jpg.jpg",
-      "https://i.ibb.co/G5qMTGd/1668763708414watercolor04-png.png"
-    ],
-    "price": 500000,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-
-    "size": ["12 màu"],
-    "name": "Vintage Pastel Watercolor",
-    "quantity": 50,
-    "category_id": 2,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 5
-  },
-  {
-    "id": 44,
-    "images": [
-      "https://i.ibb.co/wg9D2HM/1668764268353655350642143-jpg.jpg",
-      "https://i.ibb.co/7Rv7YqG/1668764364489655350642144-jpg.jpg",
-      "https://i.ibb.co/wyYQ92X/1668764268354655350642143-3-768x768-jpg.jpg"
-    ],
-    "price": 500000,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-
-    "size": ["12 màu"],
-    "name": "Currents Watercolor",
-    "quantity": 50,
-    "category_id": 2,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4.5
-  },
-  {
-    "id": 43,
-    "images": [
-      "https://i.ibb.co/jzYwrc8/1668764677862655350584252-1-jpg.jpg",
-      "https://i.ibb.co/BLN2Cyb/1668763993676655350584252-1-jpg.jpg",
-      "https://i.ibb.co/zrkdRvm/1668763993675655350584252-3-1-jpg.jpg"
-    ],
-    "price": 500000,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-
-    "size": ["12 màu"],
-    "name": "The Classics Watercolor",
-    "quantity": 50,
-    "category_id": 2,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 42,
-    "images": [
-      "https://i.ibb.co/GJY0GgX/166876564690568f19947d8bf3f0bf7566a550a864cec-jpg.jpg"
-    ],
-    "price": 400000,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-
-    "size": ["24 tờ"],
-    "name": "A4 Paper Watercolor",
-    "quantity": 50,
-    "category_id": 2,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 41,
-    "images": ["https://i.ibb.co/VqXdrRD/1668765475860655350651374-jpg.jpg"],
-    "price": 396000,
-    "description": "The new Art Philosophy Watercolor Paper is here! This magnificent watercolor paper improves on our last watercolor paper by increasing the weight of the paper itself. Now with 140lb quality, thus weight allows for a variety of wet on wet techniques, the addition of gouache and other mediums and much more! Made of 100% cotton with a cold press quality, this Art Philosophy watercolor paper is your next best start for any watercolor masterpiece!",
-
-    "size": ["12 tờ"],
-    "name": "A4 WATERCOLOR PAPER PAD",
-    "quantity": 50,
-    "category_id": 2,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 40,
-    "images": [
-      "https://i.ibb.co/b5nxjDq/1668763504683f9d40e0d6608915d1e6fa698b49bbbc7-jpg.jpg",
-      "https://i.ibb.co/pnCWyg4/1668763504684watercolor03-png.png"
-    ],
-    "price": 500000,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-
-    "size": ["12 màu"],
-    "name": "Celestial Watercolor",
-    "quantity": 50,
-    "category_id": 2,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 39,
-    "images": [
-      "https://i.ibb.co/m8bwqd9/1668763136697f70b3befc3d7d2f608a3b2505e58ff76-jpg.jpg",
-      "https://i.ibb.co/58dvN2k/1668763236074watercolor02-png.png"
-    ],
-    "price": 500000,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-
-    "size": ["12 màu"],
-    "name": "Watercolor Confections",
-    "quantity": 50,
-    "category_id": 2,
-    "sold": 100,
-    "sale": 0,
-    "rate": 4
-  },
-  {
-    "id": 38,
-    "images": [
-      "https://i.ibb.co/kHvSn7d/1668762543689d1ba48fc102550547593ef42cc7f1580-jpg.jpg"
-    ],
-    "price": 550000,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-
-    "size": ["12 màu"],
-    "name": "Pastel Dreams Watercolor",
-    "quantity": 50,
-    "category_id": 2,
-    "sold": 100,
-    "sale": 0,
-    "rate": 4
-  },
-  {
-    "id": 37,
-    "images": [
-      "https://i.ibb.co/Gt1VRq9/1668761906890d8d5fc4edb9924d835b3f03470ed7539-jpg.jpg",
-      "https://i.ibb.co/BsswBrM/1668762103624watercolor01-png.png"
-    ],
-    "price": 500000,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-
-    "size": ["12 màu"],
-    "name": "Celestial Watercolor",
-    "quantity": 50,
-    "category_id": 2,
-    "sold": 100,
-    "sale": 0,
-    "rate": 4
-  },
-  {
-    "id": 36,
-    "images": [
-      "https://i.ibb.co/Ct3wstg/1668761610393241431559-381715643464775-6792472015771885778-n-jpg.jpg",
-      "https://i.ibb.co/4WX5r2n/1668761610394241431559-381715643464775-6792472015771885778-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 36",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0,
-    "rate": 4
-  },
-  {
-    "id": 35,
-    "images": [
-      "https://i.ibb.co/Ct3wstg/1668761610393241431559-381715643464775-6792472015771885778-n-jpg.jpg",
-      "https://i.ibb.co/4WX5r2n/1668761610394241431559-381715643464775-6792472015771885778-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 35",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 34,
-    "images": [
-      "https://i.ibb.co/mXPK9gJ/1668761511114238275324-659293198798365-4129523982041549365-n-jpg.jpg",
-      "https://i.ibb.co/P1mL262/1668761511115238275324-659293198798365-4129523982041549365-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 34",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0,
-    "rate": 4
-  },
-  {
-    "id": 33,
-    "images": [
-      "https://i.ibb.co/6YfwTmN/1668743122792238271352-127920582900658-8829023014122944062-n-jpg.jpg",
-      "https://i.ibb.co/LpvwyV5/1668743122793238271352-127920582900658-8829023014122944062-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 33",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 32,
-    "images": [
-      "https://i.ibb.co/DptyYm5/1668743069121236129206-101313828908473-6178501295758811626-n-jpg.jpg",
-      "https://i.ibb.co/WGpV3JN/1668743069122236129206-101313828908473-6178501295758811626-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 32",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 31,
-    "images": [
-      "https://i.ibb.co/PrT1ZFf/1668742894310235965745-817074552330404-3674363437282464576-n-jpg.jpg",
-      "https://i.ibb.co/P943LSN/1668742894311235965745-817074552330404-3674363437282464576-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 31",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 30,
-    "images": [
-      "https://i.ibb.co/7WPXBSS/1668742841962235825609-114832464219607-7571140033974652229-n-jpg.jpg",
-      "https://i.ibb.co/bz5xXhL/1668742841963235825609-114832464219607-7571140033974652229-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 30",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 29,
-    "images": [
-      "https://i.ibb.co/rxQyhFX/1668742626630234586022-563183838202054-3492022312638909090-n-jpg.jpg",
-      "https://i.ibb.co/CWgdDP1/1668742626631234586022-563183838202054-3492022312638909090-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 29",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 28,
-    "images": [
-      "https://i.ibb.co/c1SGFLj/1668742549645226819831-818703635500354-1477070140773975435-n-jpg.jpg",
-      "https://i.ibb.co/rmw03df/1668742549646226819831-818703635500354-1477070140773975435-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 28",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 27,
-    "images": [
-      "https://i.ibb.co/Lzvy5C4/1668742503929223570723-137646358509158-6019092544863761959-n-jpg.jpg",
-      "https://i.ibb.co/KLFs8c5/1668742503930223570723-137646358509158-6019092544863761959-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 27",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 26,
-    "images": [
-      "https://i.ibb.co/DQ7tf0m/1668742433046220829407-1129930750868280-6619232272928758060-n-jpg.jpg",
-      "https://i.ibb.co/YhGX5w9/1668742433047220829407-1129930750868280-6619232272928758060-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 26",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 25,
-    "images": [
-      "https://i.ibb.co/3BHjwDS/1668742381069219586001-133599342169519-8675730390012584588-n-jpg.jpg",
-      "https://i.ibb.co/R0jMtk8/1668742381069219586001-133599342169519-8675730390012584588-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 25",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 24,
-    "images": [
-      "https://i.ibb.co/SRNFRwG/1668742337245218117115-498905837859804-2989220702481716995-n-jpg.jpg",
-      "https://i.ibb.co/FJmMtr8/1668742337246218117115-498905837859804-2989220702481716995-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 24",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 23,
-    "images": [
-      "https://i.ibb.co/JR4v7Pg/1668742127898217772312-405335527524366-6890041342423200338-n-jpg.jpg",
-      "https://i.ibb.co/TL6xrdy/1668742127898217772312-405335527524366-6890041342423200338-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 23",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 22,
-    "images": [
-      "https://i.ibb.co/YLXySNJ/1668742068284209475046-141985201339180-6179673895533631170-n-jpg.jpg",
-      "https://i.ibb.co/vjmXbC5/1668742068284209475046-141985201339180-6179673895533631170-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 22",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 21,
-    "images": [
-      "https://i.ibb.co/GpX2fv3/1668741995804209053952-3032080327011648-6645358650053247370-n-jpg.jpg",
-      "https://i.ibb.co/BzFKQzX/1668741995805209053952-3032080327011648-6645358650053247370-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 21",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 20,
-    "images": [
-      "https://i.ibb.co/ZXdnFn3/1668741957587202599506-514099036695472-3526258511942883885-n-jpg.jpg",
-      "https://i.ibb.co/p0xDVyB/1668741957588202599506-514099036695472-3526258511942883885-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 20",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 19,
-    "images": [
-      "https://i.ibb.co/K2S0ML4/1668741900232201878731-489166965701249-1211402384429209431-n-jpg.jpg",
-      "https://i.ibb.co/FB9ZZ6g/1668741900233201878731-489166965701249-1211402384429209431-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 19",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 18,
-    "images": [
-      "https://i.ibb.co/gwFY21R/1668741816811198508199-105150131713188-8785484489094150998-n-jpg.jpg",
-      "https://i.ibb.co/rtZz1kH/1668741816812198508199-105150131713188-8785484489094150998-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 18",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 17,
-    "images": [
-      "https://i.ibb.co/4PyhfZ4/1668741776395197274959-302041401634367-5842921072900486663-n-jpg.jpg",
-      "https://i.ibb.co/x2Vjkts/1668741776396197274959-302041401634367-5842921072900486663-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 17",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 16,
-    "images": [
-      "https://i.ibb.co/GF8Nv2Y/1668741664572194939519-3824135594375377-2017235561846091591-n-jpg.jpg",
-      "https://i.ibb.co/n0JVgPf/1668741664573194939519-3824135594375377-2017235561846091591-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 16",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 15,
-    "images": [
-      "https://i.ibb.co/xYRGHyY/1668741606744191286319-1091304004612737-8460805974346199390-n-jpg.jpg",
-      "https://i.ibb.co/bF9X6mD/1668741606745191286319-1091304004612737-8460805974346199390-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 15",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 14,
-    "images": [
-      "https://i.ibb.co/tm82ppv/1668741557870190440658-2908873166022618-894565636023056810-n-jpg.jpg",
-      "https://i.ibb.co/gyc3Gnb/1668741557871190440658-2908873166022618-894565636023056810-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 14",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 13,
-    "images": [
-      "https://i.ibb.co/SxN5R0d/1668741477973189612922-854473888818820-2396907369024721764-n-jpg.jpg",
-      "https://i.ibb.co/3R28vwC/1668741477974189612922-854473888818820-2396907369024721764-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 13",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 12,
-    "images": [
-      "https://i.ibb.co/VqNZ9jD/1668741105768165903874-203069681173690-3704767410151226166-n-jpg.jpg",
-      "https://i.ibb.co/yQ2S6Jh/1668741105769165903874-203069681173690-3704767410151226166-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 12",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 11,
-    "images": [
-      "https://i.ibb.co/wr0tdNS/1668741015356165594538-900097860841583-7929647691912508852-n-jpg.jpg",
-      "https://i.ibb.co/qjkK5Ty/1668741015357165594538-900097860841583-7929647691912508852-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 11",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 10,
-    "images": [
-      "https://i.ibb.co/PwswBZ3/1668740928757162043922-752466172123673-166025717936215836-n-jpg.jpg",
-      "https://i.ibb.co/SR3jYLS/1668740928758162043922-752466172123673-166025717936215836-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 10",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 9,
-    "images": [
-      "https://i.ibb.co/KGSHDZg/1668740854305160324456-229382428929576-3378640591975409427-n-jpg.jpg",
-      "https://i.ibb.co/CbfBztZ/1668740854306160324456-229382428929576-3378640591975409427-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 09",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 8,
-    "images": [
-      "https://i.ibb.co/tprTWSK/1668740789311158487348-1222788068137058-2320820833350395294-n-jpg.jpg",
-      "https://i.ibb.co/yPkqgmV/1668740789311158487348-1222788068137058-2320820833350395294-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 08",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 7,
-    "images": [
-      "https://i.ibb.co/FYrL2QT/1668740594866158128798-233373678468377-2121360005165362456-n-jpg.jpg",
-      "https://i.ibb.co/pJsZQGG/1668740594867158128798-233373678468377-2121360005165362456-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 07",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 6,
-    "images": [
-      "https://i.ibb.co/X72w5qz/1668741312010183549812-780800995955924-5083428306372767634-n-jpg.jpg",
-      "https://i.ibb.co/Y7tDqDy/1668741312011183549812-780800995955924-5083428306372767634-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 06",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
-    "rate": 4
-  },
-  {
-    "id": 5,
-    "images": [
-      "https://i.ibb.co/qrCpDzQ/1668740335846153602549-2689084761388303-8831493831323732891-n-jpg.jpg",
-      "https://i.ibb.co/LYVytjf/1668740335847153602549-2689084761388303-8831493831323732891-n-png.png"
-    ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 05",
-    "quantity": 50,
-    "category_id": 1,
-    "sold": 100,
-    "sale": 0.15,
+    "sale": 0.1,
     "rate": 4
   },
   {
     "id": 4,
     "images": [
-      "https://i.ibb.co/2MgYPWj/1668740285161151054067-229102168879356-8298889553691215650-n-jpg.jpg",
-      "https://i.ibb.co/pRLVDXT/1668740285162151054067-229102168879356-8298889553691215650-n-png.png"
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857_1-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857_3-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857_4-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857_1-2-768x958.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857_2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857_3-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857_4-1.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857_5.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857_6-768x959.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857_7-768x960.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631857-2-768x768.jpg"
     ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 04",
+    "price": 33.99,
+    "description": "Explore your artistic side with this Watercolor Confections set. Featuring gorgeous earth-tone colors in this rich palette, you will want to mix, blend and create works of art! Use this palette with our Prima Watercolor Brushes and Brush pens!",
+    "name": "Watercolor Confections Complexion",
     "quantity": 50,
-    "category_id": 1,
+    "category": "watercolor-confections",
     "sold": 100,
-    "sale": 0.15,
+    "sale": 0.1,
     "rate": 4
   },
   {
-    "id": 3,
+    "id": 5,
     "images": [
-      "https://i.ibb.co/GQqL8qR/1668740224658150184041-112849280815463-565492011927041941-n-jpg.jpg",
-      "https://i.ibb.co/47CWcGq/1668740224659150184041-112849280815463-565492011927041941-n-png.png"
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_1-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_2.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_3-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_1-2-768x880.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_1-2-768x880.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_3-1-768x960.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_4-768x767.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_5-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_6-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_7-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_8-768x827.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543-2-768x768.jpg"
     ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 03",
+    "price": 33.99,
+    "description": "Explore your artistic side with this Watercolor Confections set. Featuring gorgeous earth-tone colors in this rich palette, you will want to mix, blend and create works of art! Use this palette with our Prima Watercolor Brushes and Brush pens!",
+    "name": "Watercolor Confections Essence",
     "quantity": 50,
-    "category_id": 1,
+    "category": "watercolor-confections",
     "sold": 100,
-    "sale": 0.15,
+    "sale": 0.1,
     "rate": 4
   },
   {
-    "id": 2,
+    "id": 6,
     "images": [
-      "https://i.ibb.co/rGMrNXv/1668740106888149893613-111271627553118-5927100386805410818-n-jpg.jpg",
-      "https://i.ibb.co/CHGxpJT/1668740106889149893613-111271627553118-5927100386805410818-n-png.png"
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_1-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_2.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_3-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_1-2-768x646.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_2-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_3-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_4-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_5-768x769.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_7.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_8-768x770.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_9.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_10.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550_11.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631550-2-768x768.jpg"
     ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 02",
+    "price": 33.99,
+    "description": "Explore your artistic side with this Watercolor Confections set. Featuring gorgeous earth-tone colors in this rich palette, you will want to mix, blend and create works of art! Use this palette with our Prima Watercolor Brushes and Brush pens!",
+    "name": "Watercolor Confections Woodlands",
     "quantity": 50,
-    "category_id": 1,
+    "category": "watercolor-confections",
     "sold": 100,
-    "sale": 0.15,
+    "sale": 0.1,
     "rate": 4
   },
   {
-    "id": 1,
+    "id": 7,
     "images": [
-      "https://i.ibb.co/Wxd1dTm/1668739329233145944800-444851713305869-7654308691377126599-n-jpg.jpg",
-      "https://i.ibb.co/yYmjjdk/1668739329234145944800-444851713305869-7654308691377126599-n-png.png"
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143-1.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_1-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_2-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_3-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_1-2.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_2-2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_3-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_5-768x504.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_6.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_7.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_8-768x432.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_9.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_10.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_11-768x960.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_12-768x960.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_13-768x888.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_14.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143_15-768x960.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642143-2.jpg"
     ],
-    "price": 189000,
-    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-
-    "size": ["20x20", "30x30", "40x40"],
-    "name": "Landscape Picture 01",
+    "price": 33.99,
+    "description": "Create gorgeous scenes dressed in blue, purple, and green with the Currents Watercolor Confections watercolor painting set from Prima Marketing. This set includes 12 highly pigmented watercolors that quickly come to life with water. Grab up your favorite brush, a cup of water, and get creative at home or on the go. This set is 4.75″ x 2.75″, so you can easily take it anywhere you’re hoping to let off a little creative steam. This metal tin also includes two fold-out palettes for mixing your own variations of the rich, included colors. Simply let your unique hues dry to bring back to life later or wipe up the mixing areas when you’re finished to create more original tones. The Currents set has colors that are perfect for painting water scenes, forests, creeks, mermaids, magical places, and more!",
+    "name": "Watercolor Confections Currents",
     "quantity": 50,
-    "category_id": 1,
+    "category": "watercolor-confections",
     "sold": 100,
-    "sale": 0.15,
+    "sale": 0.1,
     "rate": 4
+  },
+  {
+    "id": 8,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_1-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_3-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_1-2.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_2-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_3-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_4-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_7-768x832.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_8-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_9-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_10-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_11-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_12-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_13-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_14-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_15-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_16-768x513.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_17.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276_18-768x510.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584276-2-768x768.jpg"
+    ],
+    "price": 33.99,
+    "description": "Watercolor Confections are artist-grade, high quality, and highly pigmented watercolor pans. Watercolor Confections are sized perfectly for artists on the go. These professional-grade paints provide bright, intense, smooth and long-lasting colors that will work beautifully for any art or mixed-media project.",
+    "name": "Watercolor Confections Decadent Pies",
+    "quantity": 50,
+    "category": "watercolor-confections",
+    "sold": 100,
+    "sale": 0.1,
+    "rate": 4
+  },
+  {
+    "id": 9,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_1-1.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_3-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_1-2.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_2-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_3-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_4-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_5.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_6.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_8-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_9-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_10.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_11-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_12-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_13-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253_14-768x826.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590253-2-768x768.jpg"
+    ],
+    "price": 33.99,
+    "description": "Artist grade, high quality and highly pigmented watercolor pans. Sized perfectly for artists on the go, these professional grade paints provide bright, intense, smooth and long lasting colors that will work beautifully on any art or mixed media project.",
+    "name": "Watercolor Confections Pastel Dreams",
+    "quantity": 50,
+    "category": "watercolor-confections",
+    "sold": 100,
+    "sale": 0.1,
+    "rate": 4
+  },
+  {
+    "id": 10,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590260.jpg"
+    ],
+    "price": 33.99,
+    "description": "Artist grade, high quality and highly pigmented watercolor pans. Sized perfectly for artists on the go, these professional grade paints provide bright, intense, smooth and long lasting colors that will work beautifully on any art or mixed media project.",
+    "name": "Watercolor Confections Shimmering Lights",
+    "quantity": 50,
+    "category": "watercolor-confections",
+    "sold": 100,
+    "sale": 0.1,
+    "rate": 4
+  },
+  {
+    "id": 11,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_1-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_2-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_3-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_1-2-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_2-2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_3-2-768x837.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_4-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_5-768x959.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_6-768x576.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_7.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_8.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_9-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_10-768x500.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_11-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_12-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252_13-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350584252-2-768x768.jpg"
+    ],
+    "price": 33.99,
+    "description": "Watercolor Confections are artist-grade, high quality, and highly pigmented watercolor pans. Watercolor Confections are sized perfectly for artists on the go. These professional-grade paints provide bright, intense, smooth and long-lasting colors that will work beautifully for any art or mixed-media project.",
+    "name": "Watercolor Confections The Classics",
+    "quantity": 50,
+    "category": "watercolor-confections",
+    "sold": 100,
+    "sale": 0.12,
+    "rate": 4
+  },
+  {
+    "id": 12,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642440-scaled.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/natalia-confetti-photo-1-768x510.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/confetti-rain-natalia.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642440_1-2.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642440_2-2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642440_3-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642440_4-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642440_5.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642440_6.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350642440_8-768x1152.jpg"
+    ],
+    "price": 27.99,
+    "description": "Watercolor Confetti Set: An introductory set perfect for travel, sketching, basic water coloring and more. This set provides all the basic watercolors you need in one set, offering quality and brilliance you love from Art Philosophy. Included is a sturdy metal tin and mixing foldout well for easy color mixing.",
+    "name": "Watercolor Confetti",
+    "quantity": 50,
+    "category": "watercolor-confetti",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 13,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350589974-1.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350589974_1-1-768x621.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350589974_2-768x787.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/InShot_20220627_225439730-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/InShot_20220627_225840791.jpg"
+    ],
+    "price": 21.99,
+    "description": "Water-Activated metallic accent pans, perfect for adding detailed metallic accents to all of your craft projects. Use them on flowers, coloring books, resin and more.",
+    "name": "Metallic Accents Basic",
+    "quantity": 50,
+    "category": "metallic-accents",
+    "sold": 100,
+    "sale": 0.2,
+    "rate": 5
+  },
+  {
+    "id": 14,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631895-1.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631895-2.jpg"
+    ],
+    "price": 21.99,
+    "description": "Water-Activated metallic accent pans, perfect for adding detailed metallic accents to all of your craft projects. Use them on flowers, coloring books, resin and more.",
+    "name": "Metallic Accents Pastels",
+    "quantity": 50,
+    "category": "metallic-accents",
+    "sold": 100,
+    "sale": 0.2,
+    "rate": 5
   }
 ]

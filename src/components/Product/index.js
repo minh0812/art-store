@@ -17,7 +17,7 @@ const Product = ({ name, sale, price, image, rate, sold, id }) => {
         <img src={image} alt={name} />
       </div>
       <h3 className="Product__name">
-        {name.length > 30 ? name.slice(0, 30) + "..." : name}
+        {name.length > 40 ? name.slice(0, 40) + "..." : name}
       </h3>
       <div className="Product__price">
         {sale !== 0 && (
