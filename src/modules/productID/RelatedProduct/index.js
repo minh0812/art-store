@@ -10,7 +10,7 @@ const RelatedProduct = ({ id, category }) => {
 
   useEffect(() => {
     const productSimilar = products.filter(
-      (product) => product.category_id === category && product.id !== id
+      (product) => product.category === category && product.id !== id
     );
     setProductSimilar(
       productSimilar.sort(() => Math.random() - 0.5).slice(0, 8)

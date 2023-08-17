@@ -29,8 +29,9 @@ const ProductID = () => {
           rate={product.rate}
           sold={product.sold}
           sale={product.sale}
+          description={product.description}
         />
-        <SimilarProduct id={product.id} category={product.category_id} />
+        <SimilarProduct id={product.id} category={product.category} />
       </>
     )
   );
