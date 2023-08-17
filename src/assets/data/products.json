@@ -6,14 +6,14 @@
     ],
     "price": 450000,
     "description": "Use this new Watercolor Resist Pen to mask any areas from wet mediums. Included is a fine tip applicator pen tip for precision application. Can be used in combination with foils and adhesive rub ons by Christine Adolph",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["50ml"],
     "name": "Watercolor resist pen",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4.5
   },
   {
     "id": 47,
@@ -23,14 +23,14 @@
     ],
     "price": 500000,
     "description": "Get the best of both worlds with the Rustic Set of Water-Soluble Oil Pastels from Prima Marketing. This is a set of 12 luscious pastels from the Art Philosophy Collection.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["12 màu"],
     "name": "Water soluble oil pastels rustic",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.1,
+    "rate": 4
   },
   {
     "id": 46,
@@ -40,14 +40,14 @@
     ],
     "price": 500000,
     "description": "Get the creamy look of oil with the practicality of watercolor when you use Water Soluble Oil Pastels from Art Philosophy by Prima Marketing! In the Basics Set, you’ll find 12 luscious colors that can be used dry or with water. Use these gorgeous pigments like dark ochre, cadmium green and Lavender Collection on a heavy weight or watercolor paper to create jaw-dropping backgrounds, drawings, artist effects, and more! This package contains all of the colors you need to mix your favorite tones and hues.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["12 màu"],
     "name": "Water soluble oil pastels basics",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.2,
+    "rate": 4
   },
   {
     "id": 45,
@@ -58,14 +58,14 @@
     ],
     "price": 500000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["12 màu"],
     "name": "Vintage Pastel Watercolor",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 5
   },
   {
     "id": 44,
@@ -76,14 +76,14 @@
     ],
     "price": 500000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["12 màu"],
     "name": "Currents Watercolor",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4.5
   },
   {
     "id": 43,
@@ -94,14 +94,14 @@
     ],
     "price": 500000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["12 màu"],
     "name": "The Classics Watercolor",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 42,
@@ -110,28 +110,28 @@
     ],
     "price": 400000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["24 tờ"],
     "name": "A4 Paper Watercolor",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 41,
     "images": ["https://i.ibb.co/VqXdrRD/1668765475860655350651374-jpg.jpg"],
     "price": 396000,
     "description": "The new Art Philosophy Watercolor Paper is here! This magnificent watercolor paper improves on our last watercolor paper by increasing the weight of the paper itself. Now with 140lb quality, thus weight allows for a variety of wet on wet techniques, the addition of gouache and other mediums and much more! Made of 100% cotton with a cold press quality, this Art Philosophy watercolor paper is your next best start for any watercolor masterpiece!",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["12 tờ"],
     "name": "A4 WATERCOLOR PAPER PAD",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 40,
@@ -141,14 +141,14 @@
     ],
     "price": 500000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["12 màu"],
     "name": "Celestial Watercolor",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 39,
@@ -158,14 +158,14 @@
     ],
     "price": 500000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["12 màu"],
     "name": "Watercolor Confections",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0,
+    "rate": 4
   },
   {
     "id": 38,
@@ -174,14 +174,14 @@
     ],
     "price": 550000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["12 màu"],
     "name": "Pastel Dreams Watercolor",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0,
+    "rate": 4
   },
   {
     "id": 37,
@@ -191,14 +191,14 @@
     ],
     "price": 500000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["12 màu"],
     "name": "Celestial Watercolor",
     "quantity": 50,
     "category_id": 2,
-    "created_at": "2023-07-03T12:00:55.075279",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0,
+    "rate": 4
   },
   {
     "id": 36,
@@ -208,14 +208,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 36",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0,
+    "rate": 4
   },
   {
     "id": 35,
@@ -225,14 +225,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 35",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 34,
@@ -242,14 +242,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 34",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0,
+    "rate": 4
   },
   {
     "id": 33,
@@ -259,14 +259,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 33",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 32,
@@ -276,14 +276,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 32",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 31,
@@ -293,14 +293,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 31",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 30,
@@ -310,14 +310,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 30",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 29,
@@ -327,14 +327,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 29",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 28,
@@ -344,14 +344,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 28",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 27,
@@ -361,14 +361,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 27",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 26,
@@ -378,14 +378,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 26",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 25,
@@ -395,14 +395,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 25",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 24,
@@ -412,14 +412,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 24",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 23,
@@ -429,14 +429,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 23",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 22,
@@ -446,14 +446,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 22",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 21,
@@ -463,14 +463,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 21",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 20,
@@ -480,14 +480,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 20",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 19,
@@ -497,14 +497,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 19",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 18,
@@ -514,14 +514,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 18",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 17,
@@ -531,14 +531,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 17",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 16,
@@ -548,14 +548,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 16",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 15,
@@ -565,14 +565,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 15",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 14,
@@ -582,14 +582,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 14",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 13,
@@ -599,14 +599,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 13",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 12,
@@ -616,14 +616,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 12",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 11,
@@ -633,14 +633,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 11",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 10,
@@ -650,14 +650,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 10",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 9,
@@ -667,14 +667,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 09",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 8,
@@ -684,14 +684,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 08",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 7,
@@ -701,14 +701,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 07",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 6,
@@ -718,14 +718,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 06",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 5,
@@ -735,14 +735,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 05",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 4,
@@ -752,14 +752,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 04",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 3,
@@ -769,14 +769,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 03",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 2,
@@ -786,14 +786,14 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 02",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   },
   {
     "id": 1,
@@ -803,13 +803,13 @@
     ],
     "price": 189000,
     "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-    "created_by": "duyminh081201@gmail.com",
-    "updated_by": null,
+
     "size": ["20x20", "30x30", "40x40"],
     "name": "Landscape Picture 01",
     "quantity": 50,
     "category_id": 1,
-    "created_at": "2023-07-03T11:42:07.407522",
-    "updated_at": null
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   }
 ]

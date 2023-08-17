@@ -30,7 +30,7 @@ const ProductID = () => {
           sold={product.sold}
           sale={product.sale}
         />
-        <SimilarProduct />
+        <SimilarProduct id={product.id} category={product.category_id} />
       </>
     )
   );

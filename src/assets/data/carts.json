@@ -8,7 +8,7 @@
     ],
     "price": 500000,
     "quantity": 1,
-    "sale": 0
+    "sale": 0.1
   },
   {
     "id": 46,
@@ -19,6 +19,6 @@
     ],
     "price": 500000,
     "quantity": 2,
-    "sale": 0.15
+    "sale": 0.2
   }
 ]
