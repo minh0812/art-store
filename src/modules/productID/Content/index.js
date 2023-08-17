@@ -5,6 +5,7 @@ import "./Content.scss";
 import PropTypes from "prop-types";
 import { AppContext } from "../../../context";
 import { useNavigate } from "react-router-dom";
+import { formatPrice } from "../../../utils";
 
 const Content = ({ images, name, rate, sale, sold, price, id }) => {
   const navigate = useNavigate();
@@ -108,7 +109,7 @@ const Content = ({ images, name, rate, sale, sold, price, id }) => {
             <h1 className="Content__info__name">{name}</h1>
             <div className="Content__info__rate">
               <span className="Content__info__rate__number">{rate}</span>
-              <Rate disabled defaultValue={rate} />
+              <Rate allowHalf disabled value={rate} />
               <span className="Content__info__rate__sold">({sold} Sold)</span>
             </div>
             <div className="Content__info__price">
@@ -116,7 +117,7 @@ const Content = ({ images, name, rate, sale, sold, price, id }) => {
                 <div className="Content__info__price__old">${price}</div>
               )}
               <div className="Content__info__price__current">
-                ${price * (1 - sale)}
+                {formatPrice(price * (1 - sale))}
               </div>
               {sale !== 0 && (
                 <div className="Content__info__price__sale">

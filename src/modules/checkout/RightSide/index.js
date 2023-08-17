@@ -50,7 +50,7 @@ const RightSide = () => {
         key: cart.id,
         product: cart.name,
         image: cart.images[0],
-        price: cart.price,
+        price: cart.price * (1 - cart.sale),
         quantity: cart.quantity,
         total: cart.price * cart.quantity * (1 - cart.sale),
       }))

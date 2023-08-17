@@ -4,16 +4,18 @@ import { Col, Row } from "antd";
 import "./RelatedProduct.scss";
 import { AppContext } from "../../../context";
 
-const RelatedProduct = (props) => {
+const RelatedProduct = ({ id, category }) => {
   const { products } = useContext(AppContext);
   const [productSimilar, setProductSimilar] = useState([]);
 
   useEffect(() => {
-    setProductSimilar(
-      // random 4 product
-      products.sort(() => Math.random() - 0.5).slice(0, 4)
+    const productSimilar = products.filter(
+      (product) => product.category_id === category && product.id !== id
     );
-  }, [props.id, products]);
+    setProductSimilar(
+      productSimilar.sort(() => Math.random() - 0.5).slice(0, 8)
+    );
+  }, [id, category, products]);
 
   return (
     <div className="RelatedProduct">
