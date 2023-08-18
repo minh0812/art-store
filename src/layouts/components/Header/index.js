@@ -36,18 +36,6 @@ const Header = () => {
       title: "Gallery",
       link: "/gallery",
     },
-    // {
-    //   title: <SearchOutlined />,
-    //   link: "/search",
-    // },
-    // {
-    //   title: <ShoppingCartOutlined />,
-    //   link: "/cart",
-    // },
-    // {
-    //   title: <UserOutlined />,
-    //   link: "/login",
-    // },
   ];
   const navigate = useNavigate();
   const location = useLocation();
@@ -110,7 +98,7 @@ const Header = () => {
                     marginRight: "8px",
                   }}
                   onPressEnter={(e) => {
-                    alert(e.target.value);
+                    navigate(`/products/search/${e.target.value}`);
                   }}
                 />
                 <SearchOutlined onClick={() => setShowSearch(!showSearch)} />

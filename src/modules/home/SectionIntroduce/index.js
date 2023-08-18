@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ButtonCustom from "../../../components/ButtonCustom";
 import "./SectionIntroduce.scss";
 
@@ -7,7 +7,7 @@ const SectionIntroduce = () => {
     "animate__backInLeft animate__delay-1s"
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     setTimeout(() => {
       setAnimate("animate__bounceIn animate__infinite animate__slow");
     }, 3000);

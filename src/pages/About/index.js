@@ -5,7 +5,13 @@ import About from "../../modules/about";
 const AboutPage = () => {
   return (
     <>
-      <Title title="About" items={["home", "about"]} />
+      <Title
+        title="About"
+        items={[
+          { content: "home", link: "/" },
+          { content: "about", link: "/about" },
+        ]}
+      />
       <About />
     </>
   );

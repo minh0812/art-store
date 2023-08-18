@@ -22,7 +22,9 @@ const SectionConcentratedWatercolors = () => {
               Watercolors offer the ease of traditional watercolors with the
               swiftness of a fluid.
             </p>
-            <ButtonCustom>Learn More</ButtonCustom>
+            <ButtonCustom to={"/products/category/concentrated-watercolors"}>
+              Learn More
+            </ButtonCustom>
           </div>
         </Col>
       </Row>

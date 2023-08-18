@@ -1,4 +1,4 @@
-import { Card, Rate } from "antd";
+import { Card, Rate, Tooltip } from "antd";
 import React from "react";
 import PropTypes from "prop-types";
 import "./Product.scss";
@@ -8,6 +8,7 @@ const Product = ({ name, sale, price, image, rate, sold, id }) => {
   const navigate = useNavigate();
 
   const handleProductClick = () => {
+    if (id === 0) return;
     navigate(`/products/${id}`);
   };
 
@@ -16,9 +17,11 @@ const Product = ({ name, sale, price, image, rate, sold, id }) => {
       <div className="Product__image">
         <img src={image} alt={name} />
       </div>
-      <h3 className="Product__name">
-        {name.length > 35 ? name.slice(0, 35) + "..." : name}
-      </h3>
+      <Tooltip title={name}>
+        <h3 className="Product__name">
+          {name.length > 35 ? name.slice(0, 35) + "..." : name}
+        </h3>
+      </Tooltip>
       <div className="Product__price">
         {sale !== 0 && (
           <p className="Product__price__real">{sale !== 0 && `$${price}`}</p>

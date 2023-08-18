@@ -1,0 +1,10 @@
+.RightSide {
+  padding: 0 5px 0 10px;
+  &__product {
+    display: flex;
+    align-items: center;
+    &:hover {
+      color: #eb4b16;
+    }
+  }
+}

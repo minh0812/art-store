@@ -7,8 +7,20 @@ const SectionWatercolorConfections = () => {
   return (
     <section className="SectionWatercolorConfections">
       <Row>
-        <Col  xs={24} sm={24} md={11}  xl={12} className="SectionWatercolorConfections__left"></Col>
-        <Col  xs={24} sm={24} md={13}  xl={12} className="SectionWatercolorConfections__right">
+        <Col
+          xs={24}
+          sm={24}
+          md={11}
+          xl={12}
+          className="SectionWatercolorConfections__left"
+        ></Col>
+        <Col
+          xs={24}
+          sm={24}
+          md={13}
+          xl={12}
+          className="SectionWatercolorConfections__right"
+        >
           <div className="SectionWatercolorConfections__right__content">
             <h1>Watercolor Confections®</h1>
             <ScrollAnimation animateIn="animate__slideInRight">
@@ -23,7 +35,9 @@ const SectionWatercolorConfections = () => {
               pigmented pans in a metal tin perfect for traveling and painting
               on the go.
             </p>
-            <ButtonCustom to="/">Learn More</ButtonCustom>
+            <ButtonCustom to="/products/category/watercolor-confections">
+              Learn More
+            </ButtonCustom>
           </div>
         </Col>
       </Row>

@@ -20,7 +20,7 @@ const SectionWaterSolubleOilPastels = () => {
               create a variety of blending techniques and gradients. Includes a
               variety of colors for endless blending and ease of use.
             </p>
-            <ButtonCustom>Learn More</ButtonCustom>
+            <ButtonCustom to={"/products/category/oil-pastels"}>Learn More</ButtonCustom>
           </div>
         </Col>
       </Row>
