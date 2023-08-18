@@ -1,11 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 import Product from "../../../components/Product";
 import "./ProductList.scss";
 import { Col, Row } from "antd";
-import { AppContext } from "../../../context";
 
-const ProductList = () => {
-  const { products } = useContext(AppContext);
+const ProductList = ({ products }) => {
   return (
     <div className="ProductList">
       <Row gutter={[16, 16]}>

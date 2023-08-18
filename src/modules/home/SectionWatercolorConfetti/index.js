@@ -20,7 +20,9 @@ const SectionWatercolorConfetti = () => {
             Art Philosophy. Included is a sturdy metal tin and mixing foldout
             well for easy color mixing.
           </p>
-          <ButtonCustom>Learn More</ButtonCustom>
+          <ButtonCustom to={"/products/category/watercolor-confetti"}>
+            Learn More
+          </ButtonCustom>
         </Col>
         <Col span={9}></Col>
       </Row>

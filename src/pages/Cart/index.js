@@ -11,7 +11,13 @@ const Cart = () => {
 
   return (
     <>
-      <Title title={"cart"} items={["home", "cart"]} />
+      <Title
+        title={"cart"}
+        items={[
+          { content: "home", link: "/" },
+          { content: "cart", link: "/cart" },
+        ]}
+      />
       <CartList />
     </>
   );

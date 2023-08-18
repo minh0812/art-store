@@ -57,7 +57,7 @@ const Gallery = () => {
     <Row gutter={[15, 15]} className="gallery" style={{ padding: "2% 10%" }}>
       <Image.PreviewGroup>
         {images.map((image, index) => (
-          <Col xs={24} sm={12} md={12} lg={8} xl={6}>
+          <Col xs={24} sm={12} md={12} lg={8} xl={6} key={index}>
             <Image src={image} alt="gallery" />
           </Col>
         ))}

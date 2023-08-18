@@ -5,6 +5,7 @@ import { Checkbox, Col, Row, Tooltip } from "antd";
 import { DeleteOutlined } from "@ant-design/icons";
 import { formatPrice } from "../../../utils";
 import { AppContext } from "../../../context";
+import { Link } from "react-router-dom";
 
 const CartItem = ({
   id,
@@ -29,8 +30,14 @@ const CartItem = ({
         <Checkbox checked={check} onChange={() => handleCheck(id)} />
       </Col>
       <Col span={8} className="CartItem__info">
-        <img src={images[0]} alt="product" className="CartItem__info__image" />
-        <div className="CartItem__info__name">{name}</div>
+        <Link to={`/products/${id}`}>
+          <img
+            src={images[0]}
+            alt="product"
+            className="CartItem__info__image"
+          />
+          <div className="CartItem__info__name">{name}</div>
+        </Link>
       </Col>
       <Col span={3} className="CartItem__price">
         {sale > 0 && (

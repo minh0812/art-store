@@ -7,7 +7,13 @@ import Title from "../../components/Title";
 const CheckoutPage = () => {
   return (
     <>
-      <Title title={"checkout"} items={["home", "checkout"]} />
+      <Title
+        title={"checkout"}
+        items={[
+          { content: "home", link: "/" },
+          { content: "checkout", link: "/checkout" },
+        ]}
+      />
       <Row>
         <LeftSide />
         <RightSide />

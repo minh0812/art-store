@@ -7,7 +7,14 @@ const SectionMetallicAccents = () => {
   return (
     <section className="SectionMetallicAccents">
       <Row>
-        <Col  xs={24} sm={24} md={12} lg={12} xl={12} className="SectionMetallicAccents__left">
+        <Col
+          xs={24}
+          sm={24}
+          md={12}
+          lg={12}
+          xl={12}
+          className="SectionMetallicAccents__left"
+        >
           <div className="SectionMetallicAccents__left__content">
             <h1>METALLIC ACCENTS</h1>
             <ScrollAnimation animateIn="animate__slideInLeft">
@@ -20,7 +27,9 @@ const SectionMetallicAccents = () => {
               light and dark surfaces and adds a reflective effect on most
               surfaces.
             </p>
-            <ButtonCustom>Learn More</ButtonCustom>
+            <ButtonCustom to={"/products/category/metallic-accents"}>
+              Learn More
+            </ButtonCustom>
           </div>
         </Col>
         <Col></Col>

@@ -153,10 +153,16 @@ const KitsPage = () => {
 
   return (
     <>
-      <Title title={"kits"} items={["home", "kits"]} />
+      <Title
+        title={"kits"}
+        items={[
+          { content: "home", link: "/" },
+          { content: "kits", link: "/kits" },
+        ]}
+      />
       <Row gutter={[16, 16]} style={{ padding: "20px" }}>
-        {kits.map((kit) => (
-          <Col xs={24} sm={12} md={12} lg={6} xl={6}>
+        {kits.map((kit, index) => (
+          <Col xs={24} sm={12} md={12} lg={6} xl={6} key={index}>
             <Product
               key={kit.id}
               name={kit.name}
@@ -165,7 +171,6 @@ const KitsPage = () => {
               image={kit.images[0]}
               rate={4}
               sold={100}
-              id={kit.id}
             />
           </Col>
         ))}

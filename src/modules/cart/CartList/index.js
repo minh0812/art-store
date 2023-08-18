@@ -84,7 +84,7 @@ const CartList = () => {
       <div className="CartList__footer">
         <div className="CartList__footer__left">
           <div className="CartList__footer__left__selectAll">
-            <Checkbox onChange={handleCheckAll} value={checkAll} />
+            <Checkbox onChange={handleCheckAll} checked={checkAll} />
             <span className="CartList__footer__left__selectAll__title">
               Select all
             </span>

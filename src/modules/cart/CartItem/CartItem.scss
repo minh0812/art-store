@@ -7,8 +7,13 @@
   border-bottom: 1px solid #f2f2f2;
   background: #fff;
   &__info {
-    display: flex;
-    align-items: center;
+    a {
+      display: flex;
+      align-items: center;
+      &:hover {
+        color: #eb4b16;
+      }
+    }
     &__image {
       width: 100px;
       height: 100px;

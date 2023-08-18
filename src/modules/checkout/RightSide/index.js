@@ -2,6 +2,8 @@ import { Col, Table } from "antd";
 import React, { useContext, useEffect, useState } from "react";
 import { AppContext } from "../../../context";
 import { formatPrice } from "../../../utils";
+import { Link } from "react-router-dom";
+import "./RightSide.scss";
 
 const columns = [
   {
@@ -9,14 +11,18 @@ const columns = [
     dataIndex: "product",
     key: "product",
     render: (_, cart) => (
-      <div style={{ display: "flex", alignItems: "center" }}>
+      <Link
+        to={`/products/${cart.key}`}
+        style={{  }}
+        className="RightSide__product"
+      >
         <img
           style={{ width: "50px", height: "50px", marginRight: "10px" }}
           src={cart.image}
           alt={cart.product}
         />
         <span>{cart.product}</span>
-      </div>
+      </Link>
     ),
   },
   {
@@ -40,7 +46,6 @@ const columns = [
 const RightSide = () => {
   const { carts } = useContext(AppContext);
   const [cartCheckout, setCartCheckout] = useState([]);
-  const [total, setTotal] = useState(0);
 
   useEffect(() => {
     if (!carts) return;
@@ -55,19 +60,10 @@ const RightSide = () => {
         total: cart.price * cart.quantity * (1 - cart.sale),
       }))
     );
-    setTotal(
-      data.reduce(
-        (total, cart) =>
-          cart.check
-            ? total + cart.price * cart.quantity * (1 - cart.sale)
-            : total,
-        0
-      )
-    );
   }, [carts]);
 
   return (
-    <Col  xs={24} sm={24} md={12} xl={12} style={{ padding: "0 5px 0 10px" }}>
+    <Col className="RightSide" xs={24} sm={24} md={12} xl={12}>
       <Table pagination={false} columns={columns} dataSource={cartCheckout} />
     </Col>
   );

@@ -20,7 +20,14 @@ const ProductID = () => {
   return (
     product && (
       <>
-        <Title title={"product"} items={["home", "product", product.name]} />
+        <Title
+          title={"product"}
+          items={[
+            { content: "home", link: "/" },
+            { content: "products", link: "/products" },
+            { content: product.name },
+          ]}
+        />
         <Content
           id={product.id}
           name={product.name}

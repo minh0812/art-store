@@ -9,8 +9,6 @@
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_3-768x768.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_1-2-768x768.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_2-2-768x768.jpg",
-      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_2-2-768x768.jpg",
-      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_2-2-768x768.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_5-768x960.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_7-768x768.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350595791_8-768x825.jpg",
@@ -35,19 +33,12 @@
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_2-1.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_3-1-768x768.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_1-2-768x768.jpg",
-      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_1-2-768x768.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_3-2-768x768.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_4.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_5-768x768.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_6-768x1024.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_7-768x768.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_8-768x768.jpg",
-      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
-      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
-      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
-      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
-      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
-      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_10-768x1024.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785_18-768x826.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350639785-2-768x768.jpg"
     ],
@@ -127,7 +118,6 @@
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_1-1-768x768.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_2.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_3-768x768.jpg",
-      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_1-2-768x880.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_1-2-768x880.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_3-1-768x960.jpg",
       "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631543_4-768x767.jpg",
@@ -376,5 +366,507 @@
     "sold": 100,
     "sale": 0.2,
     "rate": 5
+  },
+  {
+    "id": 15,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641498.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641498_1.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641498_2.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Aegean",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 16,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641474.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Azure",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 17,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641382.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Blush",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 18,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641399.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Bright Pink",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 19,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641504.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641504_1-768x768.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Denim",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 20,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641436.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Ginger",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 21,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641443.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641443_1-768x768.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Moss",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 22,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641429.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641429_1.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Honey",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 23,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641412.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Marigold",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 24,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641375.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Rose",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 25,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641481.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Peacock",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 26,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641467.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Rust",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 27,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641450.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Mushroom",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 28,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350641405.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Squash",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 29,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633660.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633660_1-1-768x768.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Fire Brick",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 30,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633653.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Candy",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 31,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633806.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Bora Bora",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 32,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633783.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Cafe",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 33,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633752.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Emerald",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 34,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633707.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Clarity",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 35,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633639.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Diva",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 36,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633813.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Onyx",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 37,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633738.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Lucky",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 38,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633684.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Mystic",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 39,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633622.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Orange Red",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 40,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633714.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Seagreen",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 41,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633615.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633615_1-1-768x768.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Tangerine",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 42,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633608.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633608_1-1-768x768.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Taxi",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 43,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633721.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633721_1-1-768x960.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - Tree",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 44,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350633691.jpg"
+    ],
+    "price": 7.99,
+    "description": "Discover a new and colorful way to create art! Our new concentrated watercolors offer pure concentrated watercolor pigment in fluid form for easy and truly spectacular watercolor effects. Blend, mix and discover the amazing shade ranges possible from rich and dark to light and translucent. The color possibilities are endless.",
+    "name": "Art Philosophy Concentrated Watercolor 0.5 FL.OZ - True",
+    "quantity": 50,
+    "category": "concentrated-watercolors",
+    "sold": 100,
+    "sale": 0,
+    "rate": 5
+  },
+  {
+    "id": 45,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590802.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/oil-pastels-viddhi-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/oil-pastels-anna-k-dearannart-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/oil-pastels-murchana-768x576.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/oil-pastel-shanan-2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/oil-pastels-preeti-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590802_5-768x679.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590802_6-768x744.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590802_7-768x501.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590802_8-768x534.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590802_9-768x856.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590802_10-768x722.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590802_11-768x575.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590802_12-768x623.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590802_13.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350590802-1-768x768.jpg"
+    ],
+    "price": 21.99,
+    "description": "Blend, color and layer, our Art Philosophy Oil Pastels offer a higher grade of color and pigmentation for a truly beautiful finish every time. Mix and blend our pastels for a customized color palette. Includes a variety of colors for every artistic endeavor.",
+    "name": "Soft Oil Pastels Artist Grade",
+    "quantity": 50,
+    "category": "oil-pastels",
+    "sold": 100,
+    "sale": 0.2,
+    "rate": 4.5
+  },
+  {
+    "id": 46,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631925-1.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631925_2-1-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/oil-pastels-garima-cone-flowers-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/oil-pastel-natalia-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631925_1_1-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631925_2_1.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631925_3-768x512.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631925_4-768x768.jpg"
+    ],
+    "price": 13.99,
+    "description": "Get the creamy look of oil with the practicality of watercolor when you use Water Soluble Oil Pastels from Art Philosophy by Prima Marketing! In the Basics Set, you’ll find 12 luscious colors that can be used dry or with water. Use these gorgeous pigments like dark ochre, cadmium green and Lavender Collection on a heavy weight or watercolor paper to create jaw-dropping backgrounds, drawings, artist effects, and more! This package contains all of the colors you need to mix your favorite tones and hues.",
+    "name": "Watersoluble Oil Pastels Basics",
+    "quantity": 50,
+    "category": "oil-pastels",
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
+  },
+  {
+    "id": 47,
+    "images": [
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631932-1.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631932_2-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/oil-pastels-viddhi-3-768x814.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/oil-pastels-by_the_lakeside--768x949.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2020/02/oil-pastels-water-soluble-garima-srivastava-768x1024.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631932_2-1-768x504.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631932_3-768x451.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631932_4-768x512.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631932_7-768x768.jpg",
+      "https://www.artphilosophy.com/wp-content/uploads/2019/11/655350631932_8-768x1152.jpg"
+    ],
+    "price": 13.99,
+    "description": "Get the best of both worlds with the Rustic Set of Water Soluble Oil Pastels from Prima Marketing. This is a set of 12 luscious pastels from the Art Philosophy Collection. Why are these richly-pigmented pastels the best of both worlds? These pastels offer the creaminess of oil pastels, but are water soluble! Use them dry or grab up your favorite brush and add water for unique, dreamy effects. This set includes must-have hues like vermilion, prussian blue, salmon pink, and more. You will have a blast mixing and matching these neutrals and jewel tones to create drawings, backgrounds, abstract designs, and whatever your imagination inspires!",
+    "name": "Watersoluble Oil Pastels Rustic",
+    "quantity": 50,
+    "category": "oil-pastels",
+    "sold": 100,
+    "sale": 0.15,
+    "rate": 4
   }
 ]
