@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 const LeftSide = () => {
   const navigate = useNavigate();
   const { carts, setCarts } = useContext(AppContext);
+  const [paymentMethod, setPaymentMethod] = useState("cod");
   const [total, setTotal] = useState(0);
 
   const handleCheckout = () => {
@@ -104,17 +105,56 @@ const LeftSide = () => {
           name="paymentMethod"
           rules={[{ required: true, message: "Please select payment method" }]}
         >
-          <Radio.Group>
+          <Radio.Group onChange={(e) => setPaymentMethod(e.target.value)}>
             <Radio value="cod">COD</Radio>
-            <Radio value="bank" disabled>
-              Bank Transfer
-            </Radio>
+            <Radio value="credit-card">Credit Card</Radio>
             <Radio value="paypal" disabled>
               Paypal
             </Radio>
           </Radio.Group>
         </Form.Item>
-
+        {paymentMethod === "credit-card" && (
+          <div>
+            <h2 style={{ textTransform: "uppercase" }}>Credit Card</h2>
+            <Form.Item
+              name="nameOfCard"
+              rules={[
+                { required: true, message: "Please input name of card!" },
+              ]}
+            >
+              <Input placeholder="Name Of Card" />
+            </Form.Item>
+            <Form.Item
+              name="cardNumber"
+              rules={[{ required: true, message: "Please input card number!" }]}
+            >
+              <Input placeholder="Card Number" />
+            </Form.Item>
+            <Row gutter={16}>
+              <Col span={12}>
+                <Form.Item
+                  name="expirationDate"
+                  rules={[
+                    {
+                      required: true,
+                      message: "Please input expiration date!",
+                    },
+                  ]}
+                >
+                  <Input placeholder="Expiration Date" />
+                </Form.Item>
+              </Col>
+              <Col span={12}>
+                <Form.Item
+                  name="cvv"
+                  rules={[{ required: true, message: "Please input CVV!" }]}
+                >
+                  <Input placeholder="CVV" />
+                </Form.Item>
+              </Col>
+            </Row>
+          </div>
+        )}
         <Form.Item>
           <div
             style={{
