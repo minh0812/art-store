@@ -23,6 +23,9 @@ const ProductsPage = () => {
     if (search) {
       setFilter({ ...filter, search: search });
     }
+    if (!category && !search) {
+      setFilter({ ...filter, category: [], search: "" });
+    }
     window.scrollTo(0, 0);
   }, [category, search]); // eslint-disable-line react-hooks/exhaustive-deps
 
