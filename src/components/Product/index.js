@@ -17,7 +17,7 @@ const Product = ({ name, sale, price, image, rate, sold, id }) => {
         <img src={image} alt={name} />
       </div>
       <h3 className="Product__name">
-        {name.length > 40 ? name.slice(0, 40) + "..." : name}
+        {name.length > 35 ? name.slice(0, 35) + "..." : name}
       </h3>
       <div className="Product__price">
         {sale !== 0 && (
@@ -28,7 +28,7 @@ const Product = ({ name, sale, price, image, rate, sold, id }) => {
         </p>
       </div>
       <div className="Product__rating">
-        <Rate allowHalf defaultValue={rate} disabled />
+        <Rate allowHalf value={rate} disabled />
         <span> ({sold})</span>
       </div>
     </Card>
