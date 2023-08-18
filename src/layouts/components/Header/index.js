@@ -98,6 +98,9 @@ const Header = () => {
                     marginRight: "8px",
                   }}
                   onPressEnter={(e) => {
+                    if (e.target.value === "") {
+                      navigate("/products");
+                    }
                     navigate(`/products/search/${e.target.value}`);
                   }}
                 />
