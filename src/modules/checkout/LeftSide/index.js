@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { formatPrice } from "../../../utils";
 import { AppContext } from "../../../context";
 import { useNavigate } from "react-router-dom";
+import PayPal from "../../../components/PayPal";
 
 const LeftSide = () => {
   const navigate = useNavigate();
@@ -27,7 +28,8 @@ const LeftSide = () => {
           : total,
       0
     );
-    setTotal(newTotal);
+    // round the integral to 2 digits
+    setTotal(Math.round(newTotal * 100) / 100);
   }, [carts]);
 
   return (
@@ -99,8 +101,13 @@ const LeftSide = () => {
         <Form.Item name="note">
           <Input.TextArea placeholder="Order Note" />
         </Form.Item>
-
-        <h2 style={{ textTransform: "uppercase" }}>Payment Method</h2>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <h2 style={{ textTransform: "uppercase" }}>Payment Method</h2>
+          <h2>
+            Total:{" "}
+            <span style={{ color: "#eb4b16" }}>{formatPrice(total)}</span>
+          </h2>
+        </div>
         <Form.Item
           name="paymentMethod"
           rules={[{ required: true, message: "Please select payment method" }]}
@@ -108,9 +115,7 @@ const LeftSide = () => {
           <Radio.Group onChange={(e) => setPaymentMethod(e.target.value)}>
             <Radio value="cod">COD</Radio>
             <Radio value="credit-card">Credit Card</Radio>
-            <Radio value="paypal" disabled>
-              Paypal
-            </Radio>
+            <Radio value="paypal">Paypal</Radio>
           </Radio.Group>
         </Form.Item>
         {paymentMethod === "credit-card" && (
@@ -155,22 +160,17 @@ const LeftSide = () => {
             </Row>
           </div>
         )}
-        <Form.Item>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "flex-end",
-              alignItems: "center",
-            }}
+        {paymentMethod === "paypal" && (
+          <PayPal total={total} handleCheckout={handleCheckout} />
+        )}
+        <Form.Item hidden={paymentMethod === "paypal"}>
+          <Button
+            style={{ float: "right", marginTop: "10px" }}
+            type="primary"
+            htmlType="submit"
           >
-            <h2>
-              Total:{" "}
-              <span style={{ color: "#eb4b16" }}>{formatPrice(total)}</span>
-            </h2>
-            <Button style={{ marginLeft: 10 }} type="primary" htmlType="submit">
-              Place Order
-            </Button>
-          </div>
+            Place Order
+          </Button>
         </Form.Item>
       </Form>
     </Col>
