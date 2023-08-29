@@ -6,8 +6,19 @@ import PropTypes from "prop-types";
 import { AppContext } from "../../../context";
 import { useNavigate } from "react-router-dom";
 import { formatPrice } from "../../../utils";
+import Review from "../../../components/Review";
 
-const Content = ({ images, name, rate, sale, sold, price, id, description }) => {
+const Content = ({
+  images,
+  name,
+  rate,
+  sale,
+  sold,
+  price,
+  id,
+  description,
+  reviews,
+}) => {
   const navigate = useNavigate();
   const { carts, setCarts, isLogin } = useContext(AppContext);
   const [mainImage, setMainImage] = useState("");
@@ -180,9 +191,28 @@ const Content = ({ images, name, rate, sale, sold, price, id, description }) => 
       </Row>
       <div className="Content__description">
         <h2 className="Content__description__title">Description</h2>
-        <p className="Content__description__content">
-          {description}
-        </p>
+        <p className="Content__description__content">{description}</p>
+      </div>
+      <div className="Content__reviews">
+        <h2 className="Content__reviews__title">Reviews</h2>
+        <div className="Content__reviews__content">
+          {reviews.length === 0 ? (
+            <p>There are no reviews yet.</p>
+          ) : (
+            <div className="Content__reviews__list">
+              {reviews.map((review, index) => (
+                <Review
+                  key={index}
+                  avt={review.avatar}
+                  name={review.name}
+                  rate={review.rate}
+                  content={review.content}
+                  images={review.images}
+                />
+              ))}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
@@ -197,6 +227,7 @@ Content.propTypes = {
   sold: PropTypes.number,
   price: PropTypes.number,
   description: PropTypes.string,
+  reviews: PropTypes.array,
 };
 
 Content.defaultProps = {
@@ -208,6 +239,7 @@ Content.defaultProps = {
   sold: 0,
   price: 0,
   description: "",
+  reviews: [],
 };
 
 export default Content;

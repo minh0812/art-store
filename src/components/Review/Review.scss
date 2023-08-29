@@ -1,0 +1,38 @@
+.Review {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    .ant-avatar {
+      margin-right: 10px;
+    }
+    &__info {
+      &__name {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+      .ant-rate {
+        font-size: 16px;
+      }
+    }
+  }
+  &__content {
+    &__text {
+      margin: 10px 0;
+    }
+    &__images {
+      .ant-image {
+        margin-right: 10px;
+      }
+    }
+  }
+}

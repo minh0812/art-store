@@ -19,7 +19,7 @@ const RelatedProduct = ({ id, category }) => {
 
   return (
     <div className="RelatedProduct">
-      <h1 className="RelatedProduct__title">Related products</h1>
+      <h2 className="RelatedProduct__title">Related products</h2>
       <Row gutter={[16, 16]}>
         {productSimilar.map((product, index) => (
           <Col xs={24} sm={12} md={12} lg={6} xl={6} key={index}>

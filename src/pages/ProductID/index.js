@@ -37,6 +37,7 @@ const ProductID = () => {
           sold={product.sold}
           sale={product.sale}
           description={product.description}
+          reviews={product.reviews}
         />
         <SimilarProduct id={product.id} category={product.category} />
       </>
