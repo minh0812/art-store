@@ -5,11 +5,12 @@ import {
   ShoppingCartOutlined,
   UserOutlined,
   LogoutOutlined,
+  MenuOutlined,
 } from "@ant-design/icons";
 
 import Logo from "../../../assets/images/bigLogo.png";
 import "./Header.scss";
-import { Avatar, Badge, Dropdown, Input } from "antd";
+import { Avatar, Badge, Dropdown, Input, Space } from "antd";
 import { useContext } from "react";
 import { AppContext } from "../../../context";
 import { useEffect } from "react";
@@ -44,7 +45,45 @@ const Header = () => {
     useContext(AppContext);
   const [cartCount, setCartCount] = useState(0);
 
-  const items = [
+  const itemsMenu = [
+    {
+      key: "1",
+      label: "Home",
+      onClick: () => {
+        navigate("/");
+      },
+    },
+    {
+      key: "2",
+      label: "Kits",
+      onClick: () => {
+        navigate("/kits");
+      },
+    },
+    {
+      key: "3",
+      label: "Products",
+      onClick: () => {
+        navigate("/products");
+      },
+    },
+    {
+      key: "4",
+      label: "About",
+      onClick: () => {
+        navigate("/about");
+      },
+    },
+    {
+      key: "5",
+      label: "Gallery",
+      onClick: () => {
+        navigate("/gallery");
+      },
+    },
+  ];
+
+  const itemsLogout = [
     {
       key: "1",
       label: "Logout",
@@ -57,6 +96,7 @@ const Header = () => {
       },
     },
   ];
+
   useEffect(() => {
     let count = 0;
     carts.forEach((cart) => {
@@ -66,84 +106,114 @@ const Header = () => {
   }, [carts]);
 
   return (
-    <header>
-      <div className="container">
-        <div
-          className="header"
-          style={{ position: location.pathname !== "/" && "relative" }}
-        >
-          <Link to="/">
-            <img src={Logo} alt="logo" className="header__logo" />
-          </Link>
-          <ul className="header__menu">
-            {NAVBAR.map((item, index) => {
-              return (
-                <li
-                  key={index}
-                  className={
-                    "header__menu__item" +
-                    (location.pathname === item.link ? " activate" : "")
-                  }
-                >
-                  <Link to={item.link}>{item.title}</Link>
-                </li>
-              );
-            })}
-            <li>
-              <div style={{ display: "flex", marginLeft: "22px" }}>
-                <Input
-                  placeholder="Search"
-                  style={{
-                    display: showSearch ? "block" : "none",
-                    marginRight: "8px",
-                  }}
-                  onPressEnter={(e) => {
-                    setShowSearch(!showSearch);
-                    navigate(`/products/search/${e.target.value}`);
-                  }}
-                />
-                <SearchOutlined onClick={() => setShowSearch(!showSearch)} />
-              </div>
-            </li>
-            {isLogin && (
-              <li
-                className={
-                  "header__menu__item" +
-                  (location.pathname === "/cart" ? " activate" : "")
-                }
-              >
-                <Link to="/cart">
-                  <Badge count={cartCount} offset={[5, 0]}>
-                    <ShoppingCartOutlined style={{ fontSize: "18px" }} />
-                  </Badge>
-                </Link>
-              </li>
-            )}
+    <header
+      className="header"
+      style={{ position: location.pathname !== "/" && "relative" }}
+    >
+      <Link to="/">
+        <img src={Logo} alt="logo" className="header__logo" />
+      </Link>
+      {window.innerWidth < 800 ? (
+        <>
+          <Space align="center" size={25} style={{ marginLeft: "auto" }}>
+            <SearchOutlined />
+            <Link to="/cart">
+              <Badge count={cartCount} offset={[5, 0]}>
+                <ShoppingCartOutlined style={{ fontSize: "18px" }} />
+              </Badge>
+            </Link>
             {isLogin ? (
-              <li style={{ cursor: "pointer", marginLeft: "32px" }}>
-                <Dropdown menu={{ items }}>
-                  <Avatar
-                    src={
-                      "https://i.pinimg.com/564x/54/db/23/54db23b3ec2715a44be5d7cc2135df69.jpg"
-                    }
-                  />
-                </Dropdown>
-              </li>
+              <Dropdown
+                menu={{
+                  items: itemsLogout,
+                }}
+              >
+                <Avatar
+                  src={
+                    "https://i.pinimg.com/564x/54/db/23/54db23b3ec2715a44be5d7cc2135df69.jpg"
+                  }
+                />
+              </Dropdown>
             ) : (
+              <Link to="/login">
+                <UserOutlined />
+              </Link>
+            )}
+
+            <Dropdown menu={{ items: itemsMenu }}>
+              <MenuOutlined />
+            </Dropdown>
+          </Space>
+        </>
+      ) : (
+        <ul className="header__menu">
+          {NAVBAR.map((item, index) => {
+            return (
               <li
+                key={index}
                 className={
                   "header__menu__item" +
-                  (location.pathname === "/login" ? " activate" : "")
+                  (location.pathname === item.link ? " activate" : "")
                 }
               >
-                <Link to="/login">
-                  <UserOutlined />
-                </Link>
+                <Link to={item.link}>{item.title}</Link>
               </li>
-            )}
-          </ul>
-        </div>
-      </div>
+            );
+          })}
+          <li>
+            <div style={{ display: "flex", marginLeft: "22px" }}>
+              <Input
+                placeholder="Search"
+                style={{
+                  display: showSearch ? "block" : "none",
+                  marginRight: "8px",
+                }}
+                onPressEnter={(e) => {
+                  setShowSearch(!showSearch);
+                  navigate(`/products/search/${e.target.value}`);
+                }}
+              />
+              <SearchOutlined onClick={() => setShowSearch(!showSearch)} />
+            </div>
+          </li>
+          {isLogin && (
+            <li
+              className={
+                "header__menu__item" +
+                (location.pathname === "/cart" ? " activate" : "")
+              }
+            >
+              <Link to="/cart">
+                <Badge count={cartCount} offset={[5, 0]}>
+                  <ShoppingCartOutlined style={{ fontSize: "18px" }} />
+                </Badge>
+              </Link>
+            </li>
+          )}
+          {isLogin ? (
+            <li style={{ cursor: "pointer", marginLeft: "32px" }}>
+              <Dropdown menu={{ items: itemsLogout }}>
+                <Avatar
+                  src={
+                    "https://i.pinimg.com/564x/54/db/23/54db23b3ec2715a44be5d7cc2135df69.jpg"
+                  }
+                />
+              </Dropdown>
+            </li>
+          ) : (
+            <li
+              className={
+                "header__menu__item" +
+                (location.pathname === "/login" ? " activate" : "")
+              }
+            >
+              <Link to="/login">
+                <UserOutlined />
+              </Link>
+            </li>
+          )}
+        </ul>
+      )}
     </header>
   );
 };

@@ -8,7 +8,14 @@ const SectionWaterSolubleOilPastels = () => {
   return (
     <section className="SectionWaterSolubleOilPastels">
       <Row>
-        <Col span={12} className="SectionWaterSolubleOilPastels__left">
+        <Col
+          xs={24}
+          sm={24}
+          md={24}
+          lg={12}
+          xl={12}
+          className="SectionWaterSolubleOilPastels__left"
+        >
           <div className="SectionWaterSolubleOilPastels__left__content">
             <h1>WATER SOLUBLE OIL PASTELS</h1>
             <ScrollAnimation animateIn="animate__slideInLeft">
@@ -20,9 +27,19 @@ const SectionWaterSolubleOilPastels = () => {
               create a variety of blending techniques and gradients. Includes a
               variety of colors for endless blending and ease of use.
             </p>
-            <ButtonCustom to={"/products/category/oil-pastels"}>Learn More</ButtonCustom>
+            <ButtonCustom to={"/products/category/oil-pastels"}>
+              Learn More
+            </ButtonCustom>
           </div>
         </Col>
+        <Col
+          xs={24}
+          sm={24}
+          md={24}
+          lg={12}
+          xl={12}
+          className="SectionWaterSolubleOilPastels__right"
+        ></Col>
       </Row>
     </section>
   );
