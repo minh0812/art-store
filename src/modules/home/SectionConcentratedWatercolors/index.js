@@ -6,8 +6,15 @@ import ScrollAnimation from "react-animate-on-scroll";
 const SectionConcentratedWatercolors = () => {
   return (
     <section className="SectionConcentratedWatercolors">
-      <Row>
-        <Col span={12} className="SectionConcentratedWatercolors__content">
+      <Row className="SectionConcentratedWatercolors__content">
+        <Col
+          xs={24}
+          sm={24}
+          md={24}
+          lg={12}
+          xl={12}
+          className="SectionConcentratedWatercolors__content__left"
+        >
           <div>
             <h1>CONCENTRATED WATERCOLORS</h1>
             <ScrollAnimation animateIn="animate__slideInLeft">

@@ -8,7 +8,14 @@ const SectionWatercolorConfetti = () => {
   return (
     <section className="SectionWatercolorConfetti">
       <Row className="SectionWatercolorConfetti__content">
-        <Col span={9} className="SectionWatercolorConfetti__content__left">
+        <Col
+          xs={24}
+          sm={24}
+          md={24}
+          lg={12}
+          xl={12}
+          className="SectionWatercolorConfetti__content__left"
+        >
           <h1>Watercolor Confetti</h1>
           <ScrollAnimation animateIn="animate__slideInLeft">
             <div className="SectionWatercolorConfections__right__separator"></div>
@@ -24,7 +31,6 @@ const SectionWatercolorConfetti = () => {
             Learn More
           </ButtonCustom>
         </Col>
-        <Col span={9}></Col>
       </Row>
     </section>
   );

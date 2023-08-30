@@ -30,4 +30,23 @@
       }
     }
   }
+  @media screen and (max-width: 1024px) {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    &__left {
+      padding: 10%;
+      &__content {
+        h1 {
+          font-size: 42px;
+          line-height: 46px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
 }

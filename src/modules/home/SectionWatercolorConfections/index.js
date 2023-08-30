@@ -10,14 +10,14 @@ const SectionWatercolorConfections = () => {
         <Col
           xs={24}
           sm={24}
-          md={11}
+          md={12}
           xl={12}
           className="SectionWatercolorConfections__left"
         ></Col>
         <Col
           xs={24}
           sm={24}
-          md={13}
+          md={12}
           xl={12}
           className="SectionWatercolorConfections__right"
         >

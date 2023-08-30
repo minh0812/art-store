@@ -7,11 +7,11 @@
   min-height: 100vh;
 
   &__content {
-    justify-content: center;
     min-height: 100vh;
     &__left {
       font-family: Poppins, sans-serif;
-      margin: auto;
+      margin: auto 0;
+      padding: 6%;
       h1 {
         font-size: 52px;
         font-weight: 500;
@@ -34,6 +34,24 @@
         background-color: #ffffffe3;
         padding: 10px;
         margin-bottom: 40px;
+      }
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    &__content {
+      &__left {
+        h1 {
+          font-size: 42px;
+          line-height: 46px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 28px;
+        }
       }
     }
   }

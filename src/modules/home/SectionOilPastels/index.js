@@ -8,7 +8,6 @@ const SectionOilPastels = () => {
   return (
     <section className="SectionOilPastels">
       <Row>
-        <Col xs={24} sm={24} md={24} lg={12} xl={12}></Col>
         <Col
           xs={24}
           sm={24}
@@ -16,8 +15,16 @@ const SectionOilPastels = () => {
           lg={12}
           xl={12}
           className="SectionOilPastels__left"
+        ></Col>
+        <Col
+          xs={24}
+          sm={24}
+          md={24}
+          lg={12}
+          xl={12}
+          className="SectionOilPastels__right"
         >
-          <div className="SectionOilPastels__left__content">
+          <div className="SectionOilPastels__right__content">
             <h1>Oil Pastels</h1>
             <ScrollAnimation animateIn="animate__slideInRight">
               <div className="SectionWatercolorConfections__right__separator"></div>
@@ -29,7 +36,9 @@ const SectionOilPastels = () => {
               color palette. Includes a variety of colors for every artistic
               endeavor.
             </p>
-            <ButtonCustom to={"/products/category/oil-pastels"}>Learn More</ButtonCustom>
+            <ButtonCustom to={"/products/category/oil-pastels"}>
+              Learn More
+            </ButtonCustom>
           </div>
         </Col>
       </Row>

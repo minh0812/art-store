@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <Row>
-        <Col span={6} className="footer__col">
+        <Col xs={24} sm={24} md={12} lg={6} xl={6} className="footer__col">
           <h3>About us</h3>
           <p>
             We are as colorful as your imagination, Art Philosophy, Inc.® is all
@@ -29,7 +29,7 @@ const Footer = () => {
           </p>
         </Col>
 
-        <Col span={6} className="footer__col">
+        <Col xs={24} sm={24} md={12} lg={6} xl={6} className="footer__col">
           <h3>Shop menu</h3>
           <ul>
             <li>
@@ -47,7 +47,7 @@ const Footer = () => {
           </ul>
         </Col>
 
-        <Col span={6} className="footer__col">
+        <Col xs={24} sm={24} md={12} lg={6} xl={6} className="footer__col">
           <h3>Help</h3>
           <ul>
             <li>
@@ -65,7 +65,7 @@ const Footer = () => {
           </ul>
         </Col>
 
-        <Col span={6} className="footer__col">
+        <Col xs={24} sm={24} md={12} lg={6} xl={6} className="footer__col">
           <h3>Follow us</h3>
           <ul className="footer__col__social">
             <li>
