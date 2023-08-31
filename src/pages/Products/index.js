@@ -53,10 +53,10 @@ const ProductsPage = () => {
         ]}
       />
       <Row>
-        <Col span={5}>
+        <Col xs={0} sm={0} md={0} lg={5} xl={5}>
           <NavLeft filter={filter} setFilter={setFilter} />
         </Col>
-        <Col span={19}>
+        <Col xs={24} sm={24} md={24} lg={19} xl={19}>
           <ProductList products={productsFilter} />
         </Col>
       </Row>

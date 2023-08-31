@@ -40,7 +40,7 @@ const CartItem = ({
         </Link>
       </Col>
       <Col span={3} className="CartItem__price">
-        {sale > 0 && (
+        {sale > 0 && window.innerWidth >= 1024 && (
           <div className="CartItem__price__old">{formatPrice(price)}</div>
         )}
         <div className="CartItem__price__current">

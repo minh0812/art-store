@@ -41,7 +41,7 @@ const LeftSide = () => {
       >
         <h2 style={{ textTransform: "uppercase" }}>Billing Information</h2>
         <Row gutter={16}>
-          <Col span={12}>
+          <Col xs={24} sm={24} md={12} xl={12}>
             <Form.Item
               name="fullName"
               rules={[{ required: true, message: "Please input your name!" }]}
@@ -49,7 +49,7 @@ const LeftSide = () => {
               <Input placeholder="Full name" />
             </Form.Item>
           </Col>
-          <Col span={12}>
+          <Col xs={24} sm={24} md={12} xl={12}>
             <Form.Item
               name="email"
               rules={[{ required: true, message: "Please input your email!" }]}
@@ -59,7 +59,7 @@ const LeftSide = () => {
           </Col>
         </Row>
         <Row gutter={16}>
-          <Col span={12}>
+          <Col xs={24} sm={24} md={12} xl={12}>
             <Form.Item
               name="phone"
               rules={[{ required: true, message: "Please input your phone!" }]}
@@ -67,7 +67,7 @@ const LeftSide = () => {
               <Input placeholder="Phone" />
             </Form.Item>
           </Col>
-          <Col span={12}>
+          <Col xs={24} sm={24} md={12} xl={12}>
             <Form.Item
               name="city"
               rules={[{ required: true, message: "Please input your city!" }]}
@@ -77,7 +77,7 @@ const LeftSide = () => {
           </Col>
         </Row>
         <Row gutter={16}>
-          <Col span={12}>
+          <Col xs={24} sm={24} md={12} xl={12}>
             <Form.Item
               name="address"
               rules={[
@@ -87,7 +87,7 @@ const LeftSide = () => {
               <Input placeholder="Address" />
             </Form.Item>
           </Col>
-          <Col span={12}>
+          <Col xs={24} sm={24} md={12} xl={12}>
             <Form.Item
               name="district"
               rules={[
