@@ -18,7 +18,7 @@ const SectionWaterSolubleOilPastels = () => {
         >
           <div className="SectionWaterSolubleOilPastels__left__content">
             <h1>WATER SOLUBLE OIL PASTELS</h1>
-            <ScrollAnimation animateIn="animate__slideInLeft">
+            <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
               <div className="SectionWatercolorConfections__right__separator"></div>
             </ScrollAnimation>
             <p>

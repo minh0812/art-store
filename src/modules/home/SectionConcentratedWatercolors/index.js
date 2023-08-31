@@ -17,7 +17,7 @@ const SectionConcentratedWatercolors = () => {
         >
           <div>
             <h1>CONCENTRATED WATERCOLORS</h1>
-            <ScrollAnimation animateIn="animate__slideInLeft">
+            <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
               <div className="SectionWatercolorConfections__right__separator"></div>
             </ScrollAnimation>
             <p>

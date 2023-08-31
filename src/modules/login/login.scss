@@ -8,7 +8,9 @@
     border-radius: 5%;
     img {
       border-radius: 5% 0 0 5%;
+      height: 100%;
       width: 100%;
+      object-fit: cover;
     }
   }
   &__right {
@@ -28,14 +30,33 @@
       text-align: center;
       letter-spacing: 2px;
     }
-    &__register{
+    &__register {
       margin-left: 15px;
       margin-bottom: 20px;
-      a{
+      a {
         margin-left: 5px;
         color: #eb4b16;
         font-weight: 600;
       }
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    padding: 20px 10%;
+    &__right {
+      padding: 20px 10%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 20px 5%;
+    &__right {
+      padding: 20px 5%;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    padding: 20px 2%;
+    &__right {
+      padding: 20px 2%;
+      border-radius: 5%;
     }
   }
 }

@@ -13,7 +13,7 @@ const columns = [
     render: (_, cart) => (
       <Link
         to={`/products/${cart.key}`}
-        style={{  }}
+        style={{}}
         className="RightSide__product"
       >
         <img
@@ -35,6 +35,7 @@ const columns = [
     title: "Quantity",
     dataIndex: "quantity",
     key: "quantity",
+    align: "center",
   },
   {
     title: "Total",
@@ -43,6 +44,40 @@ const columns = [
     render: (_, cart) => <span>{formatPrice(cart.total)}</span>,
   },
 ];
+const columnsXS = [
+  {
+    title: "Product",
+    dataIndex: "product",
+    key: "product",
+    render: (_, cart) => (
+      <Link
+        to={`/products/${cart.key}`}
+        style={{}}
+        className="RightSide__product"
+      >
+        <img
+          style={{ width: "50px", height: "50px", marginRight: "10px" }}
+          src={cart.image}
+          alt={cart.product}
+        />
+        <span>{cart.product}</span>
+      </Link>
+    ),
+  },
+  {
+    title: "Price",
+    dataIndex: "price",
+    key: "price",
+    render: (_, cart) => <span>{formatPrice(cart.price)}</span>,
+  },
+  {
+    title: "Quantity",
+    dataIndex: "quantity",
+    key: "quantity",
+    align: "center",
+  },
+];
+
 const RightSide = () => {
   const { carts } = useContext(AppContext);
   const [cartCheckout, setCartCheckout] = useState([]);
@@ -64,7 +99,15 @@ const RightSide = () => {
 
   return (
     <Col className="RightSide" xs={24} sm={24} md={12} xl={12}>
-      <Table pagination={false} columns={columns} dataSource={cartCheckout} />
+      {window.innerWidth <= 768 ? (
+        <Table
+          pagination={false}
+          columns={columnsXS}
+          dataSource={cartCheckout}
+        />
+      ) : (
+        <Table pagination={false} columns={columns} dataSource={cartCheckout} />
+      )}
     </Col>
   );
 };

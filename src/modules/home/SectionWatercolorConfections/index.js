@@ -23,7 +23,7 @@ const SectionWatercolorConfections = () => {
         >
           <div className="SectionWatercolorConfections__right__content">
             <h1>Watercolor Confections®</h1>
-            <ScrollAnimation animateIn="animate__slideInRight">
+            <ScrollAnimation animateIn="animate__slideInRight" animateOnce={true}>
               <div className="SectionWatercolorConfections__right__separator"></div>
             </ScrollAnimation>
             <p>

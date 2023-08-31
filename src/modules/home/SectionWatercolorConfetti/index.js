@@ -17,7 +17,7 @@ const SectionWatercolorConfetti = () => {
           className="SectionWatercolorConfetti__content__left"
         >
           <h1>Watercolor Confetti</h1>
-          <ScrollAnimation animateIn="animate__slideInLeft">
+          <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
             <div className="SectionWatercolorConfections__right__separator"></div>
           </ScrollAnimation>
           <p>

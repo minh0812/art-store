@@ -39,13 +39,13 @@ const Login = () => {
   return (
     <div className="Login">
       <Row>
-        <Col span={12} className="Login__left">
+        <Col xs={0} sm={12} md={12} lg={12} xl={12} className="Login__left">
           <img
             src="https://www.artphilosophy.com/wp-content/uploads/2019/12/art-tubes-garima-peonies.jpg"
             alt="login"
           />
         </Col>
-        <Col span={12} className="Login__right">
+        <Col xs={24} sm={12} md={12} lg={12} xl={12} className="Login__right">
           <div>
             <h1>Sign in</h1>
             <Form
@@ -68,7 +68,6 @@ const Login = () => {
               >
                 <Input placeholder="Username" prefix={<UserOutlined />} />
               </Form.Item>
-
               <Form.Item
                 label="Password"
                 name="password"
@@ -81,21 +80,18 @@ const Login = () => {
                   prefix={<LockOutlined />}
                 />
               </Form.Item>
-
               <div className="Login__right__register">
                 <span>Don't have an account?</span>
                 <Link>Register</Link>
               </div>
-
               <Form.Item
                 name="remember"
                 valuePropName="checked"
-                wrapperCol={{ offset: 8, span: 16 }}
+                style={{ marginLeft: "10px" }}
               >
                 <Checkbox>Remember me</Checkbox>
               </Form.Item>
-
-              <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
+              <Form.Item style={{ display: "flex", justifyContent: "center" }}>
                 <Button type="primary" htmlType="submit" loading={isLogin}>
                   Login
                 </Button>
