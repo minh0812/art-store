@@ -1,6 +1,6 @@
 .CartItem {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 5px;
   align-items: center;
   padding: 10px;
@@ -25,10 +25,28 @@
       margin: 0;
       margin-left: 10px;
     }
+    &__price {
+      font-size: 16px;
+      font-weight: 600;
+      color: #eb4b16;
+      margin: 0;
+      margin-left: 10px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      &__old {
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 10px;
+        color: #929292;
+        text-decoration: line-through;
+      }
+    }
   }
   &__price {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     &__old {
       font-size: 16px;
       font-weight: 400;
@@ -67,6 +85,75 @@
     &:hover {
       cursor: pointer;
       color: #eb4b16;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .CartItem {
+      &__info {
+        &__name {
+          font-size: 14px;
+        }
+        &__price {
+          font-size: 14px;
+          &__old {
+            font-size: 14px;
+          }
+        }
+      }
+      &__price {
+        &__old {
+          font-size: 14px;
+        }
+        &__current {
+          font-size: 14px;
+        }
+      }
+      &__quantity {
+        &__btn {
+          font-size: 16px;
+        }
+        &__number {
+          font-size: 14px;
+          width: 35px;
+        }
+      }
+      &__remove {
+        font-size: 16px;
+      }
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .CartItem {
+      &__info {
+        &__name {
+          font-size: 12px;
+        }
+        &__price {
+          font-size: 12px;
+          &__old {
+            font-size: 12px;
+          }
+        }
+      }
+      &__price {
+        &__old {
+          font-size: 12px;
+        }
+        &__current {
+          font-size: 12px;
+        }
+      }
+      &__quantity {
+        &__btn {
+          font-size: 14px;
+        }
+        &__number {
+          font-size: 12px;
+        }
+      }
+      &__remove {
+        font-size: 14px;
+      }
     }
   }
 }

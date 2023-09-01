@@ -48,24 +48,40 @@ const CartList = () => {
 
   return (
     <div className="CartList">
-      <Row className="CartList__header">
-        <Col span={1} className="CartList__header__check"></Col>
-        <Col span={8} className="CartList__header__image">
-          Product
-        </Col>
-        <Col span={3} className="CartList__header__price">
-          Price
-        </Col>
-        <Col span={4} className="CartList__header__quantity">
-          Quantity
-        </Col>
-        <Col span={3} className="CartList__header__total">
-          Total
-        </Col>
-        <Col span={3} className="CartList__header__remove">
-          Remove
-        </Col>
-      </Row>
+      {window.innerWidth < 768 ? (
+        <Row className="CartList__header">
+          <Col span={1} className="CartList__header__check"></Col>
+          <Col span={14} className="CartList__header__image">
+            Product
+          </Col>
+          <Col span={6} className="CartList__header__quantity">
+            Quantity
+          </Col>
+          <Col span={3} className="CartList__header__remove">
+            Remove
+          </Col>
+        </Row>
+      ) : (
+        <Row className="CartList__header">
+          <Col span={1} className="CartList__header__check"></Col>
+          <Col span={8} className="CartList__header__image">
+            Product
+          </Col>
+          <Col span={3} className="CartList__header__price">
+            Price
+          </Col>
+          <Col span={4} className="CartList__header__quantity">
+            Quantity
+          </Col>
+          <Col span={3} className="CartList__header__total">
+            Total
+          </Col>
+          <Col span={3} className="CartList__header__remove">
+            Remove
+          </Col>
+        </Row>
+      )}
+
       <div className="CartList__body">
         {carts?.map((cart) => (
           <CartItem

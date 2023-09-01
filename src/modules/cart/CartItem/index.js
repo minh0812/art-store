@@ -24,7 +24,82 @@ const CartItem = ({
     setCarts((prev) => prev.filter((cart) => cart.id !== id));
   };
 
-  return (
+  return window.innerWidth < 768 ? (
+    <Row className="CartItem">
+      <Col span={1} className="CartItem__check">
+        <Checkbox checked={check} onChange={() => handleCheck(id)} />
+      </Col>
+      <Col span={14} className="CartItem__info">
+        <Link to={`/products/${id}`}>
+          <img
+            src={images[0]}
+            alt="product"
+            className="CartItem__info__image"
+          />
+          <div>
+            <div className="CartItem__info__name">{name}</div>
+            <div className="CartItem__info__price">
+              {sale > 0 && (
+                <div className="CartItem__info__price__old">
+                  {formatPrice(price)}
+                </div>
+              )}
+              <div className="CartItem__info__price__current">
+                {formatPrice(price - price * sale)}
+              </div>
+            </div>
+          </div>
+        </Link>
+      </Col>
+      <Col span={6} className="CartItem__quantity">
+        <button
+          className="CartItem__quantity__btn"
+          onClick={(e) => {
+            if (quantityItem <= 1) return;
+            setQuantityItem(quantityItem - 1);
+            setCarts((prev) =>
+              prev.map((cart) =>
+                cart.id === id ? { ...cart, quantity: quantityItem - 1 } : cart
+              )
+            );
+          }}
+        >
+          -
+        </button>
+        <input
+          type="text"
+          value={quantityItem}
+          onChange={(e) => {
+            if (isNaN(e.target.value)) return;
+            setQuantityItem(e.target.value);
+          }}
+          className="CartItem__quantity__number"
+        />
+        <button
+          className="CartItem__quantity__btn"
+          onClick={(e) => {
+            setQuantityItem(quantityItem + 1);
+            setCarts((prev) =>
+              prev.map((cart) =>
+                cart.id === id ? { ...cart, quantity: quantityItem + 1 } : cart
+              )
+            );
+          }}
+        >
+          +
+        </button>
+      </Col>
+      <Col span={3} className="CartItem__remove">
+        <Tooltip title="Remove">
+          <DeleteOutlined
+            onClick={() => {
+              handleRemove(id);
+            }}
+          />
+        </Tooltip>
+      </Col>
+    </Row>
+  ) : (
     <Row className="CartItem">
       <Col span={1} className="CartItem__check">
         <Checkbox checked={check} onChange={() => handleCheck(id)} />
@@ -40,7 +115,7 @@ const CartItem = ({
         </Link>
       </Col>
       <Col span={3} className="CartItem__price">
-        {sale > 0 && window.innerWidth >= 1024 && (
+        {sale > 0 && (
           <div className="CartItem__price__old">{formatPrice(price)}</div>
         )}
         <div className="CartItem__price__current">

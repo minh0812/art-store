@@ -10,14 +10,15 @@ import AboutPage from "../pages/About";
 import GalleryPage from "../pages/Gallery";
 import LoginPage from "../pages/Login";
 import CheckoutPage from "../pages/Checkout";
+import SearchPage from "../pages/Search";
 
 const Router = () => {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/search" element={<SearchPage />} />
+      <Route path="/search/:name" element={<SearchPage />} />
       <Route path="/products/category/:category" element={<ProductsPage />} />
-      <Route path="/products/search/:search" element={<ProductsPage />} />
-      <Route path="/products/search" element={<ProductsPage />} />
       <Route path="/products/:id" element={<ProductID />} />
       <Route path="/products" element={<ProductsPage />} />
       <Route path="/cart" element={<Cart />} />

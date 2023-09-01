@@ -8,7 +8,7 @@ import { useParams } from "react-router-dom";
 
 const ProductsPage = () => {
   const { products } = useContext(AppContext);
-  const { category, search } = useParams();
+  const { category } = useParams();
   const [filter, setFilter] = useState({
     category: [],
     price: [0, 100],
@@ -20,14 +20,9 @@ const ProductsPage = () => {
     if (category) {
       setFilter({ ...filter, category: [category] });
     }
-    if (search) {
-      setFilter({ ...filter, search: search });
-    }
-    if (!category && !search) {
-      setFilter({ ...filter, category: [], search: "" });
-    }
+
     window.scrollTo(0, 0);
-  }, [category, search]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [category]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     const newProducts = products.filter((product) => {

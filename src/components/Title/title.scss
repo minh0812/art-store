@@ -37,4 +37,13 @@
       margin: 0 10px;
     }
   }
+  @media screen and (max-width: 768px) {
+    padding: 34px 30px;
+    h4 {
+      font-size: 16px;
+    }
+    ul {
+      font-size: 12px;
+    }
+  }
 }
