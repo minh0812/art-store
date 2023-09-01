@@ -10,7 +10,7 @@ import {
 
 import Logo from "../../../assets/images/bigLogo.png";
 import "./Header.scss";
-import { Avatar, Badge, Dropdown, Input, Space } from "antd";
+import { Avatar, Badge, Dropdown, Input, Modal, Space } from "antd";
 import { useContext } from "react";
 import { AppContext } from "../../../context";
 import { useEffect } from "react";
@@ -40,10 +40,16 @@ const Header = () => {
   ];
   const navigate = useNavigate();
   const location = useLocation();
-  const [showSearch, setShowSearch] = useState(false);
   const { carts, isLogin, setIsLogin, setCarts, removeCookie } =
     useContext(AppContext);
   const [cartCount, setCartCount] = useState(0);
+  const [isShowModal, setIsShowModal] = useState(false);
+  const [keyword, setKeyword] = useState("");
+
+  const handleSearch = () => {
+    navigate(`/search/${keyword}`);
+    setIsShowModal(false);
+  };
 
   const itemsMenu = [
     {
@@ -116,7 +122,7 @@ const Header = () => {
       {window.innerWidth < 800 ? (
         <>
           <Space align="center" size={25} style={{ marginLeft: "auto" }}>
-            <SearchOutlined />
+            <SearchOutlined onClick={() => setIsShowModal(!isShowModal)} />
             <Link to="/cart">
               <Badge count={cartCount} offset={[5, 0]}>
                 <ShoppingCartOutlined style={{ fontSize: "18px" }} />
@@ -160,21 +166,8 @@ const Header = () => {
               </li>
             );
           })}
-          <li>
-            <div style={{ display: "flex", marginLeft: "22px" }}>
-              <Input
-                placeholder="Search"
-                style={{
-                  display: showSearch ? "block" : "none",
-                  marginRight: "8px",
-                }}
-                onPressEnter={(e) => {
-                  setShowSearch(!showSearch);
-                  navigate(`/products/search/${e.target.value}`);
-                }}
-              />
-              <SearchOutlined onClick={() => setShowSearch(!showSearch)} />
-            </div>
+          <li className="header__menu__item">
+            <SearchOutlined onClick={() => setIsShowModal(!isShowModal)} />
           </li>
           {isLogin && (
             <li
@@ -214,6 +207,21 @@ const Header = () => {
           )}
         </ul>
       )}
+      <Modal
+        title={"Search Product"}
+        open={isShowModal}
+        closeIcon={null}
+        onCancel={() => setIsShowModal(false)}
+        onOk={() => handleSearch()}
+        okText={"Search"}
+      >
+        <Input
+          onChange={(e) => setKeyword(e.target.value)}
+          placeholder="Search..."
+          suffix={<SearchOutlined />}
+          onPressEnter={() => handleSearch()}
+        />
+      </Modal>
     </header>
   );
 };
