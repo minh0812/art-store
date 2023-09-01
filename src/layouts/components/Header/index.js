@@ -10,7 +10,7 @@ import {
 
 import Logo from "../../../assets/images/bigLogo.png";
 import "./Header.scss";
-import { Avatar, Badge, Dropdown, Input, Modal, Space, Button } from "antd";
+import { Avatar, Badge, Dropdown, Input, Modal, Space } from "antd";
 import { useContext } from "react";
 import { AppContext } from "../../../context";
 import { useEffect } from "react";
