@@ -17,6 +17,9 @@
     align-items: center;
     list-style: none;
     margin-left: auto;
+    &__responsive {
+      display: none;
+    }
     &__item {
       margin-left: 32px;
       font-size: 18px;
@@ -35,6 +38,14 @@
     .activate {
       color: #eb4b16;
       font-weight: 600;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    &__menu {
+      display: none;
+      &__responsive {
+        display: flex;
+      }
     }
   }
 }

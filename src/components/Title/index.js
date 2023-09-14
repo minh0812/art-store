@@ -9,14 +9,13 @@ const Title = ({ title, items }) => {
   const [itemsRender, setItemsRender] = useState([]);
 
   useEffect(() => {
-    window.innerWidth >= 768 && setItemsRender(items);
-    window.innerWidth < 768 && setItemsRender(items.slice(0, 2));
+    setItemsRender(items);
   }, [items]);
 
   return (
     <div className="title">
       <h4>{title}</h4>
-      <ul>
+      <ul className="title__menu">
         {itemsRender.map((item, index) => (
           <li className="title__item" key={index}>
             <Link to={item?.link} className="title__item__content">
@@ -27,6 +26,21 @@ const Title = ({ title, items }) => {
             {index !== itemsRender?.length - 1 && (
               <div className="title__item__split">|</div>
             )}
+          </li>
+        ))}
+      </ul>
+
+      <ul className="title__responsive">
+        {itemsRender.map((item, index) => (
+          <li className="title__item" key={index}>
+            {index < 2 && (
+              <Link to={item?.link} className="title__item__content">
+                {item?.content?.length <= 10
+                  ? item?.content
+                  : item?.content?.slice(0, 26) + "..."}
+              </Link>
+            )}
+            {index < 1 && <div className="title__item__split">|</div>}
           </li>
         ))}
       </ul>
