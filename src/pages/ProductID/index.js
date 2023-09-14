@@ -25,7 +25,7 @@ const ProductID = () => {
           items={[
             { content: "home", link: "/" },
             { content: "products", link: "/products" },
-            { content: product.name },
+            { content: product?.name, link: "" },
           ]}
         />
         <Content
