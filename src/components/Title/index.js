@@ -6,9 +6,10 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 const Title = ({ title, items }) => {
-  const [itemsRender, setItemsRender] = useState(items);
+  const [itemsRender, setItemsRender] = useState([]);
 
   useEffect(() => {
+    window.innerWidth >= 768 && setItemsRender(items);
     window.innerWidth < 768 && setItemsRender(items.slice(0, 2));
   }, [items]);
 
@@ -39,6 +40,6 @@ Title.propTypes = {
 
 Title.defaultProps = {
   title: "",
-  items: [],
+  items: [{ content: "home", link: "/" }],
 };
 export default Title;
