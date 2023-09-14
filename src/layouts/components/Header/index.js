@@ -119,94 +119,95 @@ const Header = () => {
       <Link to="/">
         <img src={Logo} alt="logo" className="header__logo" />
       </Link>
-      {window.innerWidth < 800 ? (
-        <>
-          <Space align="center" size={25} style={{ marginLeft: "auto" }}>
-            <SearchOutlined onClick={() => setIsShowModal(!isShowModal)} />
+      <ul className="header__menu">
+        {NAVBAR.map((item, index) => {
+          return (
+            <li
+              key={index}
+              className={
+                "header__menu__item" +
+                (location.pathname === item.link ? " activate" : "")
+              }
+            >
+              <Link to={item.link}>{item.title}</Link>
+            </li>
+          );
+        })}
+        <li className="header__menu__item">
+          <SearchOutlined onClick={() => setIsShowModal(!isShowModal)} />
+        </li>
+        {isLogin && (
+          <li
+            className={
+              "header__menu__item" +
+              (location.pathname === "/cart" ? " activate" : "")
+            }
+          >
             <Link to="/cart">
               <Badge count={cartCount} offset={[5, 0]}>
                 <ShoppingCartOutlined style={{ fontSize: "18px" }} />
               </Badge>
             </Link>
-            {isLogin ? (
-              <Dropdown
-                menu={{
-                  items: itemsLogout,
-                }}
-              >
-                <Avatar
-                  src={
-                    "https://i.pinimg.com/564x/54/db/23/54db23b3ec2715a44be5d7cc2135df69.jpg"
-                  }
-                />
-              </Dropdown>
-            ) : (
-              <Link to="/login">
-                <UserOutlined />
-              </Link>
-            )}
-
-            <Dropdown menu={{ items: itemsMenu }}>
-              <MenuOutlined />
-            </Dropdown>
-          </Space>
-        </>
-      ) : (
-        <ul className="header__menu">
-          {NAVBAR.map((item, index) => {
-            return (
-              <li
-                key={index}
-                className={
-                  "header__menu__item" +
-                  (location.pathname === item.link ? " activate" : "")
-                }
-              >
-                <Link to={item.link}>{item.title}</Link>
-              </li>
-            );
-          })}
-          <li className="header__menu__item">
-            <SearchOutlined onClick={() => setIsShowModal(!isShowModal)} />
           </li>
-          {isLogin && (
-            <li
-              className={
-                "header__menu__item" +
-                (location.pathname === "/cart" ? " activate" : "")
+        )}
+        {isLogin ? (
+          <li style={{ cursor: "pointer", marginLeft: "32px" }}>
+            <Dropdown menu={{ items: itemsLogout }}>
+              <Avatar
+                src={
+                  "https://i.pinimg.com/564x/54/db/23/54db23b3ec2715a44be5d7cc2135df69.jpg"
+                }
+              />
+            </Dropdown>
+          </li>
+        ) : (
+          <li
+            className={
+              "header__menu__item" +
+              (location.pathname === "/login" ? " activate" : "")
+            }
+          >
+            <Link to="/login">
+              <UserOutlined />
+            </Link>
+          </li>
+        )}
+      </ul>
+      <Space
+        className="header__menu__responsive"
+        align="center"
+        size={25}
+        style={{ marginLeft: "auto" }}
+      >
+        <SearchOutlined onClick={() => setIsShowModal(!isShowModal)} />
+        <Link to="/cart">
+          <Badge count={cartCount} offset={[5, 0]}>
+            <ShoppingCartOutlined style={{ fontSize: "18px" }} />
+          </Badge>
+        </Link>
+        {isLogin ? (
+          <Dropdown
+            menu={{
+              items: itemsLogout,
+            }}
+          >
+            <Avatar
+              src={
+                "https://i.pinimg.com/564x/54/db/23/54db23b3ec2715a44be5d7cc2135df69.jpg"
               }
-            >
-              <Link to="/cart">
-                <Badge count={cartCount} offset={[5, 0]}>
-                  <ShoppingCartOutlined style={{ fontSize: "18px" }} />
-                </Badge>
-              </Link>
-            </li>
-          )}
-          {isLogin ? (
-            <li style={{ cursor: "pointer", marginLeft: "32px" }}>
-              <Dropdown menu={{ items: itemsLogout }}>
-                <Avatar
-                  src={
-                    "https://i.pinimg.com/564x/54/db/23/54db23b3ec2715a44be5d7cc2135df69.jpg"
-                  }
-                />
-              </Dropdown>
-            </li>
-          ) : (
-            <li
-              className={
-                "header__menu__item" +
-                (location.pathname === "/login" ? " activate" : "")
-              }
-            >
-              <Link to="/login">
-                <UserOutlined />
-              </Link>
-            </li>
-          )}
-        </ul>
-      )}
+            />
+          </Dropdown>
+        ) : (
+          <Link to="/login">
+            <UserOutlined />
+          </Link>
+        )}
+
+        <Dropdown menu={{ items: itemsMenu }}>
+          <MenuOutlined />
+        </Dropdown>
+      </Space>
+      
       <Modal
         title={"Search Product"}
         open={isShowModal}
