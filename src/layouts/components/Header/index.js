@@ -168,7 +168,7 @@ const Header = () => {
           </Link>
         )}
 
-        <MenuOutlined onClick={() => setIsShowDrawer(!isShowDrawer)} />
+        <MenuOutlined onClick={() => setIsShowDrawer(true)} />
       </Space>
 
       <DrawerCustom openDrawer={isShowDrawer} titleDrawer={"Menu"}>
