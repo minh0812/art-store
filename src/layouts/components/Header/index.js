@@ -14,6 +14,7 @@ import { Avatar, Badge, Dropdown, Input, Modal, Space } from "antd";
 import { useContext } from "react";
 import { AppContext } from "../../../context";
 import { useEffect } from "react";
+import DrawerCustom from "../../../components/Drawer";
 
 const Header = () => {
   const NAVBAR = [
@@ -45,49 +46,12 @@ const Header = () => {
   const [cartCount, setCartCount] = useState(0);
   const [isShowModal, setIsShowModal] = useState(false);
   const [keyword, setKeyword] = useState("");
+  const [isShowDrawer, setIsShowDrawer] = useState(false);
 
   const handleSearch = () => {
     navigate(`/search/${keyword}`);
     setIsShowModal(false);
   };
-
-  const itemsMenu = [
-    {
-      key: "1",
-      label: "Home",
-      onClick: () => {
-        navigate("/");
-      },
-    },
-    {
-      key: "2",
-      label: "Kits",
-      onClick: () => {
-        navigate("/kits");
-      },
-    },
-    {
-      key: "3",
-      label: "Products",
-      onClick: () => {
-        navigate("/products");
-      },
-    },
-    {
-      key: "4",
-      label: "About",
-      onClick: () => {
-        navigate("/about");
-      },
-    },
-    {
-      key: "5",
-      label: "Gallery",
-      onClick: () => {
-        navigate("/gallery");
-      },
-    },
-  ];
 
   const itemsLogout = [
     {
@@ -173,6 +137,7 @@ const Header = () => {
           </li>
         )}
       </ul>
+
       <Space
         className="header__menu__responsive"
         align="center"
@@ -203,11 +168,27 @@ const Header = () => {
           </Link>
         )}
 
-        <Dropdown menu={{ items: itemsMenu }}>
-          <MenuOutlined />
-        </Dropdown>
+        <MenuOutlined onClick={() => setIsShowDrawer(!isShowDrawer)} />
       </Space>
-      
+
+      <DrawerCustom openDrawer={isShowDrawer} titleDrawer={"Menu"}>
+        <ul className="header__menu__responsive__list">
+          {NAVBAR.map((item, index) => {
+            return (
+              <li
+                key={index}
+                className={
+                  "header__menu__responsive__list__item" +
+                  (location.pathname === item.link ? " activate" : "")
+                }
+              >
+                <Link to={item.link}>{item.title}</Link>
+              </li>
+            );
+          })}
+        </ul>
+      </DrawerCustom>
+
       <Modal
         title={"Search Product"}
         open={isShowModal}
