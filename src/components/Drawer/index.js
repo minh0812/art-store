@@ -3,7 +3,7 @@ import { RightOutlined } from "@ant-design/icons";
 import PropTypes from "prop-types";
 import { Drawer } from "antd";
 
-const DrawerCustom = ({ openDrawer, titleDrawer, children }) => {
+const DrawerCustom = ({ openDrawer, titleDrawer, children, closeDrawer }) => {
   const [open, setOpen] = useState();
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const DrawerCustom = ({ openDrawer, titleDrawer, children }) => {
     <Drawer
       open={open}
       closeIcon={<RightOutlined />}
-      onClose={() => setOpen(false)}
+      onClose={closeDrawer}
       placement="right"
       width={400}
       title={titleDrawer}
@@ -27,12 +27,14 @@ DrawerCustom.propTypes = {
   openDrawer: PropTypes.bool,
   titleDrawer: PropTypes.string,
   children: PropTypes.node,
+  closeDrawer: PropTypes.func,
 };
 
 DrawerCustom.defaultProps = {
   openDrawer: false,
   titleDrawer: "",
   children: null,
+  closeDrawer: () => {},
 };
 
 export default DrawerCustom;

@@ -168,10 +168,14 @@ const Header = () => {
           </Link>
         )}
 
-        <MenuOutlined onClick={() => setIsShowDrawer(!isShowDrawer)} />
+        <MenuOutlined onClick={() => setIsShowDrawer(true)} />
       </Space>
 
-      <DrawerCustom openDrawer={isShowDrawer} titleDrawer={"Menu"}>
+      <DrawerCustom
+        openDrawer={isShowDrawer}
+        titleDrawer={"Menu"}
+        closeDrawer={() => setIsShowDrawer(false)}
+      >
         <ul className="header__menu__responsive__list">
           {NAVBAR.map((item, index) => {
             return (
