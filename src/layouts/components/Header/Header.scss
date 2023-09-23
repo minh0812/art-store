@@ -17,9 +17,6 @@
     align-items: center;
     list-style: none;
     margin-left: auto;
-    &__responsive {
-      display: none;
-    }
     &__item {
       margin-left: 32px;
       font-size: 18px;
@@ -29,10 +26,39 @@
       text-decoration: none;
       text-align: left;
       text-transform: capitalize;
+      transition: all 0.3s ease-in-out;
       &:hover {
         color: #eb4b16;
         border-bottom: 2px solid #eb4b16;
         font-weight: 600;
+      }
+    }
+    &__responsive {
+      display: none;
+      &__list {
+        background-color: rgba(255, 255, 255, 0.65);
+        padding: 20px 0;
+        &__item {
+          margin: 0;
+          margin-bottom: 20px;
+          padding: 5px 20px;
+          font-size: 18px;
+          font-weight: 400;
+          letter-spacing: 2px;
+          color: #000;
+          text-decoration: none;
+          text-align: center;
+          text-transform: capitalize;
+          a:hover {
+            color: #eb4b16;
+            border-bottom: 2px solid #eb4b16;
+            font-weight: 600;
+          }
+        }
+        .activate {
+          color: #eb4b16;
+          font-weight: 600;
+        }
       }
     }
     .activate {
