@@ -181,6 +181,7 @@ const Header = () => {
                   "header__menu__responsive__list__item" +
                   (location.pathname === item.link ? " activate" : "")
                 }
+                onClick={() => setIsShowDrawer(false)}
               >
                 <Link to={item.link}>{item.title}</Link>
               </li>
