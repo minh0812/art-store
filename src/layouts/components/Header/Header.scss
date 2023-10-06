@@ -32,6 +32,17 @@
         border-bottom: 2px solid #eb4b16;
         font-weight: 600;
       }
+      .search-icon {
+        &:focus-visible {
+          outline: none;
+          color: #eb4b16;
+        }
+        svg {
+          &:focus {
+            outline: none;
+          }
+        }
+      }
     }
     &__responsive {
       display: none;

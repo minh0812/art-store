@@ -98,7 +98,7 @@ const Header = () => {
           );
         })}
         <li className="header__menu__item">
-          <SearchOutlined onClick={() => setIsShowModal(!isShowModal)} />
+          <SearchOutlined onClick={() => setIsShowModal(!isShowModal)} className="search-icon" />
         </li>
         {isLogin && (
           <li
