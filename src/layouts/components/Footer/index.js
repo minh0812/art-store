@@ -6,6 +6,7 @@ import {
   InstagramOutlined,
   TwitterOutlined,
   YoutubeFilled,
+  HeartFilled,
 } from "@ant-design/icons";
 import Logo from "../../../assets/images/bigLogo.png";
 
@@ -92,6 +93,16 @@ const Footer = () => {
           <Link to="/">
             <img src={Logo} alt="logo" width="100px" />
           </Link>
+          <p className="author">
+            Made with <HeartFilled /> by{" "}
+            <a
+              href="https://github.com/minh0812"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Duy Minh
+            </a>
+          </p>
         </Col>
       </Row>
     </footer>
