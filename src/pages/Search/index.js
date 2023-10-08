@@ -44,23 +44,38 @@ const SearchPage = () => {
           <Spin size="large" />
         </div>
       ) : (
-        <>
+        <div
+          style={{
+            minHeight: "60vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            flexDirection: "column",
+          }}
+        >
           <h2
             style={{
               fontFamily: "Poppins",
               textAlign: "center",
               fontWeight: "500",
-              margin: "20px 0",
               fontSize: "24px",
               textTransform: "uppercase",
             }}
           >
             {filterProducts.length} results for: {name}
           </h2>
-          <Row >
+          <Row style={{ padding: "0 10px" }}>
             {filterProducts.map((product) => {
               return (
-                <Col key={product.id} xs={24} sm={12} md={12} lg={8} xl={6} style={{padding:"5px"}}>
+                <Col
+                  key={product.id}
+                  xs={24}
+                  sm={12}
+                  md={12}
+                  lg={8}
+                  xl={6}
+                  style={{ padding: "5px" }}
+                >
                   <Product
                     name={product.name}
                     image={product.images[0]}
@@ -74,7 +89,7 @@ const SearchPage = () => {
               );
             })}
           </Row>
-        </>
+        </div>
       )}
     </>
   );
