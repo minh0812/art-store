@@ -16,7 +16,7 @@ const SectionIntroduce = () => {
   return (
     <section className="SectionIntroduce">
       <div className="SectionIntroduce__content">
-        {/* center element display flex */}
+        <div className="SectionWatercolorConfections__right__separator animate__animated animate__fadeInUp"></div>
         <p className="animate__animated animate__fadeInUp">
           Discover a professional grade watercolor like no other! Create
           gradients, shading and blends effortlessly with these Art Philosophy
@@ -27,7 +27,7 @@ const SectionIntroduce = () => {
         </p>
         <ButtonCustom
           to={"/products"}
-          className={`animate__animated ${animate}`}
+          className={`SectionIntroduce__content-btn animate__animated ${animate}`}
         >
           Shop Now
         </ButtonCustom>
