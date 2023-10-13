@@ -32,7 +32,12 @@ const ProductID = () => {
           id={product.id}
           name={product.name}
           price={product.price}
-          images={product.images}
+          images={
+            // unique images
+            product?.images?.filter(
+              (image, index) => product.images.indexOf(image) === index
+            )
+          }
           rate={product.rate}
           sold={product.sold}
           sale={product.sale}

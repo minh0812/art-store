@@ -32,6 +32,7 @@ const Content = ({
   const [imagesRender, setImagesRender] = useState([]);
   const [quantity, setQuantity] = useState(1);
   const [isShowImageReview, setIsShowImageReview] = useState(false);
+  const [touchStart, setTouchStart] = useState(0);
 
   const handleAddToCart = () => {
     if (quantity <= 0) {
@@ -114,7 +115,34 @@ const Content = ({
                 onClick={() => setIsShowImageReview(true)}
               />
             </div>
-            <div className="Content__image__sub">
+            <div className="Content__image__sub" 
+              onTouchStart={(e) => setTouchStart(e.touches[0].clientX)}
+              onTouchEnd={(e) => {
+                if (e.changedTouches[0].clientX - touchStart > 50) {
+                  if (indexFirstImageRender > 0) {
+                    setIndexFirstImageRender(indexFirstImageRender - 1);
+                    setImagesRender(
+                      images.slice(
+                        indexFirstImageRender - 1,
+                        indexFirstImageRender + 3
+                      )
+                    );
+                  }
+                } else if (
+                  e.changedTouches[0].clientX - touchStart < -50
+                ) {
+                  if (indexFirstImageRender < images.length - 4) {
+                    setIndexFirstImageRender(indexFirstImageRender + 1);
+                    setImagesRender(
+                      images.slice(
+                        indexFirstImageRender + 1,
+                        indexFirstImageRender + 5
+                      )
+                    );
+                  }
+                }
+              }}
+            >
               {imagesRender.map((image, index) => (
                 <Image
                   key={index}
@@ -171,6 +199,7 @@ const Content = ({
 
             <Modal
               open={isShowImageReview}
+              centered
               footer={null}
               width={1000}
               closeIcon={<CloseCircleOutlined style={{ fontSize: 25 }} />}
@@ -183,6 +212,27 @@ const Content = ({
                     alt={name}
                     preview={false}
                     width={"100%"}
+                    onTouchStart={(e) => setTouchStart(e.touches[0].clientX)}
+                    onTouchEnd={(e) => {
+                      if (e.changedTouches[0].clientX - touchStart > 50) {
+                        const index = images.findIndex(
+                          (image) => image === mainImage
+                        );
+                        if (index > 0) {
+                          setMainImage(images[index - 1]);
+                        }
+                      } else if (
+                        e.changedTouches[0].clientX - touchStart <
+                        -50
+                      ) {
+                        const index = images.findIndex(
+                          (image) => image === mainImage
+                        );
+                        if (index < images.length - 1) {
+                          setMainImage(images[index + 1]);
+                        }
+                      }
+                    }}
                     style={{
                       height: "500px",
                       objectFit: "scale-down",
@@ -200,6 +250,10 @@ const Content = ({
                       color: "#fff",
                       backgroundColor: "rgba(0,0,0,0.5)",
                       padding: "5px",
+                      display:
+                        images.findIndex((image) => image === mainImage) === 0
+                          ? "none"
+                          : "block",
                     }}
                     onClick={() => {
                       const index = images.findIndex(
@@ -221,6 +275,11 @@ const Content = ({
                       color: "#fff",
                       backgroundColor: "rgba(0,0,0,0.5)",
                       padding: "5px",
+                      display:
+                        images.findIndex((image) => image === mainImage) ===
+                        images.length - 1
+                          ? "none"
+                          : "block",
                     }}
                     onClick={() => {
                       const index = images.findIndex(
