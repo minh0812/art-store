@@ -2,9 +2,9 @@
   background-color: #fff;
   padding: 20px;
   &__image {
+    padding-inline: 20px;
     &__main {
       box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
-      width: 95%;
       .ant-image {
         width: 100%;
         &-img {
@@ -15,15 +15,15 @@
       }
     }
     &__sub {
-      width: 100%;
       display: flex;
-      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      padding-inline: 30px;
       margin-top: 20px;
-      padding: 0 2%;
+      position: relative;
       .ant-image {
-        width: 150px;
-        height: 150px;
-        margin-right: 2%;
+        width: 140px;
+        height: 140px;
         margin-bottom: 2%;
         box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
         &-img {
@@ -31,15 +31,32 @@
           height: 100%;
           object-fit: scale-down;
         }
-        // cursor: pointer;
-        // &:hover {
-        //   transform: translateY(-5px);
-        //   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-        // }
       }
       .active {
-        transform: translateY(-5px);
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        border: 2px solid #ff5100;
+      }
+      .button-swiper {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        background-color: #a5a5a5;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          background-color: #ff5100;
+        }
+      }
+      .left {
+        left: -10px;
+      }
+      .right {
+        right: -12px;
       }
     }
   }
@@ -207,7 +224,7 @@
       padding: 20px 0;
     }
   }
-  &__reviews{
+  &__reviews {
     padding-right: 20px;
     margin: 2% 10px;
     margin-bottom: 0;
@@ -224,6 +241,217 @@
       padding: 20px 0;
       border-top: 1px solid #d9d9d9;
       border-bottom: 1px solid #d9d9d9;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .Content {
+    &__image {
+      &__main {
+        .ant-image {
+          &-img {
+            height: 300px;
+          }
+        }
+      }
+      &__sub {
+        padding-inline: 0;
+        .ant-image {
+          width: 100px;
+          height: 100px;
+          margin-bottom: 2%;
+        }
+        .button-swiper {
+          width: 25px;
+          height: 25px;
+          font-size: 12px;
+        }
+      }
+    }
+    &__info {
+      &__name {
+        font-size: 24px;
+      }
+      &__rate {
+        &__number {
+          font-size: 14px;
+        }
+        &__sold {
+          font-size: 14px;
+        }
+      }
+      &__price {
+        padding: 10px;
+        &__old {
+          font-size: 16px;
+        }
+        &__current {
+          font-size: 24px;
+        }
+        &__sale {
+          font-size: 10px;
+          padding: 2px 4px;
+        }
+      }
+      &__shipping {
+        &__title {
+          font-size: 14px;
+        }
+        &__content {
+          font-size: 14px;
+        }
+      }
+      &__quantity {
+        &__title {
+          font-size: 14px;
+        }
+        &__input {
+          &__btn {
+            width: 20px;
+            font-size: 16px;
+            height: 20px;
+          }
+          &__number {
+            font-size: 16px;
+            width: 40px;
+          }
+        }
+      }
+      &__btn {
+        &__add {
+          width: 150px;
+          height: 40px;
+          font-size: 14px;
+        }
+        &__buy {
+          width: 150px;
+          height: 40px;
+          font-size: 14px;
+        }
+      }
+    }
+    &__description {
+      &__title {
+        font-size: 16px;
+      }
+      &__content {
+        font-size: 14px;
+      }
+    }
+    &__reviews {
+      &__title {
+        font-size: 16px;
+      }
+      &__content {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Content {
+    &__image {
+      &__sub {
+        justify-content: space-around;
+        .ant-image {
+          width: 140px;
+          height: 140px;
+          margin-bottom: 2%;
+        }
+        .button-swiper {
+          width: 25px;
+          height: 25px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .Content {
+    &__image {
+      &__sub {
+        .ant-image {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Content {
+    &__image {
+      &__sub {
+        .ant-image {
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+    &__info {
+      &__name {
+        font-size: 20px;
+      }
+      &__rate {
+        &__number {
+          font-size: 12px;
+        }
+        &__sold {
+          font-size: 12px;
+        }
+      }
+      &__price {
+        padding: 10px;
+        &__old {
+          font-size: 14px;
+        }
+        &__current {
+          font-size: 20px;
+        }
+        &__sale {
+          font-size: 10px;
+          padding: 2px 4px;
+        }
+      }
+      &__shipping {
+        &__title {
+          font-size: 12px;
+        }
+        &__content {
+          font-size: 12px;
+        }
+      }
+      &__quantity {
+        &__title {
+          font-size: 12px;
+        }
+        &__input {
+          &__number {
+            font-size: 14px;
+            width: 40px;
+          }
+        }
+      }
+    }
+    &__description {
+      &__title {
+        font-size: 16px;
+      }
+      &__content {
+        font-size: 14px;
+      }
+    }
+    &__reviews {
+      &__title {
+        font-size: 16px;
+      }
+      &__content {
+        font-size: 14px;
+      }
     }
   }
 }
