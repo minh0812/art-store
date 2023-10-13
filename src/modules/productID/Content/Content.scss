@@ -7,6 +7,7 @@
       box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
       .ant-image {
         width: 100%;
+        cursor: pointer;
         &-img {
           width: 100%;
           height: 500px;
@@ -16,8 +17,9 @@
     }
     &__sub {
       display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
       justify-content: space-between;
-      flex-wrap: nowrap;
       padding-inline: 30px;
       margin-top: 20px;
       position: relative;
@@ -26,14 +28,12 @@
         height: 140px;
         margin-bottom: 2%;
         box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        cursor: pointer;
         &-img {
           width: 100%;
           height: 100%;
           object-fit: scale-down;
         }
-      }
-      .active {
-        border: 2px solid #ff5100;
       }
       .button-swiper {
         position: absolute;
@@ -242,6 +242,9 @@
       border-top: 1px solid #d9d9d9;
       border-bottom: 1px solid #d9d9d9;
     }
+  }
+  .ant-image-mask {
+    display: none;
   }
 }
 @media screen and (max-width: 1024px) {
