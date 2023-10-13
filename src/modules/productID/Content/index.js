@@ -1,10 +1,11 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Col, Image, Rate, Row, Tag, message } from "antd";
+import { Col, Image, Modal, Rate, Row, Space, Tag, message } from "antd";
 import {
   ShoppingCartOutlined,
   CarOutlined,
   LeftOutlined,
   RightOutlined,
+  CloseCircleOutlined,
 } from "@ant-design/icons";
 import "./Content.scss";
 import PropTypes from "prop-types";
@@ -30,6 +31,7 @@ const Content = ({
   const [mainImage, setMainImage] = useState("");
   const [imagesRender, setImagesRender] = useState([]);
   const [quantity, setQuantity] = useState(1);
+  const [isShowImageReview, setIsShowImageReview] = useState(false);
 
   const handleAddToCart = () => {
     if (quantity <= 0) {
@@ -105,24 +107,29 @@ const Content = ({
         <Col xs={24} sm={24} md={12} lg={12} xl={12}>
           <div className="Content__image">
             <div className="Content__image__main">
-              <Image.PreviewGroup items={images}>
-                <Image src={mainImage} alt={name} />
-              </Image.PreviewGroup>
+              <Image
+                src={mainImage}
+                alt={name}
+                preview={false}
+                onClick={() => setIsShowImageReview(true)}
+              />
             </div>
             <div className="Content__image__sub">
-              <Image.PreviewGroup items={images}>
-                {imagesRender.map((image, index) => (
-                  <Image
-                    key={index}
-                    src={image}
-                    alt={name}
-                    onMouseEnter={() => setMainImage(image)}
-                    className={image === mainImage ? "active" : ""}
-                  />
-                ))}
-              </Image.PreviewGroup>
+              {imagesRender.map((image, index) => (
+                <Image
+                  key={index}
+                  src={image}
+                  alt={name}
+                  onMouseEnter={() => setMainImage(image)}
+                  preview={false}
+                  className={image === mainImage ? "active" : ""}
+                />
+              ))}
               <div
                 className="button-swiper left"
+                style={{
+                  display: indexFirstImageRender === 0 ? "none" : "flex",
+                }}
                 onClick={() => {
                   if (indexFirstImageRender > 0) {
                     setIndexFirstImageRender(indexFirstImageRender - 1);
@@ -139,8 +146,15 @@ const Content = ({
               </div>
               <div
                 className="button-swiper right"
+                style={{
+                  display:
+                    indexFirstImageRender === images.length - 4 ||
+                    images.length < 4
+                      ? "none"
+                      : "flex",
+                }}
                 onClick={() => {
-                  if(indexFirstImageRender < images.length - 4) {
+                  if (indexFirstImageRender < images.length - 4) {
                     setIndexFirstImageRender(indexFirstImageRender + 1);
                     setImagesRender(
                       images.slice(
@@ -154,6 +168,89 @@ const Content = ({
                 <RightOutlined />
               </div>
             </div>
+
+            <Modal
+              open={isShowImageReview}
+              footer={null}
+              width={1000}
+              closeIcon={<CloseCircleOutlined style={{ fontSize: 25 }} />}
+              onCancel={() => setIsShowImageReview(false)}
+            >
+              <Row gutter={10}>
+                <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                  <Image
+                    src={mainImage}
+                    alt={name}
+                    preview={false}
+                    width={"100%"}
+                    style={{
+                      height: "500px",
+                      objectFit: "scale-down",
+                      position: "relative",
+                    }}
+                  />
+                  <LeftOutlined
+                    style={{
+                      position: "absolute",
+                      top: "50%",
+                      left: "-10px",
+                      fontSize: "30px",
+                      cursor: "pointer",
+                      transform: "translateY(-50%)",
+                      color: "#fff",
+                      backgroundColor: "rgba(0,0,0,0.5)",
+                      padding: "5px",
+                    }}
+                    onClick={() => {
+                      const index = images.findIndex(
+                        (image) => image === mainImage
+                      );
+                      if (index > 0) {
+                        setMainImage(images[index - 1]);
+                      }
+                    }}
+                  />
+                  <RightOutlined
+                    style={{
+                      position: "absolute",
+                      top: "50%",
+                      right: "-10px",
+                      fontSize: "30px",
+                      cursor: "pointer",
+                      transform: "translateY(-50%)",
+                      color: "#fff",
+                      backgroundColor: "rgba(0,0,0,0.5)",
+                      padding: "5px",
+                    }}
+                    onClick={() => {
+                      const index = images.findIndex(
+                        (image) => image === mainImage
+                      );
+                      if (index < images.length - 1) {
+                        setMainImage(images[index + 1]);
+                      }
+                    }}
+                  />
+                </Col>
+                <Col xs={0} sm={0} md={12} lg={12} xl={12}>
+                  <Space size={10} wrap className="image-review__list">
+                    {images.map((image, index) => (
+                      <Image
+                        key={index}
+                        src={image}
+                        alt={name}
+                        onClick={() => setMainImage(image)}
+                        preview={false}
+                        width={100}
+                        height={100}
+                        style={{ cursor: "pointer" }}
+                        className={image === mainImage ? "active" : ""}
+                      />
+                    ))}
+                  </Space>
+                </Col>
+              </Row>
+            </Modal>
           </div>
         </Col>
         <Col xs={24} sm={24} md={12} lg={12} xl={12}>

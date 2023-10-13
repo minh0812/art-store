@@ -2,8 +2,7 @@ import React from "react";
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import PropTypes from "prop-types";
 
-const PayPal = (props) => {
-  console.log(props.total);
+const PayPal = ({ total, handleCheckout }) => {
   return (
     <div>
       <PayPalScriptProvider
@@ -19,7 +18,7 @@ const PayPal = (props) => {
                 {
                   amount: {
                     currency_code: "USD",
-                    value: props.total,
+                    value: total,
                   },
                 },
               ],
@@ -27,7 +26,7 @@ const PayPal = (props) => {
           }}
           onApprove={(data, actions) => {
             return actions.order.capture().then(function (details) {
-              props.handleCheckout();
+              handleCheckout();
             });
           }}
         />
@@ -36,6 +35,14 @@ const PayPal = (props) => {
   );
 };
 
-PayPal.propTypes = {};
+PayPal.propTypes = {
+  total: PropTypes.number,
+  handleCheckout: PropTypes.func,
+};
+
+PayPal.defaultProps = {
+  total: 0,
+  handleCheckout: () => {},
+};
 
 export default PayPal;
