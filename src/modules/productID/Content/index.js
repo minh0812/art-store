@@ -1,6 +1,11 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Col, Image, Rate, Row, Tag, message } from "antd";
-import { ShoppingCartOutlined, CarOutlined } from "@ant-design/icons";
+import {
+  ShoppingCartOutlined,
+  CarOutlined,
+  LeftOutlined,
+  RightOutlined,
+} from "@ant-design/icons";
 import "./Content.scss";
 import PropTypes from "prop-types";
 import { AppContext } from "../../../context";
@@ -20,8 +25,10 @@ const Content = ({
   reviews,
 }) => {
   const navigate = useNavigate();
+  const [indexFirstImageRender, setIndexFirstImageRender] = useState(0);
   const { carts, setCarts, isLogin } = useContext(AppContext);
   const [mainImage, setMainImage] = useState("");
+  const [imagesRender, setImagesRender] = useState([]);
   const [quantity, setQuantity] = useState(1);
 
   const handleAddToCart = () => {
@@ -90,6 +97,7 @@ const Content = ({
 
   useEffect(() => {
     setMainImage(images[0]);
+    setImagesRender(images.slice(0, 4));
   }, [images]);
   return (
     <div className="Content">
@@ -102,16 +110,49 @@ const Content = ({
               </Image.PreviewGroup>
             </div>
             <div className="Content__image__sub">
-              <Image.PreviewGroup>
-                {images.map((image, index) => (
+              <Image.PreviewGroup items={images}>
+                {imagesRender.map((image, index) => (
                   <Image
                     key={index}
                     src={image}
                     alt={name}
                     onMouseEnter={() => setMainImage(image)}
+                    className={image === mainImage ? "active" : ""}
                   />
                 ))}
               </Image.PreviewGroup>
+              <div
+                className="button-swiper left"
+                onClick={() => {
+                  if (indexFirstImageRender > 0) {
+                    setIndexFirstImageRender(indexFirstImageRender - 1);
+                    setImagesRender(
+                      images.slice(
+                        indexFirstImageRender - 1,
+                        indexFirstImageRender + 3
+                      )
+                    );
+                  }
+                }}
+              >
+                <LeftOutlined />
+              </div>
+              <div
+                className="button-swiper right"
+                onClick={() => {
+                  if(indexFirstImageRender < images.length - 4) {
+                    setIndexFirstImageRender(indexFirstImageRender + 1);
+                    setImagesRender(
+                      images.slice(
+                        indexFirstImageRender + 1,
+                        indexFirstImageRender + 5
+                      )
+                    );
+                  }
+                }}
+              >
+                <RightOutlined />
+              </div>
             </div>
           </div>
         </Col>

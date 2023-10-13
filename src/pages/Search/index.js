@@ -64,7 +64,7 @@ const SearchPage = () => {
           >
             {filterProducts.length} results for: {name}
           </h2>
-          <Row style={{ padding: "0 10px" }}>
+          <Row style={{ padding: "0 10px 10px", width: "100%" }}>
             {filterProducts.map((product) => {
               return (
                 <Col

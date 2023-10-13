@@ -17,7 +17,6 @@ const SectionIntroduce = () => {
     <section className="SectionIntroduce">
       <div className="SectionIntroduce__content">
         {/* center element display flex */}
-        <p></p>
         <p className="animate__animated animate__fadeInUp">
           Discover a professional grade watercolor like no other! Create
           gradients, shading and blends effortlessly with these Art Philosophy
