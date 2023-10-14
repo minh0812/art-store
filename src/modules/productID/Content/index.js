@@ -115,7 +115,8 @@ const Content = ({
                 onClick={() => setIsShowImageReview(true)}
               />
             </div>
-            <div className="Content__image__sub" 
+            <div
+              className="Content__image__sub"
               onTouchStart={(e) => setTouchStart(e.touches[0].clientX)}
               onTouchEnd={(e) => {
                 if (e.changedTouches[0].clientX - touchStart > 50) {
@@ -128,9 +129,7 @@ const Content = ({
                       )
                     );
                   }
-                } else if (
-                  e.changedTouches[0].clientX - touchStart < -50
-                ) {
+                } else if (e.changedTouches[0].clientX - touchStart < -50) {
                   if (indexFirstImageRender < images.length - 4) {
                     setIndexFirstImageRender(indexFirstImageRender + 1);
                     setImagesRender(
@@ -211,7 +210,7 @@ const Content = ({
                     src={mainImage}
                     alt={name}
                     preview={false}
-                    width={"100%"}
+                    height={"100%"}
                     onTouchStart={(e) => setTouchStart(e.touches[0].clientX)}
                     onTouchEnd={(e) => {
                       if (e.changedTouches[0].clientX - touchStart > 50) {
@@ -232,11 +231,6 @@ const Content = ({
                           setMainImage(images[index + 1]);
                         }
                       }
-                    }}
-                    style={{
-                      height: "500px",
-                      objectFit: "scale-down",
-                      position: "relative",
                     }}
                   />
                   <LeftOutlined
