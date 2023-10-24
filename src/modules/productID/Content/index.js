@@ -201,7 +201,7 @@ const Content = ({
               centered
               footer={null}
               width={1000}
-              closeIcon={<CloseCircleOutlined style={{ fontSize: 25 }} />}
+              closeIcon={<CloseCircleOutlined style={{ fontSize: 25, color: "#ff5100",  }} />}
               onCancel={() => setIsShowImageReview(false)}
             >
               <Row gutter={10}>
@@ -210,9 +210,8 @@ const Content = ({
                     src={mainImage}
                     alt={name}
                     preview={false}
-                    height={500}
                     width={"100%"}
-                    style={{ objectFit: "scale-down" }}
+                    style={{ objectFit: "scale-down", height: "600px" }}
                     onTouchStart={(e) => setTouchStart(e.touches[0].clientX)}
                     onTouchEnd={(e) => {
                       if (e.changedTouches[0].clientX - touchStart > 50) {
