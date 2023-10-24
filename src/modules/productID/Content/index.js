@@ -210,7 +210,9 @@ const Content = ({
                     src={mainImage}
                     alt={name}
                     preview={false}
-                    height={"100%"}
+                    height={500}
+                    width={"100%"}
+                    style={{ objectFit: "scale-down" }}
                     onTouchStart={(e) => setTouchStart(e.touches[0].clientX)}
                     onTouchEnd={(e) => {
                       if (e.changedTouches[0].clientX - touchStart > 50) {
@@ -244,6 +246,7 @@ const Content = ({
                       color: "#fff",
                       backgroundColor: "rgba(0,0,0,0.5)",
                       padding: "5px",
+                      zIndex: 1,
                       display:
                         images.findIndex((image) => image === mainImage) === 0
                           ? "none"
@@ -269,6 +272,7 @@ const Content = ({
                       color: "#fff",
                       backgroundColor: "rgba(0,0,0,0.5)",
                       padding: "5px",
+                      zIndex: 1,
                       display:
                         images.findIndex((image) => image === mainImage) ===
                         images.length - 1
