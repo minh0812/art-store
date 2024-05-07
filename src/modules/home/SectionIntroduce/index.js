@@ -23,7 +23,8 @@ const SectionIntroduce = () => {
           Professional Watercolor Tubes. Perfect for achieving professional
           results, these tubes offer flexibility and value by providing highly
           concentrated pigments with longevity and light fastness. Discover a
-          new way to watercolor with our Art Philosophy Watercolor Tubes.
+          new way to watercolor with our Art Philosophy Watercolor Tubes.{" "}
+          {process.env.REACT_APP_VERSION}
         </p>
         <ButtonCustom
           to={"/products"}
