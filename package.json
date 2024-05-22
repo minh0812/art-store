@@ -11,6 +11,7 @@
     "animate.css": "^4.1.1",
     "antd": "^5.7.3",
     "axios": "^1.2.2",
+    "cross-env": "^7.0.3",
     "react": "^18.2.0",
     "react-animate-on-scroll": "^2.1.7",
     "react-cookie": "^4.1.1",
@@ -19,13 +20,15 @@
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
     "sass": "^1.69.3",
+    "version-rocket": "^1.7.1",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate:version": "cross-env VERSION=1.1.0-beta generate-version-file dist public"
   },
   "eslintConfig": {
     "extends": [
