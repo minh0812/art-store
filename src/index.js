@@ -17,10 +17,8 @@ pollingCompareVersion(
   `${window.location.origin}/version.json`,
   30000,
   (data) => {
+    alert(`New version is available, please refresh the page to update.`);
     console.log(data, version);
-    if (window.confirm("Đã có phiên bản mới, bạn có muốn cập nhật không?")) {
-      window.location.reload();
-    }
   }
 );
 
