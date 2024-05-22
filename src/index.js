@@ -24,27 +24,34 @@ if ("serviceWorker" in navigator) {
         "ServiceWorker registration successful with scope: ",
         registration.scope
       );
+
+      registration.addEventListener("updatefound", () => {
+        const newWorker = registration.installing;
+
+        newWorker.addEventListener("statechange", () => {
+          if (newWorker.state === "installed") {
+            if (navigator.serviceWorker.controller) {
+              // At this point, the updated precached content has been fetched,
+              // but the previous service worker will still serve the older
+              // content until all client tabs are closed.
+              console.log("New content is available; please refresh.");
+              alert("New content is available; please refresh.");
+              // You can also display a notification prompting the user to refresh the page
+            } else {
+              // At this point, everything has been precached.
+              // It's the perfect time to display a "Content is cached for offline use." message.
+              console.log("Content is cached for offline use.");
+              alert("Content is cached for offline use.");
+            }
+          }
+        });
+      });
     },
     function (err) {
       // registration failed :(
       console.log("ServiceWorker registration failed: ", err);
     }
   );
-
-  // Listen for messages from the service worker
-  navigator.serviceWorker.addEventListener("message", function (event) {
-    // Check if the message is what we expect
-    if (
-      event.data &&
-      event.data.title === "Cập nhật" &&
-      event.data.action === "reload"
-    ) {
-      // Show a notification or a message to the user
-      if (window.confirm(event.data.message)) {
-        window.location.reload();
-      }
-    }
-  });
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
