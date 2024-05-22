@@ -1,6 +1,5 @@
 // sw.js
 self.addEventListener("install", function (event) {
-  // The promise that skipWaiting() returns can be safely ignored.
   self.skipWaiting();
 });
 
@@ -9,6 +8,31 @@ self.addEventListener("activate", function (event) {
 });
 
 self.addEventListener("fetch", function (event) {
-  // You can respond to all requests with a cached response.
   event.respondWith(fetch(event.request));
+});
+
+self.addEventListener("message", function (event) {
+  if (event.data.action === "skipWaiting") {
+    self.skipWaiting();
+  }
+});
+
+// Kiểm tra xem có bản cập nhật mới không
+self.addEventListener("install", function (event) {
+  self.skipWaiting();
+});
+
+self.addEventListener("activate", function (event) {
+  event.waitUntil(
+    clients.matchAll().then(function (clients) {
+      clients.forEach(function (client) {
+        // Gửi thông báo cho người dùng
+        client.postMessage({
+          title: "Cập nhật",
+          message: "Ứng dụng đã được cập nhật. Vui lòng tải lại trang.",
+          action: "reload",
+        });
+      });
+    })
+  );
 });

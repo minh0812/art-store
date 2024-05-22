@@ -17,20 +17,33 @@ if ("serviceWorker" in navigator) {
 }
 
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/sw.js").then((registration) => {
-    registration.onupdatefound = () => {
-      const installingWorker = registration.installing;
-      installingWorker.onstatechange = () => {
-        if (installingWorker.state === "installed") {
-          if (navigator.serviceWorker.controller) {
-            // New content is available and will be used when all tabs for this page are closed.
-            window.confirm(
-              "New content is available. Please close all tabs for this page to update."
-            );
-          }
-        }
-      };
-    };
+  navigator.serviceWorker.register("/sw.js").then(
+    function (registration) {
+      // Registration was successful
+      console.log(
+        "ServiceWorker registration successful with scope: ",
+        registration.scope
+      );
+    },
+    function (err) {
+      // registration failed :(
+      console.log("ServiceWorker registration failed: ", err);
+    }
+  );
+
+  // Listen for messages from the service worker
+  navigator.serviceWorker.addEventListener("message", function (event) {
+    // Check if the message is what we expect
+    if (
+      event.data &&
+      event.data.title === "Cập nhật" &&
+      event.data.action === "reload"
+    ) {
+      // Show a notification or a message to the user
+      if (window.confirm(event.data.message)) {
+        window.location.reload();
+      }
+    }
   });
 }
 
