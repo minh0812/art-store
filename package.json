@@ -1,6 +1,6 @@
 {
   "name": "art-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@paypal/react-paypal-js": "^8.1.3",
