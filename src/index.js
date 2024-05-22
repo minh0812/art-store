@@ -21,7 +21,7 @@ pollingCompareVersion(
   `${window.location.origin}/version.json`,
   30000,
   (data) => {
-    console.log(data);
+    console.log(data, version);
   }
 );
 
