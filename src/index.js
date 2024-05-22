@@ -31,8 +31,8 @@ checkVersion({
   // Refer to API for more configuration options
 });
 
-// To terminate version detection, call the unCheckVersion method during the destruction life cycle. For details, see the API
-unCheckVersion({ closeDialog: false });
+// // To terminate version detection, call the unCheckVersion method during the destruction life cycle. For details, see the API
+// unCheckVersion({ closeDialog: false });
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
