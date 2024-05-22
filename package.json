@@ -28,7 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "generate:version": "cross-env VERSION=0.1.1 generate-version-file dist public"
+    "generate:version": "cross-env VERSION=0.1.2 generate-version-file dist public"
   },
   "eslintConfig": {
     "extends": [
