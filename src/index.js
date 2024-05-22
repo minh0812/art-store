@@ -18,6 +18,9 @@ pollingCompareVersion(
   30000,
   (data) => {
     console.log(data, version);
+    if (window.confirm("Đã có phiên bản mới, bạn có muốn cập nhật không?")) {
+      window.location.reload();
+    }
   }
 );
 
