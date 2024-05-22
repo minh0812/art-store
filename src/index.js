@@ -16,36 +16,23 @@ if ("serviceWorker" in navigator) {
   });
 }
 
-navigator.serviceWorker
-  .register("/sw.js")
-  .then((registration) => {
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/sw.js").then((registration) => {
     registration.onupdatefound = () => {
       const installingWorker = registration.installing;
       installingWorker.onstatechange = () => {
         if (installingWorker.state === "installed") {
           if (navigator.serviceWorker.controller) {
             // New content is available and will be used when all tabs for this page are closed.
-            const promptUserToUpdate = () => {
-              if (
-                window.confirm(
-                  "New version available! Do you want to reload the page?"
-                )
-              ) {
-                window.location.reload();
-              }
-            };
-            promptUserToUpdate();
-          } else {
-            // Content is cached for offline use.
-            console.log("Content is cached for offline use.");
+            window.confirm(
+              "New content is available. Please close all tabs for this page to update."
+            );
           }
         }
       };
     };
-  })
-  .catch((error) => {
-    console.error("Error during service worker registration:", error);
   });
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

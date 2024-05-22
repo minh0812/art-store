@@ -21,7 +21,7 @@ const SectionIntroduce = () => {
           Discover a professional grade watercolor like no other! Create
           gradients, shading and blends effortlessly with these Art Philosophy
           Professional Watercolor Tubes. Perfect for achieving professional
-          results, these tubes offer flexibility and value by providing
+          results, these tubes offer flexibility and value by providing highly
           concentrated pigments with longevity and light fastness. Discover a
           new way to watercolor with our Art Philosophy Watercolor Tubes.{" "}
           {process.env.REACT_APP_VERSION}
